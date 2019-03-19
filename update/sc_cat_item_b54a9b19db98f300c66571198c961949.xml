@@ -4,10 +4,10 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category/>
+        <category display_value="Ansible Tower Requests">99e1b71ddb903700c66571198c961967</category>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p> </p>
@@ -50,7 +50,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <roles/>
-        <sc_catalogs/>
+        <sc_catalogs>6a934e150f42350063fdbd5ce1050e1e</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <short_description>Ansible Tower Onboarding Request</short_description>
@@ -61,7 +61,7 @@
         <sys_created_on>2019-03-19 14:10:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b54a9b19db98f300c66571198c961949</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Ansible Tower Onboarding Request</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sc_cat_item_b54a9b19db98f300c66571198c961949</sys_update_name>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-19 15:47:16</sys_updated_on>
+        <sys_updated_on>2019-03-19 16:35:03</sys_updated_on>
         <template/>
         <type>item</type>
         <u_business_approval_workflow display_value="SRC RQF Default Business Approval">de3aa0b50faeb50063fdbd5ce1050e8c</u_business_approval_workflow>
@@ -90,7 +90,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow/>
+        <workflow display_value="TOWER_ONBOARDING_WF">a7c9bbdddbd03700c66571198c961956</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=b54a9b19db98f300c66571198c961949"/>
     <fx_price action="delete_multiple" query="id=b54a9b19db98f300c66571198c961949"/>

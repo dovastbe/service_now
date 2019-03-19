@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="Ansible-t629985">1f51842ddb143700c66571198c9619cb</basic_auth_profile>
+        <basic_auth_user/>
+        <description>Ansible Tower onboarding workflow</description>
+        <name>Ansible Tower Onboarding</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://${ansible_tower_instance}/api/v2/job_templates</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-03-19 16:39:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4b0cff15db143700c66571198c9619e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Ansible Tower Onboarding</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_rest_message_4b0cff15db143700c66571198c9619e7</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-03-19 17:04:28</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
