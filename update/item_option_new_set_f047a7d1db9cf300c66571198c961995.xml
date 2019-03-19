@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="item_option_new_set">
     <item_option_new_set action="INSERT_OR_UPDATE">
-        <description>Ansible Tower Project Vars</description>
+        <description>Ansible Tower Team Details</description>
         <display_title>true</display_title>
         <layout>2across</layout>
-        <name>Ansible Tower Project</name>
-        <order>250</order>
+        <name>Ansible Tower Team</name>
+        <order>100</order>
         <sys_class_name>item_option_new_set</sys_class_name>
         <sys_created_by>t629985</sys_created_by>
-        <sys_created_on>2019-03-19 14:20:12</sys_created_on>
+        <sys_created_on>2019-03-19 15:06:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>9ccc9b1ddb98f300c66571198c961979</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Ansible Tower Project</sys_name>
+        <sys_id>f047a7d1db9cf300c66571198c961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Team</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
-        <sys_update_name>item_option_new_set_9ccc9b1ddb98f300c66571198c961979</sys_update_name>
+        <sys_update_name>item_option_new_set_f047a7d1db9cf300c66571198c961995</sys_update_name>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-19 15:24:47</sys_updated_on>
+        <sys_updated_on>2019-03-19 15:06:28</sys_updated_on>
         <title/>
     </item_option_new_set>
 </record_update>

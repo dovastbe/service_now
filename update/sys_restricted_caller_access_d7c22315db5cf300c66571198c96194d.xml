@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source>c62bfba15b801200cadc853291f91add</source>
+        <source_scope display_value="Scoped App Author">893ea311d71321004f6a0eca5e6103e6</source_scope>
+        <source_table>sys_script_include</source_table>
+        <source_type>2</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-03-19 14:46:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d7c22315db5cf300c66571198c96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>82878663ff123100158bffffffffff67</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_d7c22315db5cf300c66571198c96194d</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-03-19 14:46:19</sys_updated_on>
+        <target name="sn_si_severity_calculator" target_table="sys_db_object">5ee94d68dbe6a300c2da389f9d961963</target>
+        <target_scope display_value="Security Incident">82878663ff123100158bffffffffff67</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

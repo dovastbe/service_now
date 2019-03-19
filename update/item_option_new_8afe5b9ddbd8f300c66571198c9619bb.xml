@@ -22,7 +22,10 @@
         <field/>
         <global>true</global>
         <help_tag>More information</help_tag>
-        <help_text/>
+        <help_text>Short Description, will be used as part of the Tower Project Name, &#13;
+NO SPACES!  Use underscores like&#13;
+"OpenSystems_SOP_playbooks"&#13;
+</help_text>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -38,10 +41,10 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>tower_git_purpose</name>
-        <order/>
+        <order>50</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>GIT SCM Project &amp; Repositories Purpose</question_text>
+        <question_text>GIT Project  Repository Purpose</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -52,7 +55,7 @@
         <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
@@ -61,15 +64,15 @@
         <sys_created_on>2019-03-19 14:33:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8afe5b9ddbd8f300c66571198c9619bb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>GIT SCM Project &amp; Repositories Purpose</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>GIT Project  Repository Purpose</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>item_option_new_8afe5b9ddbd8f300c66571198c9619bb</sys_update_name>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-19 14:36:08</sys_updated_on>
+        <sys_updated_on>2019-03-19 15:31:19</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -79,7 +82,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set display_value="tower_project_vars">9ccc9b1ddb98f300c66571198c961979</variable_set>
+        <variable_set display_value="Ansible Tower Project">9ccc9b1ddb98f300c66571198c961979</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
