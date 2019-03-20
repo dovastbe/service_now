@@ -8,9 +8,20 @@
         <content>{"extra_vars":&#13;
   {"ssc_sn_appcode": "${ssc_sn_appcode}",&#13;
   "ssc_sn_org": "${ssc_sn_org}",&#13;
-  "ssc_sn_enviroment": "${ssc_sn_enviroment}",&#13;
-  "sn_esx_cluster": "${sn_esx_cluster}"}&#13;
-  }</content>
+  "ssc_sn_tower_environment": "${tower_environment}",&#13;
+  "ssc_sn_tower_team_purpose": "${tower_team_purpose}",&#13;
+  "ssc_sn_tower_team_description": "${tower_team_description}",&#13;
+  "ssc_sn_tower_project_git_instance": "${tower_project_git_instance}",&#13;
+  "ssc_sn_tower_project": "${tower_project}",&#13;
+  "ssc_sn_tower_project_repository": "${tower_prokect_repository}",&#13;
+  "ssc_sn_tower_project_branch": "${tower_project_branch}",&#13;
+  "ssc_sn_tower_project_purpose": "${tower_project_description_purpose}",&#13;
+  "ssc_sn_tower_project_description": "${tower_project_description}",&#13;
+  "ssc_sn_tower_inventory_purpose": "${tower_inventory_purpose}",&#13;
+  "ssc_sn_tower_inventory_description": "${tower_inventory_description}",&#13;
+  "ssc_sn_tower_inventory_path": "${tower_inventory_path}"&#13;
+  }&#13;
+}</content>
         <function_name>POST</function_name>
         <http_method>post</http_method>
         <lock>false</lock>
@@ -24,7 +35,7 @@
         <sys_created_on>2019-03-19 16:41:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>75ec7f15db143700c66571198c961984</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>POST</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
@@ -32,7 +43,7 @@
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sys_rest_message_fn_75ec7f15db143700c66571198c961984</sys_update_name>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-19 16:54:07</sys_updated_on>
+        <sys_updated_on>2019-03-20 16:34:53</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server display_value="GDCUWVC0060">cddc4b73db3adf00b87b349f9d9619f0</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>
