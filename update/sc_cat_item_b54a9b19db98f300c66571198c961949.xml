@@ -61,7 +61,7 @@
         <sys_created_on>2019-03-19 14:10:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b54a9b19db98f300c66571198c961949</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Ansible Tower Onboarding Request</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
@@ -69,7 +69,7 @@
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sc_cat_item_b54a9b19db98f300c66571198c961949</sys_update_name>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-20 17:55:58</sys_updated_on>
+        <sys_updated_on>2019-03-20 22:24:15</sys_updated_on>
         <template/>
         <type>item</type>
         <u_business_approval_workflow display_value="SRC RQF Default Business Approval">de3aa0b50faeb50063fdbd5ce1050e8c</u_business_approval_workflow>
