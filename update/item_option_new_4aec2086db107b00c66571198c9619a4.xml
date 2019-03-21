@@ -10,7 +10,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>t629985</default_value>
+        <default_value>DEV</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -37,11 +37,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>src_common_business_approver_group</name>
-        <order>6002</order>
+        <name>tower_environment</name>
+        <order>6000</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Enter Business Approver </question_text>
+        <question_text>Tower Environment</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -58,18 +58,18 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>t629985</sys_created_by>
-        <sys_created_on>2019-03-20 15:58:02</sys_created_on>
+        <sys_created_on>2019-03-21 09:27:50</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>fbac3479db90f700c66571198c9619c7</sys_id>
+        <sys_id>4aec2086db107b00c66571198c9619a4</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Enter Business Approver </sys_name>
+        <sys_name>Tower Environment</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
-        <sys_update_name>item_option_new_fbac3479db90f700c66571198c9619c7</sys_update_name>
+        <sys_update_name>item_option_new_4aec2086db107b00c66571198c9619a4</sys_update_name>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-21 09:28:39</sys_updated_on>
+        <sys_updated_on>2019-03-21 09:28:28</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -88,22 +88,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=fbac3479db90f700c66571198c9619c7"/>
-    <fx_price action="delete_multiple" query="id=fbac3479db90f700c66571198c9619c7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=4aec2086db107b00c66571198c9619a4"/>
+    <fx_price action="delete_multiple" query="id=4aec2086db107b00c66571198c9619a4"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>fbac3479db90f700c66571198c9619c7</id>
+        <id>4aec2086db107b00c66571198c9619a4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>t629985</sys_created_by>
-        <sys_created_on>2019-03-20 15:58:02</sys_created_on>
-        <sys_id>1bcc7439db90f700c66571198c961941</sys_id>
+        <sys_created_on>2019-03-21 09:27:50</sys_created_on>
+        <sys_id>d51d2cc2db107b00c66571198c9619ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-20 15:58:02</sys_updated_on>
+        <sys_updated_on>2019-03-21 09:27:50</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -111,16 +111,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>fbac3479db90f700c66571198c9619c7</id>
+        <id>4aec2086db107b00c66571198c9619a4</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>t629985</sys_created_by>
-        <sys_created_on>2019-03-20 15:58:02</sys_created_on>
-        <sys_id>dfcc7439db90f700c66571198c961940</sys_id>
+        <sys_created_on>2019-03-21 09:27:50</sys_created_on>
+        <sys_id>511d2cc2db107b00c66571198c9619ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-20 15:58:02</sys_updated_on>
+        <sys_updated_on>2019-03-21 09:27:50</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
