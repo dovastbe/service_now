@@ -2,7 +2,7 @@
 <record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
         <name>tower_instance</name>
-        <rest_message_function display_value="GET">54ac7f15db143700c66571198c961995</rest_message_function>
+        <rest_message_function display_value="JOB_TEMPLATE (GET) ">54ac7f15db143700c66571198c961995</rest_message_function>
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-03-19 16:40:00</sys_created_on>
