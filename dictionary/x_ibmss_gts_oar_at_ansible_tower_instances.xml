@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Ansible Tower Instances" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_instances" type="collection">
+        <element display="true" label="instance" max_length="42" name="tower_instance" type="string"/>
+        <element choice="1" label="Instance Environment" max_length="40" name="tower_instance_environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DEVELOPEMENT" value="dev"/>
+                <element inactive_on_update="false" label="DEVELOPEMENT TEST" value="devtest"/>
+                <element inactive_on_update="false" label="LAB" value="lab"/>
+                <element inactive_on_update="false" label="LAB  TEST" value="labtest"/>
+                <element inactive_on_update="false" label="PRODUCTION" value="prod"/>
+                <element inactive_on_update="false" label="UAT" value="uat"/>
+            </choice>
+        </element>
+        <element choice="1" label="Instance Location" max_length="40" name="tower_instance_location" reference_qual="u_region=^EQ" reference_qual_condition="u_region=^EQ" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Americas" value="na"/>
+                <element inactive_on_update="false" label="APAC" value="apac"/>
+                <element inactive_on_update="false" label="EMEA" value="emea"/>
+            </choice>
+        </element>
+        <element label="Instance URL" max_length="50" name="tower_instance_url" type="string"/>
+    </element>
+</database>

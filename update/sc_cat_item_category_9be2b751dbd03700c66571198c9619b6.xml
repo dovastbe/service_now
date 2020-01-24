@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</sc_cat_item>
         <sc_category display_value="Ansible Tower Requests">99e1b71ddb903700c66571198c961967</sc_category>

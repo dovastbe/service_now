@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="WORKFLOW_JOB_TEMPLATE LAUNCH BY ID (POST)">503df4c8db65f300c66571198c961911</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-05-16 08:51:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc3d7888db65f300c66571198c9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_fc3d7888db65f300c66571198c9619e8</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-05-16 08:51:59</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+</record_update>

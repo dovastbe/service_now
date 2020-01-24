@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
     <sc_category action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>All Ansible Tower Related Requests</description>
@@ -47,12 +46,13 @@
         <image_width>1024</image_width>
         <size_bytes>194005</size_bytes>
         <size_compressed>192525</size_compressed>
+        <state>available</state>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-03-19 15:53:28</sys_created_on>
         <sys_id>3222fb5ddb903700c66571198c9619f4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-19 15:53:28</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-05-16 11:22:05</sys_updated_on>
         <table_name>ZZ_YYsc_category</table_name>
         <table_sys_id>99e1b71ddb903700c66571198c961967</table_sys_id>
         <u_record>99e1b71ddb903700c66571198c961967</u_record>

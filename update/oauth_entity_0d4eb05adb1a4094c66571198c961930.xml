@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://ansibletower-devtest-na.it.statestr.com/api/o/authorize/</auth_url>
+        <certificate_url/>
+        <client_id>AeC8Gl4naJ823dlZ1BBwZ06D9te6uMmarGLgZa2f</client_id>
+        <client_secret>9x/gam2IfAaBhh6JNZd/ozWb+Gia40+rxfMd85LCL6swVabGZN0ulukXGDjsHogJwrCZt1/o6bL4/HNTvi4SlCbcI7T8rM3MJKTyEcYt19ZS+4FC47kSDxwe0lt+pgQ1XRhgA89Sd8PSIDla4WgeSgHnbE+9e7i0hMDAZZoVawV7MaSa+EyjGA==</client_secret>
+        <client_uuid>3c4e705adb1a4094c66571198c9619fb</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>sn_sandbox_2_at_devtest</name>
+        <oauth_api_script display_value="OAuthUtilModifedtolog">47ff495edb1e4094c66571198c9619e6</oauth_api_script>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://sscorpsbox.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2020-01-14 11:40:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0d4eb05adb1a4094c66571198c961930</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>sn_sandbox_2_at_devtest</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>oauth_entity_0d4eb05adb1a4094c66571198c961930</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2020-01-14 22:24:04</sys_updated_on>
+        <token_url>https://ansibletower-devtest-na.it.statestr.com/api/o/token/</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

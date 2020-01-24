@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_restricted_caller_access">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
     <sys_restricted_caller_access action="INSERT_OR_UPDATE">
         <operation>read</operation>
         <source>c62bfba15b801200cadc853291f91add</source>
@@ -22,7 +21,7 @@
         <sys_updated_by>t629985</sys_updated_by>
         <sys_updated_on>2019-03-19 14:46:19</sys_updated_on>
         <target name="sn_si_severity_calculator" target_table="sys_db_object">5ee94d68dbe6a300c2da389f9d961963</target>
-        <target_scope display_value="Security Incident">82878663ff123100158bffffffffff67</target_scope>
+        <target_scope display_value="Security Incident Response">82878663ff123100158bffffffffff67</target_scope>
         <target_table>sys_db_object</target_table>
         <target_type>1</target_type>
     </sys_restricted_caller_access>

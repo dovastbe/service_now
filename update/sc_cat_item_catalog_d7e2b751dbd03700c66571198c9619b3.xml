@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</sc_cat_item>
         <sc_catalog display_value="Technical Service Request Catalog">6a934e150f42350063fdbd5ce1050e1e</sc_catalog>

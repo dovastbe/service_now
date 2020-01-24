@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
@@ -29,18 +28,24 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>true</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Ansible Tower Onboarding Request</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -49,6 +54,7 @@
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
+        <request_method/>
         <roles/>
         <sc_catalogs>6a934e150f42350063fdbd5ce1050e1e</sc_catalogs>
         <sc_ic_item_staging/>
@@ -61,15 +67,15 @@
         <sys_created_on>2019-03-19 14:10:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b54a9b19db98f300c66571198c961949</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Ansible Tower Onboarding Request</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sc_cat_item_b54a9b19db98f300c66571198c961949</sys_update_name>
-        <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-21 10:59:23</sys_updated_on>
+        <sys_updated_by>v534544</sys_updated_by>
+        <sys_updated_on>2019-04-19 19:41:19</sys_updated_on>
         <template/>
         <type>item</type>
         <u_business_approval_workflow display_value="SRC RQF Default Business Approval">de3aa0b50faeb50063fdbd5ce1050e8c</u_business_approval_workflow>
@@ -90,7 +96,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="TOWER_ONBOARDING_WF">a7c9bbdddbd03700c66571198c961956</workflow>
+        <workflow display_value="Ansible Tower - On-boarding">4d0d5fabdbd4f300c66571198c961936</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=b54a9b19db98f300c66571198c961949"/>
     <fx_price action="delete_multiple" query="id=b54a9b19db98f300c66571198c961949"/>
@@ -139,12 +145,13 @@
         <image_width>1024</image_width>
         <size_bytes>194005</size_bytes>
         <size_compressed>192525</size_compressed>
+        <state>available</state>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-03-19 14:12:40</sys_created_on>
         <sys_id>d61b1bd9db58f300c66571198c961915</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-19 14:12:41</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-05-14 14:38:20</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>b54a9b19db98f300c66571198c961949</table_sys_id>
         <u_record>b54a9b19db98f300c66571198c961949</u_record>
@@ -178,12 +185,13 @@
         <image_width/>
         <size_bytes>194005</size_bytes>
         <size_compressed>192525</size_compressed>
+        <state>available</state>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-03-19 14:13:26</sys_created_on>
         <sys_id>a54b1395db98f300c66571198c961904</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-03-19 14:13:26</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-05-14 14:38:20</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>b54a9b19db98f300c66571198c961949</table_sys_id>
         <u_record>b54a9b19db98f300c66571198c961949</u_record>

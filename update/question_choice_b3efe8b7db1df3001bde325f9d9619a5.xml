@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Machine Type">787fac3fdbd9f3001bde325f9d961942</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-05-15 13:12:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b3efe8b7db1df3001bde325f9d9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VMware</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>question_choice_b3efe8b7db1df3001bde325f9d9619a5</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-05-15 13:12:55</sys_updated_on>
+        <text>VMware</text>
+        <value>vmware</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b3efe8b7db1df3001bde325f9d9619a5"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>b3efe8b7db1df3001bde325f9d9619a5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-05-15 13:12:55</sys_created_on>
+        <sys_id>4b0038b7db1df3001bde325f9d96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-05-15 13:12:55</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>b3efe8b7db1df3001bde325f9d9619a5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-05-15 13:12:55</sys_created_on>
+        <sys_id>030038b7db1df3001bde325f9d96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-05-15 13:12:55</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message_fn_parameters">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
         <name>tower_instance</name>
         <rest_message_function display_value="JOB_TEMPLATE BY ID (GET)">5f58c886db1c3b00c66571198c96199b</rest_message_function>

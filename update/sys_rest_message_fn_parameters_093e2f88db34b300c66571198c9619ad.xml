@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>ssc_sn_start_window</name>
+        <rest_message_function display_value="JOB_TEMPLATE LAUNCH BY ID (POST) 40">2b2b234cdbf0b300c66571198c9619ec</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-04-09 14:55:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>093e2f88db34b300c66571198c9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ssc_sn_start_window</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_093e2f88db34b300c66571198c9619ad</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-04-09 14:55:07</sys_updated_on>
+        <type>string</type>
+        <value/>
+    </sys_rest_message_fn_parameters>
+</record_update>

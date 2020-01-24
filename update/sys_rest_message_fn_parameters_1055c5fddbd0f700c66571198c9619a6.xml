@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message_fn_parameters">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
         <name>tower_project_purpose</name>
-        <rest_message_function display_value="JOB_TEMPLATE LAUNCH BY ID (POST)">75ec7f15db143700c66571198c961984</rest_message_function>
+        <rest_message_function display_value="JOB_TEMPLATE LAUNCH BY ID (POST) onboarding">75ec7f15db143700c66571198c961984</rest_message_function>
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-03-20 16:35:13</sys_created_on>

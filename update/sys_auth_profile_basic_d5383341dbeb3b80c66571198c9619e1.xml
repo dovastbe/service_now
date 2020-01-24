@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Tower LAB</name>
+        <password>+X49nu/FgxEfpIy8wcft4w==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2019-08-27 11:06:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d5383341dbeb3b80c66571198c9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tower LAB</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_d5383341dbeb3b80c66571198c9619e1</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2019-08-27 11:06:05</sys_updated_on>
+        <username>svc_snow-sbox_2_tower-lab</username>
+    </sys_auth_profile_basic>
+</record_update>

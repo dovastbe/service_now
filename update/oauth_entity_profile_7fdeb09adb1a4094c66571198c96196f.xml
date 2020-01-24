@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Ansible Tower DEVTEST default_profile</name>
+        <oauth_entity display_value="sn_sandbox_2_at_devtest">0d4eb05adb1a4094c66571198c961930</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2020-01-14 11:40:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7fdeb09adb1a4094c66571198c96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower DEVTEST default_profile</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>oauth_entity_profile_7fdeb09adb1a4094c66571198c96196f</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2020-01-14 11:40:46</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>
