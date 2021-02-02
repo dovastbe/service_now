@@ -20,7 +20,7 @@
         <sys_update_name>sys_restricted_caller_access_d7c22315db5cf300c66571198c96194d</sys_update_name>
         <sys_updated_by>t629985</sys_updated_by>
         <sys_updated_on>2019-03-19 14:46:19</sys_updated_on>
-        <target name="sn_si_severity_calculator" target_table="sys_db_object">5ee94d68dbe6a300c2da389f9d961963</target>
+        <target name="sn_si_severity_calculator" target_table="sys_db_object">e0e5dfb6db9d505876f7d8e4e2961913</target>
         <target_scope display_value="Security Incident Response">82878663ff123100158bffffffffff67</target_scope>
         <target_table>sys_db_object</target_table>
         <target_type>1</target_type>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>package_private</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>Ansible Tower DEVTEST</name>
+        <oauth2_profile display_value="Ansible Tower DEVTEST default_profile">7fdeb09adb1a4094c66571198c96196f</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>https://ansibletower-devtest-na.it.statestr.com/api</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2020-01-14 11:45:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bebff0dadb1a4094c66571198c9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower DEVTEST</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_rest_message_bebff0dadb1a4094c66571198c9619d0</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2020-01-14 11:45:23</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>sys_rest_message_bebff0dadb1a4094c66571198c9619d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>oauth2</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>Ansible Tower DEVTEST</name><oauth2_profile display_value="Ansible Tower DEVTEST default_profile">7fdeb09adb1a4094c66571198c96196f</oauth2_profile><protocol_name/><rest_endpoint>https://ansibletower-devtest-na.it.statestr.com/api</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>t629985</sys_created_by><sys_created_on>2020-01-14 11:45:23</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bebff0dadb1a4094c66571198c9619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ansible Tower DEVTEST</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>sys_rest_message_bebff0dadb1a4094c66571198c9619d0</sys_update_name><sys_updated_by>t629985</sys_updated_by><sys_updated_on>2020-01-14 11:45:23</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>-4978933</payload_hash>
+        <record_name>Ansible Tower DEVTEST</record_name>
+        <reverted_from/>
+        <source>308f5999db02a0101407c7ec0b9619a9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-01-30 17:36:03</sys_created_on>
+        <sys_id>e9a301521b02a0d45e72ebd5604bcba5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>177545db3b80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>REST Message</type>
+        <update_guid>a9a301522402a0d477c739ffb09301a5</update_guid>
+        <update_guid_history>a9a301522402a0d477c739ffb09301a5:-4978933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 18:08:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>01cc2ba5d24346d280043d201486b644</sys_id>
+        <sys_metadata>bebff0dadb1a4094c66571198c9619d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower DEVTEST</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>sys_rest_message_bebff0dadb1a4094c66571198c9619d0</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_bebff0dadb1a4094c66571198c9619d0">e9a301521b02a0d45e72ebd5604bcba5</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 18:08:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

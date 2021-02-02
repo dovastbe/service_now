@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_ibmss_gts_oar_at.OAuthUtilModifedtolog</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>OAuth Util Modifed to log</description>
+        <name>OAuthUtilModifedtolog</name>
+        <script><![CDATA[var OAuthUtil = Class.create();
+OAuthUtil.prototype = {
+	initialize: function() {
+	},
+	
+	interceptRequestParameters : function(requestParamMap) {
+		// Add/Modify request parameters if needed
+		this.preprocessAccessToken(requestParamMap);
+	},
+	
+	parseTokenResponse: function(accessTokenResponse) {
+		this.postprocessAccessToken(accessTokenResponse);
+	},
+	
+	preprocessAuthCode: function(requestParamMap) {
+	},
+	
+	preprocessAccessToken: function(requestParamMap) {
+	},
+	
+	postprocessAccessToken: function(accessTokenResponse) {
+		var contentType = accessTokenResponse.getContentType();
+		var contentBody = accessTokenResponse.getBody();
+		
+		gs.error("OAUTH_LOGS: " + contentType );
+		gs.error("OAUTH_LOGS: " + contentBody );
+	},
+	
+	type: 'OAuthUtil'
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>t629985</sys_created_by>
+        <sys_created_on>2020-01-14 13:00:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>47ff495edb1e4094c66571198c9619e6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>OAuthUtilModifedtolog</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_script_include_47ff495edb1e4094c66571198c9619e6</sys_update_name>
+        <sys_updated_by>t629985</sys_updated_by>
+        <sys_updated_on>2020-01-14 16:36:48</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>sys_script_include_47ff495edb1e4094c66571198c9619e6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_ibmss_gts_oar_at.OAuthUtilModifedtolog&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;OAuth Util Modifed to log&lt;/description&gt;&lt;name&gt;OAuthUtilModifedtolog&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var OAuthUtil = Class.create();
+OAuthUtil.prototype = {
+	initialize: function() {
+	},
+	
+	interceptRequestParameters : function(requestParamMap) {
+		// Add/Modify request parameters if needed
+		this.preprocessAccessToken(requestParamMap);
+	},
+	
+	parseTokenResponse: function(accessTokenResponse) {
+		this.postprocessAccessToken(accessTokenResponse);
+	},
+	
+	preprocessAuthCode: function(requestParamMap) {
+	},
+	
+	preprocessAccessToken: function(requestParamMap) {
+	},
+	
+	postprocessAccessToken: function(accessTokenResponse) {
+		var contentType = accessTokenResponse.getContentType();
+		var contentBody = accessTokenResponse.getBody();
+		
+		gs.error("OAUTH_LOGS: " + contentType );
+		gs.error("OAUTH_LOGS: " + contentBody );
+	},
+	
+	type: 'OAuthUtil'
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;t629985&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-14 13:00:44&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;47ff495edb1e4094c66571198c9619e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;OAuthUtilModifedtolog&lt;/sys_name&gt;&lt;sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at"&gt;0cf0becddb143300c66571198c961991&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="GTS_OAR_Ansible_Tower"&gt;0cf0becddb143300c66571198c961991&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_47ff495edb1e4094c66571198c9619e6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;t629985&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-14 16:36:48&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1806985241</payload_hash>
+        <record_name>OAuthUtilModifedtolog</record_name>
+        <reverted_from/>
+        <source>308f5999db02a0101407c7ec0b9619a9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-01-30 17:36:03</sys_created_on>
+        <sys_id>4b90b9521b0ae4d45e72ebd5604bcb52</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>177545db3b80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Script Include</type>
+        <update_guid>0b90b952fc0ae4d478b4bd81ce6e5d52</update_guid>
+        <update_guid_history>0b90b952fc0ae4d478b4bd81ce6e5d52:1806985241</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:24:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>4cb7955a108d4f34ab7358d8b026a284</sys_id>
+        <sys_metadata>47ff495edb1e4094c66571198c9619e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OAuthUtilModifedtolog</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>sys_script_include_47ff495edb1e4094c66571198c9619e6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_47ff495edb1e4094c66571198c9619e6">4b90b9521b0ae4d45e72ebd5604bcb52</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:24:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

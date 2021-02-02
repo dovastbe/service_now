@@ -24,7 +24,7 @@
         <table/>
         <ui_policy display_value="Hide schedule window if requested ASAP">62c7d304dbf8f7001bde325f9d9619b1</ui_policy>
         <variable>ssc_sn_end_window</variable>
-        <variable_set display_value="Ansible Tower Scheduling">2fb65bccdbb8f7001bde325f9d9619b9</variable_set>
+        <variable_set/>
         <visible>false</visible>
     </catalog_ui_policy_action>
 </record_update>

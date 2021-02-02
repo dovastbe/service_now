@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
     <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>true</in_default_profile>
         <name>Writing Scope</name>
         <oauth_entity display_value="sn_sandbox_2_at_devtest">0d4eb05adb1a4094c66571198c961930</oauth_entity>
         <oauth_entity_scope>write</oauth_entity_scope>

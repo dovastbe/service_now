@@ -16,7 +16,9 @@
 <p> </p>
 <p>Details will be sent to the ticket and emailed to the requester confirming the public keys has been distributed to the target end points.</p>
 <p> </p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -137,6 +139,7 @@
         <content_type>image/png</content_type>
         <encryption_context/>
         <file_name>picture</file_name>
+        <hash/>
         <image_height>535</image_height>
         <image_width>1024</image_width>
         <size_bytes>194005</size_bytes>

@@ -48,7 +48,7 @@ g_form.setVisible("Preferred End Window", false);
         <sys_updated_on>2019-04-11 15:32:45</sys_updated_on>
         <table/>
         <ui_type>10</ui_type>
-        <variable_set display_value="Ansible Tower Scheduling">2fb65bccdbb8f7001bde325f9d9619b9</variable_set>
+        <variable_set/>
         <view/>
     </catalog_ui_policy>
 </record_update>

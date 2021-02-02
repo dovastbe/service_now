@@ -81,7 +81,7 @@ NO SPACES!  Use underscores like&#13;
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Ansible Tower Inventory">4df4a399db5cf300c66571198c9619f5</variable_set>
+        <variable_set/>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

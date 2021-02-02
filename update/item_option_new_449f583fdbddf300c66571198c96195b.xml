@@ -49,7 +49,7 @@
         <reference>u_server_middleware</reference>
         <reference_qual>u_installed_via=ansible_tower^u_software_type=MIDDLEWARE^EQ</reference_qual>
         <reference_qual_condition table="u_server_middleware">u_installed_via=ansible_tower^u_software_type=MIDDLEWARE^EQ<item endquery="false" field="u_installed_via" goto="false" newquery="false" operator="=" or="false" value="ansible_tower"/>
-            <item endquery="false" field="u_software_type" goto="false" newquery="false" operator="=" or="false" value="MIDDLEWARE"/>
+            <item display_value="MiddleWare" endquery="false" field="u_software_type" goto="false" newquery="false" operator="=" or="false" value="MIDDLEWARE"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <scale_max>5</scale_max>

@@ -12,7 +12,9 @@
         <description><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #2e2e2e; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: 10pt;">***UNDER TESTING FOR GTS OAR Project ***</span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 9px; color: #2e2e2e; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: 10pt;">This offering should be selected to initiate the Build Phases for one specific server associated with a Linux virtual machines</span></p>
 <p style="box-sizing: border-box; margin: 0px 0px 9px; color: #2e2e2e; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: 10pt;">Only completed and APPROVED Build Sheets should be associated to this request. </span><br style="box-sizing: border-box;" /><br style="box-sizing: border-box;" /><span style="box-sizing: border-box; font-size: 10pt;">Create a separate request for EACH SERVER in the Build Sheet plan. </span><br style="box-sizing: border-box;" /><br style="box-sizing: border-box;" /><span style="box-sizing: border-box; font-size: 10pt;">This request covers GIS ONLY.</span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon>113da29bdb997300c66571198c961996</icon>
@@ -133,6 +135,7 @@
         <content_type>image/png</content_type>
         <encryption_context/>
         <file_name>icon</file_name>
+        <hash/>
         <image_height>535</image_height>
         <image_width>1024</image_width>
         <size_bytes>194005</size_bytes>

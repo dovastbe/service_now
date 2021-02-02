@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["b817b9da1b0628d45e72ebd5604bcb45"],"activities":{"3c17b9da1b0628d45e72ebd5604bcb44":"7417fd5a1b0628d45e72ebd5604bcb07","70273d1a1b0628d45e72ebd5604bcb21":"f417fd5a1b0628d45e72ebd5604bcb07","b817fd5a1b0628d45e72ebd5604bcb0e":"7817fd5a1b0628d45e72ebd5604bcb07"},"subflows":["8a3409de1b02a0d45e72ebd5604bcb5d"],"stages":{"7417fd5a1b0628d45e72ebd5604bcb07":{"duration":"","order":20,"stageId":"7417fd5a1b0628d45e72ebd5604bcb07","name":"Fulfilment","value":"fulfilment"},"7817fd5a1b0628d45e72ebd5604bcb07":{"duration":"","order":1100,"stageId":"7817fd5a1b0628d45e72ebd5604bcb07","name":"Completed","value":"complete"},"f417fd5a1b0628d45e72ebd5604bcb07":{"duration":"","order":100,"stageId":"f417fd5a1b0628d45e72ebd5604bcb07","name":"Approval","value":"approval"}}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Main flow">725651011b030100adca1e094f0713c6</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>b817fd5a1b0628d45e72ebd5604bcb0d,70273d1a1b0628d45e72ebd5604bcb21,3c17b9da1b0628d45e72ebd5604bcb44,b817fd5a1b0628d45e72ebd5604bcb0e,b817b9da1b0628d45e72ebd5604bcb45</expected_sequences>
+        <expected_time/>
+        <expected_time_type/>
+        <full_sequences>b817fd5a1b0628d45e72ebd5604bcb0d,70273d1a1b0628d45e72ebd5604bcb21,3c17b9da1b0628d45e72ebd5604bcb44,b817fd5a1b0628d45e72ebd5604bcb0e,b817b9da1b0628d45e72ebd5604bcb45</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Ansible Tower - Request WF</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">b817fd5a1b0628d45e72ebd5604bcb0d</start>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>f817fd5a1b0628d45e72ebd5604bcb05</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:54:02</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="Ansible Tower - Request WF">1614cd5a1b02a0d45e72ebd5604bcbe0</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Ansible Tower - Request WF</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 18:10:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1614cd5a1b02a0d45e72ebd5604bcbe0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ansible Tower - Request WF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>wf_workflow_1614cd5a1b02a0d45e72ebd5604bcbe0</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 18:10:11</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Approval</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>f417fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>approval</value>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>7817fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfilment</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>20</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>7417fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>fulfilment</value>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>f817fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Ansible Tower - Approval WF</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Approval">f417fd5a1b0628d45e72ebd5604bcb07</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
+        <sys_id>70273d1a1b0628d45e72ebd5604bcb21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:53:25</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <x>168</x>
+        <y>180</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=70273d1a1b0628d45e72ebd5604bcb21"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>70273d1a1b0628d45e72ebd5604bcb21</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
+        <sys_id>3c273d1a1b0628d45e72ebd5604bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
+        <value>f2173d1e1b0628d45e72ebd5604bcb87</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>70273d1a1b0628d45e72ebd5604bcb21</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
+        <sys_id>3c273d1a1b0628d45e72ebd5604bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
+        <value>f2173d1e1b0628d45e72ebd5604bcb87</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
+        <sys_id>34273d1a1b0628d45e72ebd5604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>b817fd5a1b0628d45e72ebd5604bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <x>20</x>
+        <y>17</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b817fd5a1b0628d45e72ebd5604bcb0d"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">b817fd5a1b0628d45e72ebd5604bcb0d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>b017fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id/>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>b817b9da1b0628d45e72ebd5604bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <x>1238</x>
+        <y>787</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b817b9da1b0628d45e72ebd5604bcb45"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Passed approvals moving to in progress</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfilment">7417fd5a1b0628d45e72ebd5604bcb07</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>3c17b9da1b0628d45e72ebd5604bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <x>332</x>
+        <y>360</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3c17b9da1b0628d45e72ebd5604bcb44"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3c17b9da1b0628d45e72ebd5604bcb44</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>bc17b9da1b0628d45e72ebd5604bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3c17b9da1b0628d45e72ebd5604bcb44</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>bc17b9da1b0628d45e72ebd5604bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Passed approvals moving to in progress">3c17b9da1b0628d45e72ebd5604bcb44</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>f017b9da1b0628d45e72ebd5604bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Completed</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">7817fd5a1b0628d45e72ebd5604bcb07</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>b817fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <x>1387</x>
+        <y>239</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b817fd5a1b0628d45e72ebd5604bcb0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b817fd5a1b0628d45e72ebd5604bcb0e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>bc17fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b817fd5a1b0628d45e72ebd5604bcb0e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>bc17fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Completed">b817fd5a1b0628d45e72ebd5604bcb0e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>7417fd5a1b0628d45e72ebd5604bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f017b9da1b0628d45e72ebd5604bcb45</condition>
+        <from display_value="Passed approvals moving to in progress">3c17b9da1b0628d45e72ebd5604bcb44</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>7017b9da1b0628d45e72ebd5604bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <to display_value="Set Completed">b817fd5a1b0628d45e72ebd5604bcb0e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">7417fd5a1b0628d45e72ebd5604bcb0f</condition>
+        <from display_value="Set Completed">b817fd5a1b0628d45e72ebd5604bcb0e</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>7417b9da1b0628d45e72ebd5604bcb47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <to display_value="End">b817b9da1b0628d45e72ebd5604bcb45</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b017fd5a1b0628d45e72ebd5604bcb0e</condition>
+        <from display_value="Begin">b817fd5a1b0628d45e72ebd5604bcb0d</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:53:22</sys_created_on>
+        <sys_id>ab2731de1b0628d45e72ebd5604bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:53:22</sys_updated_on>
+        <to display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">34273d1a1b0628d45e72ebd5604bcb23</condition>
+        <from display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:53:32</sys_created_on>
+        <sys_id>b537bd5a1b0628d45e72ebd5604bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:53:32</sys_updated_on>
+        <to display_value="Passed approvals moving to in progress">3c17b9da1b0628d45e72ebd5604bcb44</to>
+    </wf_transition>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</activity>
+        <return_map/>
+        <stage display_value="Approval">f417fd5a1b0628d45e72ebd5604bcb07</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
+        <sys_id>f2173d1e1b0628d45e72ebd5604bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
+        <workflow display_value="Ansible Tower - Approval WF">8a3409de1b02a0d45e72ebd5604bcb5d</workflow>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+    </wf_workflow_instance>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
+        <sys_id>fc17fd5a1b0628d45e72ebd5604bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=1614cd5a1b02a0d45e72ebd5604bcbe0^sys_id!=f817fd5a1b0628d45e72ebd5604bcb05">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

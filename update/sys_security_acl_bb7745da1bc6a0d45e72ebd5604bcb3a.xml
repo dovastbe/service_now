@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_ibmss_gts_oar_at_ansible_tower_organisations</description>
+        <name>x_ibmss_gts_oar_at_ansible_tower_organisations</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-02 18:25:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb7745da1bc6a0d45e72ebd5604bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ibmss_gts_oar_at_ansible_tower_organisations</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_security_acl_bb7745da1bc6a0d45e72ebd5604bcb3a</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-02 18:25:02</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

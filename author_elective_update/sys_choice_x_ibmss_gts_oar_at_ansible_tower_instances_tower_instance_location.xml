@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tower_instance_location" table="x_ibmss_gts_oar_at_ansible_tower_instances" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tower_instance_location</element>
+            <name>x_ibmss_gts_oar_at_ansible_tower_instances</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>t629985</sys_created_by>
+            <sys_created_on>2019-10-04 12:33:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c5bef2351b4628145e72ebd5604bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tower_instance_location</sys_name>
+            <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+            <sys_update_name>sys_choice_x_ibmss_gts_oar_at_ansible_tower_instances_tower_instance_location</sys_update_name>
+            <sys_updated_by>t629985</sys_updated_by>
+            <sys_updated_on>2019-10-04 12:33:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_instance_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>APAC</label>
+            <language>en</language>
+            <name>x_ibmss_gts_oar_at_ansible_tower_instances</name>
+            <sequence/>
+            <sys_created_by>t629985</sys_created_by>
+            <sys_created_on>2019-10-04 12:35:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5293759db98ccd0c66571198c9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t629985</sys_updated_by>
+            <sys_updated_on>2019-10-04 12:35:21</sys_updated_on>
+            <value>apac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_instance_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMEA</label>
+            <language>en</language>
+            <name>x_ibmss_gts_oar_at_ansible_tower_instances</name>
+            <sequence/>
+            <sys_created_by>t629985</sys_created_by>
+            <sys_created_on>2019-10-04 12:33:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45d83359db98ccd0c66571198c9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t629985</sys_updated_by>
+            <sys_updated_on>2019-10-04 12:33:51</sys_updated_on>
+            <value>emea</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_instance_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Americas</label>
+            <language>en</language>
+            <name>x_ibmss_gts_oar_at_ansible_tower_instances</name>
+            <sequence/>
+            <sys_created_by>t629985</sys_created_by>
+            <sys_created_on>2019-10-04 12:35:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40e8f719db98ccd0c66571198c96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t629985</sys_updated_by>
+            <sys_updated_on>2019-10-04 12:35:00</sys_updated_on>
+            <value>na</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
