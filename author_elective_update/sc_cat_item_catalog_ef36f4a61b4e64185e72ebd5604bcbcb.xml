@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Automated Linux Virtual Server Build">f99caa9bdb997300c66571198c961917</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 11:48:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ef36f4a61b4e64185e72ebd5604bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Automated Linux Virtual Server Build</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ef36f4a61b4e64185e72ebd5604bcbcb</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 11:48:08</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>sc_cat_item_catalog_ef36f4a61b4e64185e72ebd5604bcbcb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Automated Linux Virtual Server Build">f99caa9bdb997300c66571198c961917</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-03 11:48:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ef36f4a61b4e64185e72ebd5604bcbcb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Automated Linux Virtual Server Build</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>sc_cat_item_catalog_ef36f4a61b4e64185e72ebd5604bcbcb</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-03 11:48:08</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1298386875</payload_hash>
+        <record_name>Service Catalog.Automated Linux Virtual Server Build</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 11:48:08</sys_created_on>
+        <sys_id>6f36f4a61b4e64185e72ebd5604bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17767b89e250000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 11:48:08</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>6736f4a6f04e64183b4481fddfd0b9ce</update_guid>
+        <update_guid_history>6736f4a6f04e64183b4481fddfd0b9ce:-1298386875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/03/2021 06:50:37">37c670261b8e64185e72ebd5604bcbf3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 11:50:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>c6e46c04940e47d0a9383b3e3757e390</sys_id>
+        <sys_metadata>ef36f4a61b4e64185e72ebd5604bcbcb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Automated Linux Virtual Server Build</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent display_value="Automated Linux Virtual Server Build">f99caa9bdb997300c66571198c961917</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_ef36f4a61b4e64185e72ebd5604bcbcb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_ef36f4a61b4e64185e72ebd5604bcbcb">6f36f4a61b4e64185e72ebd5604bcbce</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 11:50:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

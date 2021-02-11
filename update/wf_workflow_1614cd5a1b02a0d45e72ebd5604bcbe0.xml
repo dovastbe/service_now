@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["b817b9da1b0628d45e72ebd5604bcb45"],"activities":{"3c17b9da1b0628d45e72ebd5604bcb44":"7417fd5a1b0628d45e72ebd5604bcb07","70273d1a1b0628d45e72ebd5604bcb21":"f417fd5a1b0628d45e72ebd5604bcb07","b817fd5a1b0628d45e72ebd5604bcb0e":"7817fd5a1b0628d45e72ebd5604bcb07"},"subflows":["8a3409de1b02a0d45e72ebd5604bcb5d"],"stages":{"7417fd5a1b0628d45e72ebd5604bcb07":{"duration":"","order":20,"stageId":"7417fd5a1b0628d45e72ebd5604bcb07","name":"Fulfilment","value":"fulfilment"},"7817fd5a1b0628d45e72ebd5604bcb07":{"duration":"","order":1100,"stageId":"7817fd5a1b0628d45e72ebd5604bcb07","name":"Completed","value":"complete"},"f417fd5a1b0628d45e72ebd5604bcb07":{"duration":"","order":100,"stageId":"f417fd5a1b0628d45e72ebd5604bcb07","name":"Approval","value":"approval"}}}</activity_stages>
+        <activity_stages>{"ends":["dab9833c1bde28545e72ebd5604bcb84"],"activities":{"cdc90b741bde28545e72ebd5604bcbf8":"1eb9cb301b5e28545e72ebd5604bcb56","16b9833c1bde28545e72ebd5604bcb7b":"9ab9cb301b5e28545e72ebd5604bcb56","52b9833c1bde28545e72ebd5604bcb7d":"1eb9cb301b5e28545e72ebd5604bcb56","deb9833c1bde28545e72ebd5604bcb7d":"12b9cb301b5e28545e72ebd5604bcb57","5eb9833c1bde28545e72ebd5604bcb81":"1eb9cb301b5e28545e72ebd5604bcb56","d2b9833c1bde28545e72ebd5604bcb85":"1eb9cb301b5e28545e72ebd5604bcb56"},"subflows":["aa983a661b4e20585e72ebd5604bcb9c","c99779921b4628d45e72ebd5604bcbe4","8a3409de1b02a0d45e72ebd5604bcb5d"],"stages":{"9ab9cb301b5e28545e72ebd5604bcb56":{"duration":"","order":1100,"stageId":"9ab9cb301b5e28545e72ebd5604bcb56","name":"Completed","value":"complete"},"12b9cb301b5e28545e72ebd5604bcb57":{"duration":"","order":100,"stageId":"12b9cb301b5e28545e72ebd5604bcb57","name":"Approval","value":"approval"},"1eb9cb301b5e28545e72ebd5604bcb56":{"duration":"","order":20,"stageId":"1eb9cb301b5e28545e72ebd5604bcb56","name":"Fulfilment","value":"fulfilment"}}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -9,10 +9,10 @@
         <condition/>
         <condition_type/>
         <description/>
-        <expected_sequences>b817fd5a1b0628d45e72ebd5604bcb0d,70273d1a1b0628d45e72ebd5604bcb21,3c17b9da1b0628d45e72ebd5604bcb44,b817fd5a1b0628d45e72ebd5604bcb0e,b817b9da1b0628d45e72ebd5604bcb45</expected_sequences>
+        <expected_sequences>96b9833c1bde28545e72ebd5604bcb7c,deb9833c1bde28545e72ebd5604bcb7d,52b9833c1bde28545e72ebd5604bcb7d,cdc90b741bde28545e72ebd5604bcbf8,5eb9833c1bde28545e72ebd5604bcb81,d2b9833c1bde28545e72ebd5604bcb85,16b9833c1bde28545e72ebd5604bcb7b,dab9833c1bde28545e72ebd5604bcb84</expected_sequences>
         <expected_time/>
         <expected_time_type/>
-        <full_sequences>b817fd5a1b0628d45e72ebd5604bcb0d,70273d1a1b0628d45e72ebd5604bcb21,3c17b9da1b0628d45e72ebd5604bcb44,b817fd5a1b0628d45e72ebd5604bcb0e,b817b9da1b0628d45e72ebd5604bcb45</full_sequences>
+        <full_sequences>96b9833c1bde28545e72ebd5604bcb7c,deb9833c1bde28545e72ebd5604bcb7d,52b9833c1bde28545e72ebd5604bcb7d,cdc90b741bde28545e72ebd5604bcbf8,5eb9833c1bde28545e72ebd5604bcb81,d2b9833c1bde28545e72ebd5604bcb85,16b9833c1bde28545e72ebd5604bcb7b,dab9833c1bde28545e72ebd5604bcb84</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Ansible Tower - Request WF</name>
@@ -27,16 +27,16 @@
         <schedule/>
         <stage_field>stage</stage_field>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">b817fd5a1b0628d45e72ebd5604bcb0d</start>
+        <start display_value="Begin">96b9833c1bde28545e72ebd5604bcb7c</start>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>f817fd5a1b0628d45e72ebd5604bcb05</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>1ab9cb301b5e28545e72ebd5604bcb55</sys_id>
+        <sys_mod_count>33</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:54:02</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:28:21</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Ansible Tower - Request WF">1614cd5a1b02a0d45e72ebd5604bcbe0</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -70,52 +70,52 @@
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>f417fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>12b9cb301b5e28545e72ebd5604bcb57</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>approval</value>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Completed</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1100</order>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>7817fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>9ab9cb301b5e28545e72ebd5604bcb56</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>complete</value>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Fulfilment</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>20</order>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>7417fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>1eb9cb301b5e28545e72ebd5604bcb56</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>fulfilment</value>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Request Cancelled</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>1000</order>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>f817fd5a1b0628d45e72ebd5604bcb07</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>9eb9cb301b5e28545e72ebd5604bcb56</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>Request Cancelled</value>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
@@ -131,51 +131,51 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Approval">f417fd5a1b0628d45e72ebd5604bcb07</stage>
+        <stage display_value="Approval">12b9cb301b5e28545e72ebd5604bcb57</stage>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
-        <sys_id>70273d1a1b0628d45e72ebd5604bcb21</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>deb9833c1bde28545e72ebd5604bcb7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:53:25</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
-        <x>168</x>
-        <y>180</y>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+        <x>56</x>
+        <y>111</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=70273d1a1b0628d45e72ebd5604bcb21"/>
+    <sys_variable_value action="delete_multiple" query="document_key=deb9833c1bde28545e72ebd5604bcb7d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>70273d1a1b0628d45e72ebd5604bcb21</document_key>
+        <document_key>deb9833c1bde28545e72ebd5604bcb7d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
-        <sys_id>3c273d1a1b0628d45e72ebd5604bcb22</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>d2b9833c1bde28545e72ebd5604bcb7e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
-        <value>f2173d1e1b0628d45e72ebd5604bcb87</value>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <value>5eb9833c1bde28545e72ebd5604bcb7e</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>70273d1a1b0628d45e72ebd5604bcb21</document_key>
+        <document_key>deb9833c1bde28545e72ebd5604bcb7d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
-        <sys_id>3c273d1a1b0628d45e72ebd5604bcb22</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>d2b9833c1bde28545e72ebd5604bcb7e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
-        <value>f2173d1e1b0628d45e72ebd5604bcb87</value>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <value>5eb9833c1bde28545e72ebd5604bcb7e</value>
         <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</activity>
+        <activity display_value="Ansible Tower - Approval WF">deb9833c1bde28545e72ebd5604bcb7d</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -189,11 +189,167 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
-        <sys_id>34273d1a1b0628d45e72ebd5604bcb23</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>9ab9833c1bde28545e72ebd5604bcb7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Ansible Tower - Find, Launch and monitor job WF</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfilment">1eb9cb301b5e28545e72ebd5604bcb56</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>d2b9833c1bde28545e72ebd5604bcb85</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+        <x>603</x>
+        <y>174</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d2b9833c1bde28545e72ebd5604bcb85"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d2b9833c1bde28545e72ebd5604bcb85</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>56b9833c1bde28545e72ebd5604bcb85</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <value>5eb9833c1bde28545e72ebd5604bcb85</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d2b9833c1bde28545e72ebd5604bcb85</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>56b9833c1bde28545e72ebd5604bcb85</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <value>5eb9833c1bde28545e72ebd5604bcb85</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Ansible Tower - Find, Launch and monitor job WF">d2b9833c1bde28545e72ebd5604bcb85</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>9ab9833c1bde28545e72ebd5604bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Ansible Tower Table Maintenance WF</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfilment">1eb9cb301b5e28545e72ebd5604bcb56</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>5eb9833c1bde28545e72ebd5604bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+        <x>394</x>
+        <y>9</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5eb9833c1bde28545e72ebd5604bcb81"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eb9833c1bde28545e72ebd5604bcb81</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>deb9833c1bde28545e72ebd5604bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <value>d6b9833c1bde28545e72ebd5604bcb82</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5eb9833c1bde28545e72ebd5604bcb81</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>deb9833c1bde28545e72ebd5604bcb81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <value>d6b9833c1bde28545e72ebd5604bcb82</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Ansible Tower Table Maintenance WF">5eb9833c1bde28545e72ebd5604bcb81</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>16b9833c1bde28545e72ebd5604bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -211,21 +367,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>b817fd5a1b0628d45e72ebd5604bcb0d</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>96b9833c1bde28545e72ebd5604bcb7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
         <x>20</x>
         <y>17</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b817fd5a1b0628d45e72ebd5604bcb0d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=96b9833c1bde28545e72ebd5604bcb7c"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">b817fd5a1b0628d45e72ebd5604bcb0d</activity>
+        <activity display_value="Begin">96b9833c1bde28545e72ebd5604bcb7c</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -239,11 +395,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>b017fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>9ab9833c1bde28545e72ebd5604bcb7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -261,19 +417,19 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>b817b9da1b0628d45e72ebd5604bcb45</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>dab9833c1bde28545e72ebd5604bcb84</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
-        <x>1238</x>
-        <y>787</y>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+        <x>1202</x>
+        <y>410</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b817b9da1b0628d45e72ebd5604bcb45"/>
+    <sys_variable_value action="delete_multiple" query="document_key=dab9833c1bde28545e72ebd5604bcb84"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -288,51 +444,51 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Fulfilment">7417fd5a1b0628d45e72ebd5604bcb07</stage>
+        <stage display_value="Fulfilment">1eb9cb301b5e28545e72ebd5604bcb56</stage>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>3c17b9da1b0628d45e72ebd5604bcb44</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>52b9833c1bde28545e72ebd5604bcb7d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
-        <x>332</x>
-        <y>360</y>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+        <x>163</x>
+        <y>215</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=3c17b9da1b0628d45e72ebd5604bcb44"/>
+    <sys_variable_value action="delete_multiple" query="document_key=52b9833c1bde28545e72ebd5604bcb7d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3c17b9da1b0628d45e72ebd5604bcb44</document_key>
+        <document_key>52b9833c1bde28545e72ebd5604bcb7d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>bc17b9da1b0628d45e72ebd5604bcb44</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>d2b9833c1bde28545e72ebd5604bcb7d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>state=2^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3c17b9da1b0628d45e72ebd5604bcb44</document_key>
+        <document_key>52b9833c1bde28545e72ebd5604bcb7d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>bc17b9da1b0628d45e72ebd5604bcb44</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>d2b9833c1bde28545e72ebd5604bcb7d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>state=2^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Passed approvals moving to in progress">3c17b9da1b0628d45e72ebd5604bcb44</activity>
+        <activity display_value="Passed approvals moving to in progress">52b9833c1bde28545e72ebd5604bcb7d</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -346,11 +502,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>f017b9da1b0628d45e72ebd5604bcb45</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>1ab9833c1bde28545e72ebd5604bcb7d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
@@ -366,51 +522,51 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Completed">7817fd5a1b0628d45e72ebd5604bcb07</stage>
+        <stage display_value="Completed">9ab9cb301b5e28545e72ebd5604bcb56</stage>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>b817fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>16b9833c1bde28545e72ebd5604bcb7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
-        <x>1387</x>
-        <y>239</y>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+        <x>1035</x>
+        <y>198</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b817fd5a1b0628d45e72ebd5604bcb0e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=16b9833c1bde28545e72ebd5604bcb7b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b817fd5a1b0628d45e72ebd5604bcb0e</document_key>
+        <document_key>16b9833c1bde28545e72ebd5604bcb7b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>bc17fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>1ab9833c1bde28545e72ebd5604bcb7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>state=3^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b817fd5a1b0628d45e72ebd5604bcb0e</document_key>
+        <document_key>16b9833c1bde28545e72ebd5604bcb7b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>bc17fd5a1b0628d45e72ebd5604bcb0e</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>1ab9833c1bde28545e72ebd5604bcb7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <value>state=3^EQ</value>
         <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Set Completed">b817fd5a1b0628d45e72ebd5604bcb0e</activity>
+        <activity display_value="Set Completed">16b9833c1bde28545e72ebd5604bcb7b</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -424,82 +580,875 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>7417fd5a1b0628d45e72ebd5604bcb0f</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>9eb9833c1bde28545e72ebd5604bcb7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Catalog Task">38891b6f0a0a0b1e00efdfdd77602027</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Ansible Tower CMDB tables</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfilment">1eb9cb301b5e28545e72ebd5604bcb56</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>cdc90b741bde28545e72ebd5604bcbf8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:22:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+        <x>239</x>
+        <y>334</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=cdc90b741bde28545e72ebd5604bcbf8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>207a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>207a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>247a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>287a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>2c7a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>607a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>647a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>687a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>687a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>6c7a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>099fb01adb6c37c04740d2984b9619c8</value>
+        <variable display_value="">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>6c7a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+</value>
+        <variable display_value="">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a07a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a47a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>AUTOMATED: Update Service Now Ansible Tower tables</value>
+        <variable display_value="">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a47a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a87a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a87a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>ac7a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e07a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e07a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e07a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e47a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e47a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e87a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>ec7a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>247a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>ac7a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>2c7a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a47a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a07a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>607a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>287a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e47a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e07a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e47a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>687a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>207a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>687a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a87a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>6c7a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>099fb01adb6c37c04740d2984b9619c8</value>
+        <variable display_value="">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e87a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a47a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>AUTOMATED: Update Service Now Ansible Tower tables</value>
+        <variable display_value="">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>207a87b41bde28545e72ebd5604bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e07a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>647a87b41bde28545e72ebd5604bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>a87a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>6c7a87b41bde28545e72ebd5604bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+</value>
+        <variable display_value="">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>e07a87b41bde28545e72ebd5604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value/>
+        <variable display_value="">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cdc90b741bde28545e72ebd5604bcbf8</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>ec7a87b41bde28545e72ebd5604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Ansible Tower CMDB tables">cdc90b741bde28545e72ebd5604bcbf8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:21:58</sys_created_on>
+        <sys_id>607a87b41bde28545e72ebd5604bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:21:58</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">f017b9da1b0628d45e72ebd5604bcb45</condition>
-        <from display_value="Passed approvals moving to in progress">3c17b9da1b0628d45e72ebd5604bcb44</from>
+        <condition display_value="Always">9eb9833c1bde28545e72ebd5604bcb7b</condition>
+        <from display_value="Set Completed">16b9833c1bde28545e72ebd5604bcb7b</from>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>7017b9da1b0628d45e72ebd5604bcb48</sys_id>
+        <sys_created_on>2021-02-10 22:18:49</sys_created_on>
+        <sys_id>12b9833c1bde28545e72ebd5604bcbda</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
-        <to display_value="Set Completed">b817fd5a1b0628d45e72ebd5604bcb0e</to>
+        <sys_updated_on>2021-02-10 22:18:49</sys_updated_on>
+        <to display_value="End">dab9833c1bde28545e72ebd5604bcb84</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">7417fd5a1b0628d45e72ebd5604bcb0f</condition>
-        <from display_value="Set Completed">b817fd5a1b0628d45e72ebd5604bcb0e</from>
+        <condition display_value="Always">9ab9833c1bde28545e72ebd5604bcb7c</condition>
+        <from display_value="Begin">96b9833c1bde28545e72ebd5604bcb7c</from>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>7417b9da1b0628d45e72ebd5604bcb47</sys_id>
+        <sys_created_on>2021-02-10 22:18:49</sys_created_on>
+        <sys_id>16b9833c1bde28545e72ebd5604bcbd9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
-        <to display_value="End">b817b9da1b0628d45e72ebd5604bcb45</to>
+        <sys_updated_on>2021-02-10 22:18:49</sys_updated_on>
+        <to display_value="Ansible Tower - Approval WF">deb9833c1bde28545e72ebd5604bcb7d</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b017fd5a1b0628d45e72ebd5604bcb0e</condition>
-        <from display_value="Begin">b817fd5a1b0628d45e72ebd5604bcb0d</from>
+        <condition display_value="Always">9ab9833c1bde28545e72ebd5604bcb85</condition>
+        <from display_value="Ansible Tower - Find, Launch and monitor job WF">d2b9833c1bde28545e72ebd5604bcb85</from>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:53:22</sys_created_on>
-        <sys_id>ab2731de1b0628d45e72ebd5604bcb05</sys_id>
+        <sys_created_on>2021-02-10 22:18:49</sys_created_on>
+        <sys_id>16b9833c1bde28545e72ebd5604bcbda</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:53:22</sys_updated_on>
-        <to display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</to>
+        <sys_updated_on>2021-02-10 22:18:49</sys_updated_on>
+        <to display_value="Set Completed">16b9833c1bde28545e72ebd5604bcb7b</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">34273d1a1b0628d45e72ebd5604bcb23</condition>
-        <from display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</from>
+        <condition display_value="Always">9ab9833c1bde28545e72ebd5604bcb7e</condition>
+        <from display_value="Ansible Tower - Approval WF">deb9833c1bde28545e72ebd5604bcb7d</from>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:53:32</sys_created_on>
-        <sys_id>b537bd5a1b0628d45e72ebd5604bcbb6</sys_id>
+        <sys_created_on>2021-02-10 22:18:49</sys_created_on>
+        <sys_id>1eb9833c1bde28545e72ebd5604bcbd9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:53:32</sys_updated_on>
-        <to display_value="Passed approvals moving to in progress">3c17b9da1b0628d45e72ebd5604bcb44</to>
+        <sys_updated_on>2021-02-10 22:18:49</sys_updated_on>
+        <to display_value="Passed approvals moving to in progress">52b9833c1bde28545e72ebd5604bcb7d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">16b9833c1bde28545e72ebd5604bcb82</condition>
+        <from display_value="Ansible Tower Table Maintenance WF">5eb9833c1bde28545e72ebd5604bcb81</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:49</sys_created_on>
+        <sys_id>deb9833c1bde28545e72ebd5604bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:49</sys_updated_on>
+        <to display_value="Ansible Tower - Find, Launch and monitor job WF">d2b9833c1bde28545e72ebd5604bcb85</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1ab9833c1bde28545e72ebd5604bcb7d</condition>
+        <from display_value="Passed approvals moving to in progress">52b9833c1bde28545e72ebd5604bcb7d</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:22:03</sys_created_on>
+        <sys_id>f17a4bf01bde28545e72ebd5604bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:22:03</sys_updated_on>
+        <to display_value="Update Ansible Tower CMDB tables">cdc90b741bde28545e72ebd5604bcbf8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">607a87b41bde28545e72ebd5604bcb4f</condition>
+        <from display_value="Update Ansible Tower CMDB tables">cdc90b741bde28545e72ebd5604bcbf8</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:22:08</sys_created_on>
+        <sys_id>f27a8bf81b1268545e72ebd5604bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:22:08</sys_updated_on>
+        <to display_value="Ansible Tower Table Maintenance WF">5eb9833c1bde28545e72ebd5604bcb81</to>
     </wf_transition>
     <wf_workflow_instance action="INSERT_OR_UPDATE">
-        <activity display_value="Ansible Tower - Approval WF">70273d1a1b0628d45e72ebd5604bcb21</activity>
+        <activity display_value="Ansible Tower - Approval WF">deb9833c1bde28545e72ebd5604bcb7d</activity>
         <return_map/>
-        <stage display_value="Approval">f417fd5a1b0628d45e72ebd5604bcb07</stage>
+        <stage display_value="Approval">12b9cb301b5e28545e72ebd5604bcb57</stage>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:53:10</sys_created_on>
-        <sys_id>f2173d1e1b0628d45e72ebd5604bcb87</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>5eb9833c1bde28545e72ebd5604bcb7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:53:10</sys_updated_on>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
         <workflow display_value="Ansible Tower - Approval WF">8a3409de1b02a0d45e72ebd5604bcb5d</workflow>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+    </wf_workflow_instance>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Ansible Tower - Find, Launch and monitor job WF">d2b9833c1bde28545e72ebd5604bcb85</activity>
+        <return_map/>
+        <stage display_value="Fulfilment">1eb9cb301b5e28545e72ebd5604bcb56</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>5eb9833c1bde28545e72ebd5604bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <workflow display_value="Ansible Tower - Find, Launch and monitor job WF">c99779921b4628d45e72ebd5604bcbe4</workflow>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
+    </wf_workflow_instance>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Ansible Tower Table Maintenance WF">5eb9833c1bde28545e72ebd5604bcb81</activity>
+        <return_map/>
+        <stage display_value="Fulfilment">1eb9cb301b5e28545e72ebd5604bcb56</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>d6b9833c1bde28545e72ebd5604bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <workflow display_value="Ansible Tower Table Maintenance WF">aa983a661b4e20585e72ebd5604bcb9c</workflow>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
     </wf_workflow_instance>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>e663988</sys_created_by>
-        <sys_created_on>2021-02-02 21:52:54</sys_created_on>
-        <sys_id>fc17fd5a1b0628d45e72ebd5604bcb05</sys_id>
+        <sys_created_on>2021-02-10 22:18:48</sys_created_on>
+        <sys_id>9ab9cb301b5e28545e72ebd5604bcb55</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-02 21:52:54</sys_updated_on>
-        <workflow_version display_value="Ansible Tower - Request WF">f817fd5a1b0628d45e72ebd5604bcb05</workflow_version>
+        <sys_updated_on>2021-02-10 22:18:48</sys_updated_on>
+        <workflow_version display_value="Ansible Tower - Request WF">1ab9cb301b5e28545e72ebd5604bcb55</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=1614cd5a1b02a0d45e72ebd5604bcbe0^sys_id!=f817fd5a1b0628d45e72ebd5604bcb05">
+    <wf_workflow_version action="update_multiple" query="workflow=1614cd5a1b02a0d45e72ebd5604bcbe0^sys_id!=1ab9cb301b5e28545e72ebd5604bcb55">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

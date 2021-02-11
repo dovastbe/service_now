@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["a11cec341b9aa4d089a820ebbc4bcbbd"],"subflows":[],"stages":{"ad1cec341b9aa4d089a820ebbc4bcbba":{"stageId":"ad1cec341b9aa4d089a820ebbc4bcbba","duration":"1 Day","order":120,"name":"Fulfillment","value":"fulfillment"}},"activities":{"ed1c20741b9aa4d089a820ebbc4bcb26":"ad1cec341b9aa4d089a820ebbc4bcbba","a51c20741b9aa4d089a820ebbc4bcb23":"ad1cec341b9aa4d089a820ebbc4bcbba","251c20741b9aa4d089a820ebbc4bcb22":"ad1cec341b9aa4d089a820ebbc4bcbba","291c20741b9aa4d089a820ebbc4bcb24":"ad1cec341b9aa4d089a820ebbc4bcbba","2d1cec341b9aa4d089a820ebbc4bcbbb":"ad1cec341b9aa4d089a820ebbc4bcbba"}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>6d1cec341b9aa4d089a820ebbc4bcbbd,ed1c20741b9aa4d089a820ebbc4bcb26,291c20741b9aa4d089a820ebbc4bcb24,2d1cec341b9aa4d089a820ebbc4bcbbb,a51c20741b9aa4d089a820ebbc4bcb23,251c20741b9aa4d089a820ebbc4bcb22,a91c20741b9aa4d089a820ebbc4bcb25,a11cec341b9aa4d089a820ebbc4bcbbd</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>6d1cec341b9aa4d089a820ebbc4bcbbd,ed1c20741b9aa4d089a820ebbc4bcb26,291c20741b9aa4d089a820ebbc4bcb24,2d1cec341b9aa4d089a820ebbc4bcbbb,a51c20741b9aa4d089a820ebbc4bcb23,251c20741b9aa4d089a820ebbc4bcb22,a91c20741b9aa4d089a820ebbc4bcb25,a11cec341b9aa4d089a820ebbc4bcbbd</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Ansible Tower Table Maintenance WF</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">6d1cec341b9aa4d089a820ebbc4bcbbd</start>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>291cec341b9aa4d089a820ebbc4bcbb9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 16:50:05</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Ansible Tower Table Maintenance WF">aa983a661b4e20585e72ebd5604bcb9c</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Ansible Tower Table Maintenance WF</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 21:17:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa983a661b4e20585e72ebd5604bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Table Maintenance WF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>wf_workflow_aa983a661b4e20585e72ebd5604bcb9c</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 21:17:40</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a91cec341b9aa4d089a820ebbc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>2d1cec341b9aa4d089a820ebbc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>ad1cec341b9aa4d089a820ebbc4bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>251cec341b9aa4d089a820ebbc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>211cec341b9aa4d089a820ebbc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a11cec341b9aa4d089a820ebbc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>6d1cec341b9aa4d089a820ebbc4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6d1cec341b9aa4d089a820ebbc4bcbbd"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">6d1cec341b9aa4d089a820ebbc4bcbbd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>651cec341b9aa4d089a820ebbc4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check and Validate Tower Organisation</name>
+        <new_activity_definition/>
+        <notes>Expecting a 'request_type' variable supplied which will determine if we create, update, deactivate record in table</notes>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">ad1cec341b9aa4d089a820ebbc4bcbba</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>ed1c20741b9aa4d089a820ebbc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>128</x>
+        <y>124</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ed1c20741b9aa4d089a820ebbc4bcb26"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ed1c20741b9aa4d089a820ebbc4bcb26</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>611c20741b9aa4d089a820ebbc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <value>// Check and see the Tower organisation record exsists and if not create it&#13;
+if (current.variables.org_action == 'create'){&#13;
+	var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_organisations');&#13;
+	// Check and see if the org already exsists &#13;
+	gr.addQuery('name',current.variables.organisation_name);&#13;
+    gr.query();&#13;
+    if (!gr.next()) {&#13;
+		// Create a new Incident record and populate the fields with the values below&#13;
+		gr.initialize();&#13;
+		gr.active = true;&#13;
+		gr.group_setup = current.variables.organisation_group_setup;&#13;
+		gr.admins = current.variables.organisation_admins;&#13;
+		gr.members = current.variables.organisation_members;&#13;
+		gr.business_owner = current.variables.organisation_business_owner;&#13;
+		gr.technical_owner = current.variables.organisation_technical_owner;&#13;
+		gr.description = current.variables.organisation_description;&#13;
+		gr.name = current.variables.organisation_name;&#13;
+		workflow.scratchpad.tower_organisation = gr.insert();&#13;
+    }&#13;
+} else {&#13;
+	// Organisation already exsists, just save that record as a workflow scatchpad variable &#13;
+	workflow.scratchpad.tower_organisation = current.variables.tower_organisation;&#13;
+}&#13;
+&#13;
+    &#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ed1c20741b9aa4d089a820ebbc4bcb26</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>611c20741b9aa4d089a820ebbc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <value>// Check and see the Tower organisation record exsists and if not create it&#13;
+if (current.variables.org_action == 'create'){&#13;
+	var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_organisations');&#13;
+	// Check and see if the org already exsists &#13;
+	gr.addQuery('name',current.variables.organisation_name);&#13;
+    gr.query();&#13;
+    if (!gr.next()) {&#13;
+		// Create a new Incident record and populate the fields with the values below&#13;
+		gr.initialize();&#13;
+		gr.active = true;&#13;
+		gr.group_setup = current.variables.organisation_group_setup;&#13;
+		gr.admins = current.variables.organisation_admins;&#13;
+		gr.members = current.variables.organisation_members;&#13;
+		gr.business_owner = current.variables.organisation_business_owner;&#13;
+		gr.technical_owner = current.variables.organisation_technical_owner;&#13;
+		gr.description = current.variables.organisation_description;&#13;
+		gr.name = current.variables.organisation_name;&#13;
+		workflow.scratchpad.tower_organisation = gr.insert();&#13;
+    }&#13;
+} else {&#13;
+	// Organisation already exsists, just save that record as a workflow scatchpad variable &#13;
+	workflow.scratchpad.tower_organisation = current.variables.tower_organisation;&#13;
+}&#13;
+&#13;
+    &#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check and Validate Tower Organisation">ed1c20741b9aa4d089a820ebbc4bcb26</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>a91c20741b9aa4d089a820ebbc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a11cec341b9aa4d089a820ebbc4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>1388</x>
+        <y>351</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a11cec341b9aa4d089a820ebbc4bcbbd"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Branch">a246173ac0a8016400a47421cd41e42c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Split out table updates</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">ad1cec341b9aa4d089a820ebbc4bcbba</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>2d1cec341b9aa4d089a820ebbc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>479</x>
+        <y>189</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2d1cec341b9aa4d089a820ebbc4bcbbb"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Split out table updates">2d1cec341b9aa4d089a820ebbc4bcbbb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a91cec341b9aa4d089a820ebbc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Tower Organisation Table</name>
+        <new_activity_definition/>
+        <notes>Expecting a 'request_type' variable supplied which will determine if we create, update, deactivate record in table</notes>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">ad1cec341b9aa4d089a820ebbc4bcbba</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>291c20741b9aa4d089a820ebbc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>276</x>
+        <y>272</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=291c20741b9aa4d089a820ebbc4bcb24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>291c20741b9aa4d089a820ebbc4bcb24</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a91c20741b9aa4d089a820ebbc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_organisations');&#13;
+switch(current.variables.request_type.toString()) {	&#13;
+	case 'modify' :&#13;
+	//Find record and update&#13;
+	gr.addQuery('name',current.variables.organisation_name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = true;&#13;
+		gr.group_setup = current.variables.organisation_group_setup;&#13;
+		gr.admins = current.variables.organisation_admins;&#13;
+		gr.members = current.variables.organisation_members;&#13;
+		gr.business_owner = current.variables.organisation_business_owner;&#13;
+		gr.technical_owner = current.variables.organisation_technical_owner;&#13;
+        gr.description = current.variables.organisation_description;&#13;
+		gr.update();&#13;
+		// workflow.scratchpad.tower_organisation = gr.update();&#13;
+    }&#13;
+	break;&#13;
+		&#13;
+	case 'delete' :&#13;
+	//Find records and mark not active&#13;
+	gr.addQuery('name',current.variables.organisation_name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = false;&#13;
+		gr.update();&#13;
+		// workflow.scratchpad.tower_organisation = gr.update();&#13;
+    }&#13;
+	break;&#13;
+    &#13;
+	default :&#13;
+    // Catch all, noaction&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>291c20741b9aa4d089a820ebbc4bcb24</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a91c20741b9aa4d089a820ebbc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_organisations');&#13;
+switch(current.variables.request_type.toString()) {	&#13;
+	case 'modify' :&#13;
+	//Find record and update&#13;
+	gr.addQuery('name',current.variables.organisation_name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = true;&#13;
+		gr.group_setup = current.variables.organisation_group_setup;&#13;
+		gr.admins = current.variables.organisation_admins;&#13;
+		gr.members = current.variables.organisation_members;&#13;
+		gr.business_owner = current.variables.organisation_business_owner;&#13;
+		gr.technical_owner = current.variables.organisation_technical_owner;&#13;
+        gr.description = current.variables.organisation_description;&#13;
+		gr.update();&#13;
+		// workflow.scratchpad.tower_organisation = gr.update();&#13;
+    }&#13;
+	break;&#13;
+		&#13;
+	case 'delete' :&#13;
+	//Find records and mark not active&#13;
+	gr.addQuery('name',current.variables.organisation_name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = false;&#13;
+		gr.update();&#13;
+		// workflow.scratchpad.tower_organisation = gr.update();&#13;
+    }&#13;
+	break;&#13;
+    &#13;
+	default :&#13;
+    // Catch all, noaction&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Tower Organisation Table">291c20741b9aa4d089a820ebbc4bcb24</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>e11c20741b9aa4d089a820ebbc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Tower Teams Table</name>
+        <new_activity_definition/>
+        <notes>Expecting a 'request_type' variable supplied which will determine if we create, update, deactivate record in table</notes>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">ad1cec341b9aa4d089a820ebbc4bcbba</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a51c20741b9aa4d089a820ebbc4bcb23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:27</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>827</x>
+        <y>139</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a51c20741b9aa4d089a820ebbc4bcb23"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a51c20741b9aa4d089a820ebbc4bcb23</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>291c20741b9aa4d089a820ebbc4bcb23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:27</sys_updated_on>
+        <value>var jsonString = current.variables.tower_team;&#13;
+var Teams = JSON.parse(jsonString);&#13;
+var TeamCount = Teams.length;&#13;
+if ( TeamCount &gt; 0 ) {&#13;
+// gs.info(TeamCount + ' Teams found');&#13;
+&#13;
+for(var i=0;i&lt;Teams.length;i++){&#13;
+	var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_teams');&#13;
+	// gs.info('Running through team '+ Teams[i].team_name );&#13;
+    switch(current.variables.request_type.toString()) {&#13;
+		case "create" :&#13;
+		// Create a new Incident record and populate the fields with the values below&#13;
+			gr.initialize();&#13;
+			gr.active = true;&#13;
+			gr.description = Teams[i].team_description;&#13;
+			gr.name = Teams[i].team_name;&#13;
+			gr.deploy_to_all_environments = Teams[i].deploy_to_all_environments_or_specific;&#13;
+			gr.deploy_to_devtest = Teams[i].deploy_team_to_devtest;&#13;
+			gr.deploy_to_dev = Teams[i].deploy_team_to_dev;&#13;
+			gr.deploy_to_uat = Teams[i].deploy_team_to_uat;&#13;
+			gr.deploy_to_prod = Teams[i].deploy_team_to_prod;&#13;
+			gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+			gr.insert();&#13;
+			break;&#13;
+		&#13;
+		case "modify" :&#13;
+			//Find records and update&#13;
+			gr.addQuery('name',Teams[i].team_name);&#13;
+			gr.query();&#13;
+			while (gr.next()) {&#13;
+				gr.active = true;&#13;
+				gr.description = Teams[i].team_description;&#13;
+				gr.name = Teams[i].team_name;&#13;
+				gr.deploy_to_all_environments = Teams[i].deploy_to_all_environments_or_specific;&#13;
+				gr.deploy_to_devtest = Teams[i].deploy_team_to_devtest;&#13;
+				gr.deploy_to_dev = Teams[i].deploy_team_to_dev;&#13;
+				gr.deploy_to_uat = Teams[i].deploy_team_to_uat;&#13;
+				gr.deploy_to_prod = Teams[i].current.variables.deploy_team_to_prod;&#13;
+				gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+				gr.update();&#13;
+			}&#13;
+			break;&#13;
+		&#13;
+		case "delete" :&#13;
+		//Find records and mark not active&#13;
+			gr.addQuery('name',Teams[i].team_name);&#13;
+			gr.query();&#13;
+			while (gr.next()) {&#13;
+				gr.actvie = false;&#13;
+				gr.update();&#13;
+			}&#13;
+			break;&#13;
+    &#13;
+		default :&#13;
+        // Catch up didn't find a action&#13;
+			gs.info(current.number + ': No request type action for Update Tower Teams Table');&#13;
+			break;&#13;
+	}&#13;
+}&#13;
+}else {&#13;
+	gs.info('Didnt find any teams');&#13;
+}&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a51c20741b9aa4d089a820ebbc4bcb23</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>291c20741b9aa4d089a820ebbc4bcb23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:27</sys_updated_on>
+        <value>var jsonString = current.variables.tower_team;&#13;
+var Teams = JSON.parse(jsonString);&#13;
+var TeamCount = Teams.length;&#13;
+if ( TeamCount &gt; 0 ) {&#13;
+// gs.info(TeamCount + ' Teams found');&#13;
+&#13;
+for(var i=0;i&lt;Teams.length;i++){&#13;
+	var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_teams');&#13;
+	// gs.info('Running through team '+ Teams[i].team_name );&#13;
+    switch(current.variables.request_type.toString()) {&#13;
+		case "create" :&#13;
+		// Create a new Incident record and populate the fields with the values below&#13;
+			gr.initialize();&#13;
+			gr.active = true;&#13;
+			gr.description = Teams[i].team_description;&#13;
+			gr.name = Teams[i].team_name;&#13;
+			gr.deploy_to_all_environments = Teams[i].deploy_to_all_environments_or_specific;&#13;
+			gr.deploy_to_devtest = Teams[i].deploy_team_to_devtest;&#13;
+			gr.deploy_to_dev = Teams[i].deploy_team_to_dev;&#13;
+			gr.deploy_to_uat = Teams[i].deploy_team_to_uat;&#13;
+			gr.deploy_to_prod = Teams[i].deploy_team_to_prod;&#13;
+			gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+			gr.insert();&#13;
+			break;&#13;
+		&#13;
+		case "modify" :&#13;
+			//Find records and update&#13;
+			gr.addQuery('name',Teams[i].team_name);&#13;
+			gr.query();&#13;
+			while (gr.next()) {&#13;
+				gr.active = true;&#13;
+				gr.description = Teams[i].team_description;&#13;
+				gr.name = Teams[i].team_name;&#13;
+				gr.deploy_to_all_environments = Teams[i].deploy_to_all_environments_or_specific;&#13;
+				gr.deploy_to_devtest = Teams[i].deploy_team_to_devtest;&#13;
+				gr.deploy_to_dev = Teams[i].deploy_team_to_dev;&#13;
+				gr.deploy_to_uat = Teams[i].deploy_team_to_uat;&#13;
+				gr.deploy_to_prod = Teams[i].current.variables.deploy_team_to_prod;&#13;
+				gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+				gr.update();&#13;
+			}&#13;
+			break;&#13;
+		&#13;
+		case "delete" :&#13;
+		//Find records and mark not active&#13;
+			gr.addQuery('name',Teams[i].team_name);&#13;
+			gr.query();&#13;
+			while (gr.next()) {&#13;
+				gr.actvie = false;&#13;
+				gr.update();&#13;
+			}&#13;
+			break;&#13;
+    &#13;
+		default :&#13;
+        // Catch up didn't find a action&#13;
+			gs.info(current.number + ': No request type action for Update Tower Teams Table');&#13;
+			break;&#13;
+	}&#13;
+}&#13;
+}else {&#13;
+	gs.info('Didnt find any teams');&#13;
+}&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Tower Teams Table">a51c20741b9aa4d089a820ebbc4bcb23</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>611c20741b9aa4d089a820ebbc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Tower Use Case Table</name>
+        <new_activity_definition/>
+        <notes>Expecting a 'request_type' variable supplied which will determine if we create, update, deactivate record in table</notes>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">ad1cec341b9aa4d089a820ebbc4bcbba</stage>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>251c20741b9aa4d089a820ebbc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>826</x>
+        <y>6</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=251c20741b9aa4d089a820ebbc4bcb22"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>251c20741b9aa4d089a820ebbc4bcb22</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a51c20741b9aa4d089a820ebbc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>if ( current.variables.use_case_name ) {&#13;
+&#13;
+	var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_use_cases');&#13;
+&#13;
+switch(current.variables.request_type.toString()) {&#13;
+	case "create" :&#13;
+	// Create a new Incident record and populate the fields with the values below&#13;
+    gr.initialize();&#13;
+	gr.active = true;&#13;
+	gr.technical_owner = current.variables.use_case_technical_owner;&#13;
+    gr.description = current.variables.use_case_description;&#13;
+	gr.name = current.variables.use_case_name;&#13;
+	gr.documentation = current.variables.use_case_documentation_url;&#13;
+	gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+    gr.insert();&#13;
+	break;&#13;
+		&#13;
+	case "modify" :&#13;
+	//Find records and update&#13;
+	gr.addQuery('name',current.variables.ansible_tower_use_case_lookup.name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = true;&#13;
+		gr.technical_owner = current.variables.use_case_technical_owner;&#13;
+		gr.description = current.variables.use_case_description;&#13;
+		gr.name = current.variables.use_case_name;&#13;
+		gr.documentation = current.variables.use_case_documentation_url;&#13;
+		gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+		gr.update();&#13;
+    }&#13;
+	break;&#13;
+		&#13;
+	case "delete" :&#13;
+	//Find records and mark not active&#13;
+	gr.addQuery('name',current.variables.ansible_tower_use_case_lookup.name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = false;&#13;
+		gr.update();&#13;
+    }&#13;
+	break;&#13;
+    &#13;
+	default :&#13;
+    // Catch up didn't find a action&#13;
+	gs.info(current.number + ': No request type action for Update Tower Use Cases Table');&#13;
+	break;&#13;
+}&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>251c20741b9aa4d089a820ebbc4bcb22</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a51c20741b9aa4d089a820ebbc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <value>if ( current.variables.use_case_name ) {&#13;
+&#13;
+	var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_use_cases');&#13;
+&#13;
+switch(current.variables.request_type.toString()) {&#13;
+	case "create" :&#13;
+	// Create a new Incident record and populate the fields with the values below&#13;
+    gr.initialize();&#13;
+	gr.active = true;&#13;
+	gr.technical_owner = current.variables.use_case_technical_owner;&#13;
+    gr.description = current.variables.use_case_description;&#13;
+	gr.name = current.variables.use_case_name;&#13;
+	gr.documentation = current.variables.use_case_documentation_url;&#13;
+	gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+    gr.insert();&#13;
+	break;&#13;
+		&#13;
+	case "modify" :&#13;
+	//Find records and update&#13;
+	gr.addQuery('name',current.variables.ansible_tower_use_case_lookup.name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = true;&#13;
+		gr.technical_owner = current.variables.use_case_technical_owner;&#13;
+		gr.description = current.variables.use_case_description;&#13;
+		gr.name = current.variables.use_case_name;&#13;
+		gr.documentation = current.variables.use_case_documentation_url;&#13;
+		gr.organisation = workflow.scratchpad.tower_organisation;&#13;
+		gr.update();&#13;
+    }&#13;
+	break;&#13;
+		&#13;
+	case "delete" :&#13;
+	//Find records and mark not active&#13;
+	gr.addQuery('name',current.variables.ansible_tower_use_case_lookup.name);&#13;
+    gr.query();&#13;
+    while (gr.next()) {&#13;
+		gr.active = false;&#13;
+		gr.update();&#13;
+    }&#13;
+	break;&#13;
+    &#13;
+	default :&#13;
+    // Catch up didn't find a action&#13;
+	gs.info(current.number + ': No request type action for Update Tower Use Cases Table');&#13;
+	break;&#13;
+}&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Tower Use Case Table">251c20741b9aa4d089a820ebbc4bcb22</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>ed1c20741b9aa4d089a820ebbc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Join">7c9a2ba9c0a801650021ada408de0ebd</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for the table updates to complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a91c20741b9aa4d089a820ebbc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+        <x>1182</x>
+        <y>244</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a91c20741b9aa4d089a820ebbc4bcb25"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for the table updates to complete">a91c20741b9aa4d089a820ebbc4bcb25</activity>
+        <condition>activity.result == 'complete'</condition>
+        <condition_default display_value="Complete">6dd6ac3e0a6a803f16b5e594347ea01c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Complete</name>
+        <order>1</order>
+        <short_description>All predecessor activities have transitioned to this activity</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>a51c20741b9aa4d089a820ebbc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for the table updates to complete">a91c20741b9aa4d089a820ebbc4bcb25</activity>
+        <condition>activity.result == 'incomplete'</condition>
+        <condition_default display_value="Incomplete">6dd49ad30a6a803f03a5a18c4085b1c7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Incomplete</name>
+        <order>2</order>
+        <short_description>At least one predecessor activities did not transition to this activity</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>291c20741b9aa4d089a820ebbc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">651cec341b9aa4d089a820ebbc4bcbbe</condition>
+        <from display_value="Begin">6d1cec341b9aa4d089a820ebbc4bcbbd</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>211c20741b9aa4d089a820ebbc4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="Check and Validate Tower Organisation">ed1c20741b9aa4d089a820ebbc4bcb26</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a91c20741b9aa4d089a820ebbc4bcb27</condition>
+        <from display_value="Check and Validate Tower Organisation">ed1c20741b9aa4d089a820ebbc4bcb26</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>251c20741b9aa4d089a820ebbc4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="Update Tower Organisation Table">291c20741b9aa4d089a820ebbc4bcb24</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a91cec341b9aa4d089a820ebbc4bcbbc</condition>
+        <from display_value="Split out table updates">2d1cec341b9aa4d089a820ebbc4bcbbb</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>291c20741b9aa4d089a820ebbc4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="Update Tower Teams Table">a51c20741b9aa4d089a820ebbc4bcb23</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">611c20741b9aa4d089a820ebbc4bcb24</condition>
+        <from display_value="Update Tower Teams Table">a51c20741b9aa4d089a820ebbc4bcb23</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>2d1c20741b9aa4d089a820ebbc4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="Wait for the table updates to complete">a91c20741b9aa4d089a820ebbc4bcb25</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a91cec341b9aa4d089a820ebbc4bcbbc</condition>
+        <from display_value="Split out table updates">2d1cec341b9aa4d089a820ebbc4bcbbb</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>a91c20741b9aa4d089a820ebbc4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="Update Tower Use Case Table">251c20741b9aa4d089a820ebbc4bcb22</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Complete">a51c20741b9aa4d089a820ebbc4bcb26</condition>
+        <from display_value="Wait for the table updates to complete">a91c20741b9aa4d089a820ebbc4bcb25</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>e11c20741b9aa4d089a820ebbc4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="End">a11cec341b9aa4d089a820ebbc4bcbbd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e11c20741b9aa4d089a820ebbc4bcb25</condition>
+        <from display_value="Update Tower Organisation Table">291c20741b9aa4d089a820ebbc4bcb24</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>e51c20741b9aa4d089a820ebbc4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="Split out table updates">2d1cec341b9aa4d089a820ebbc4bcbbb</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ed1c20741b9aa4d089a820ebbc4bcb22</condition>
+        <from display_value="Update Tower Use Case Table">251c20741b9aa4d089a820ebbc4bcb22</from>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:06</sys_created_on>
+        <sys_id>ed1c20741b9aa4d089a820ebbc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:06</sys_updated_on>
+        <to display_value="Wait for the table updates to complete">a91c20741b9aa4d089a820ebbc4bcb25</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-10 10:50:05</sys_created_on>
+        <sys_id>a91cec341b9aa4d089a820ebbc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 10:50:05</sys_updated_on>
+        <workflow_version display_value="Ansible Tower Table Maintenance WF">291cec341b9aa4d089a820ebbc4bcbb9</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=aa983a661b4e20585e72ebd5604bcb9c^sys_id!=291cec341b9aa4d089a820ebbc4bcbb9">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

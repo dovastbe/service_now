@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
-        <name>tower_job_template_id</name>
-        <rest_message_function display_value="JOB_TEMPLATE LAUNCH BY ID (POST) 40">2b2b234cdbf0b300c66571198c9619ec</rest_message_function>
+        <name>tower_unified_job_template_id</name>
+        <rest_message_function display_value="UNIFIED_JOB_TEMPLATE LAUNCH">2b2b234cdbf0b300c66571198c9619ec</rest_message_function>
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-04-09 14:55:07</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>053e2f88db34b300c66571198c9619b1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>tower_job_template_id</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>tower_unified_job_template_id</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sys_rest_message_fn_parameters_053e2f88db34b300c66571198c9619b1</sys_update_name>
-        <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-04-23 13:03:37</sys_updated_on>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-09 22:43:11</sys_updated_on>
         <type>string</type>
-        <value>40</value>
+        <value>771</value>
     </sys_rest_message_fn_parameters>
 </record_update>

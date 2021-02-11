@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Use Case Certifcations" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_use_case_certifcations" type="collection">
+    <element label="Ansible Tower Use Case Certifcations" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_use_case_certifcations" sizeclass="1" type="collection">
         <element label="Certified by" max_length="32" name="certified_by" reference="sys_user" type="reference"/>
         <element label="Certified Date" max_length="40" name="certified_date" type="glide_date_time"/>
         <element label="Use Case" max_length="32" name="use_case" reference="x_ibmss_gts_oar_at_ansible_tower_use_cases" type="reference"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Ansible Tower Unified Job Templates" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_unified_job_templates" sizeclass="354" type="collection">
+        <element label="ID" max_length="52" name="id" type="string"/>
+        <element label="Tower Instance" max_length="32" name="tower_instance" reference="x_ibmss_gts_oar_at_ansible_tower_instances" type="reference"/>
+        <element label="Tower Unified Job Template Description" max_length="240" name="tower_unified_job_template_description" type="string"/>
+        <element label="Tower Unified Job Template ID" max_length="6" name="tower_unified_job_template_id" type="integer"/>
+        <element label="Tower Unified Job Template Name" max_length="120" name="tower_unified_job_template_name" type="string"/>
+        <element choice="1" label="Tower Unified Job Template Type" max_length="21" name="tower_unified_job_template_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="job_template" value="job_template"/>
+                <element inactive_on_update="false" label="workflow_job_template" value="workflow_job_template"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="tower_instance"/>
+        </index>
+    </element>
+</database>

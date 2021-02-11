@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>5</order>
+        <sc_cat_item display_value="Ansible Tower Manage Use Case">b311874fdbce68101407c7ec0b96193a</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:11:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>54214f4fdbce68101407c7ec0b9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requester Information.Copy of Ansible Tower Onboarding Request</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>io_set_item_54214f4fdbce68101407c7ec0b9619e4</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:11:54</sys_updated_on>
+        <variable_set display_value="Requester Information">51b23d794f7b4200c93959dd0210c772</variable_set>
+    </io_set_item>
+</record_update>

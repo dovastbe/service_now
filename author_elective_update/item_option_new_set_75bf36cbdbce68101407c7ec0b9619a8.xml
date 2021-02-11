@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description>Used for determining the request type</description>
+        <display_title>true</display_title>
+        <internal_name>ansible_tower_request_type</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>150</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:06:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>75bf36cbdbce68101407c7ec0b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Request Type</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>item_option_new_set_75bf36cbdbce68101407c7ec0b9619a8</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:06:37</sys_updated_on>
+        <title>Ansible Tower Request Type</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>item_option_new_set_75bf36cbdbce68101407c7ec0b9619a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description>Used for determining the request type</description><display_title>true</display_title><internal_name>ansible_tower_request_type</internal_name><layout>normal</layout><name/><order>150</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-05 11:06:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>75bf36cbdbce68101407c7ec0b9619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ansible Tower Request Type</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>item_option_new_set_75bf36cbdbce68101407c7ec0b9619a8</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-05 11:06:37</sys_updated_on><title>Ansible Tower Request Type</title><type>one_to_one</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>428260992</payload_hash>
+        <record_name>Ansible Tower Request Type</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:06:37</sys_created_on>
+        <sys_id>f2efbacbdbce68101407c7ec0b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17771df53fb0000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:06:37</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>faefbacbcfce68102a9aef65038697ac</update_guid>
+        <update_guid_history>faefbacbcfce68102a9aef65038697ac:428260992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/05/2021 06:07:16">60108fcbdbce68101407c7ec0b9619c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:07:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>e3b7c6be7b7e4dc4897c01a97cb05690</sys_id>
+        <sys_metadata>75bf36cbdbce68101407c7ec0b9619a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Request Type</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>item_option_new_set_75bf36cbdbce68101407c7ec0b9619a8</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_75bf36cbdbce68101407c7ec0b9619a8">f2efbacbdbce68101407c7ec0b9619ad</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:07:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

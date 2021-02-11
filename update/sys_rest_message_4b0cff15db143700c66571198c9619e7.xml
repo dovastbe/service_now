@@ -3,27 +3,27 @@
         <access>package_private</access>
         <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="Service Account for SN to AT DevTest">10c2bcaddba68c901bde325f9d961984</basic_auth_profile>
+        <basic_auth_profile display_value="e663988_at">940b4bb41b5268545e72ebd5604bcb32</basic_auth_profile>
         <basic_auth_user/>
         <description>Ansible Tower REST Message</description>
         <name>Ansible Tower </name>
         <oauth2_profile display_value="Ansible Tower DEVTEST default_profile">7fdeb09adb1a4094c66571198c96196f</oauth2_profile>
         <protocol_name/>
-        <rest_endpoint>https://ansibletower-devtest-na.it.statestr.com/api/</rest_endpoint>
+        <rest_endpoint>https://${tower_instance/api/v2</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-03-19 16:39:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4b0cff15db143700c66571198c9619e7</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Ansible Tower </sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sys_rest_message_4b0cff15db143700c66571198c9619e7</sys_update_name>
-        <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2020-01-24 13:09:07</sys_updated_on>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-10 22:24:55</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>

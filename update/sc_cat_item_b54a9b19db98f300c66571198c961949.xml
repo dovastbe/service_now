@@ -9,17 +9,17 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p> </p>
-<p>This is an automated self service request, it will require approval from</p>
-<ul style="list-style-position: inside;"><li>Service or Application Owner</li><li>Automation Team</li></ul>
-<p> </p>
-<p>Prerequisites to submit request:</p>
-<ul style="list-style-position: inside;"><li>A GIT Project</li><li>A File based project inventory</li></ul>
-<p>The following Ansible Tower objects will be created</p>
-<ul style="list-style-position: inside;"><li>A Team which can be used to assigning permissions to tower objects you create.</li><li>A Project for pulling you playbook code from GIT into Tower.</li><li>A Inventory for running playbooks against.</li><li>A project based file inventory source for dynamically populating the inventory.</li></ul>
-<p> </p>
-<p>Details will be sent to the ticket and emailed to the requester confirming the name of the Tower objects created</p>
-<p> </p>]]></description>
+        <description><![CDATA[<p>This is self service catalog form is used for requesting initial onboarding access to use Anisble Tower. This should be a one time set up, if changes are required organisations, use cases or teams use the applicable Manage Tower requests.</p>
+<p>Once the request has been submitted, approvals will be sent to the respective approvers. Once approved the request will be automatically implemented. The requester will receive updates on status of the request.</p>
+<p>Approvals required:</p>
+<ul style="list-style-position: inside;"><li>Business Service / Application Owner</li><li>Technical Owner</li><li>OAR Ansible Approvers automation Team</li></ul>
+<p>What is a Ansible Tower?</p>
+<p><em>Ansible Tower is the easy-to-use UI and dashboard and REST API for Ansible. Centralize your Ansible infrastructure from a modern UI, featuring role-based access control</em><em>, job scheduling, and graphical inventory management. Tower&#39;s REST API and CLI make it easy to embed Tower into existing tools and processes</em></p>
+<p><a title="Watch" href="https://fast.wistia.net/embed/iframe/xi5453qdhl" target="_blank" rel="noopener noreferrer nofollow">Watch a 10 Minute Demo of Ansible Tower</a></p>
+<p><em>More information:</em></p>
+<p>Vendor Product Page <a href="https://www.ansible.com/products/tower" rel="nofollow">https://www.ansible.com/products/tower</a></p>
+<p>Vendor Docs <a href="https://docs.ansible.com/ansible-tower/" rel="nofollow">https://docs.ansible.com/ansible-tower/</a></p>
+<p>Internal Docs</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -58,7 +58,7 @@
         <recurring_price>0</recurring_price>
         <request_method/>
         <roles/>
-        <sc_catalogs>6a934e150f42350063fdbd5ce1050e1e</sc_catalogs>
+        <sc_catalogs>3a180d9b0f65b10063fdbd5ce1050e45</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <short_description>Ansible Tower Onboarding Request</short_description>
@@ -69,15 +69,15 @@
         <sys_created_on>2019-03-19 14:10:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b54a9b19db98f300c66571198c961949</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Ansible Tower Onboarding Request</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sc_cat_item_b54a9b19db98f300c66571198c961949</sys_update_name>
-        <sys_updated_by>v534544</sys_updated_by>
-        <sys_updated_on>2019-04-19 19:41:19</sys_updated_on>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 17:26:21</sys_updated_on>
         <template/>
         <type>item</type>
         <u_business_approval_workflow display_value="SRC RQF Default Business Approval">de3aa0b50faeb50063fdbd5ce1050e8c</u_business_approval_workflow>
@@ -98,7 +98,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="Ansible Tower - On-boarding">4d0d5fabdbd4f300c66571198c961936</workflow>
+        <workflow display_value="Ansible Tower - Request WF">1614cd5a1b02a0d45e72ebd5604bcbe0</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=b54a9b19db98f300c66571198c961949"/>
     <fx_price action="delete_multiple" query="id=b54a9b19db98f300c66571198c961949"/>
@@ -193,9 +193,9 @@
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-03-19 14:13:26</sys_created_on>
         <sys_id>a54b1395db98f300c66571198c961904</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2021-02-02 18:14:51</sys_updated_on>
+        <sys_updated_on>2021-02-03 09:40:20</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>b54a9b19db98f300c66571198c961949</table_sys_id>
         <u_record>b54a9b19db98f300c66571198c961949</u_record>

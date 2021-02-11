@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>delete</operation>
+        <source_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-08 18:45:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed95885cdbd6a4501407c7ec0b9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete Record in table</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_scope_privilege_ed95885cdbd6a4501407c7ec0b9619c5</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-08 18:45:26</sys_updated_on>
+        <target_name>Delete Record in table</target_name>
+        <target_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>sys_scope_privilege_ed95885cdbd6a4501407c7ec0b9619c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>delete</operation><source_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-08 18:45:26</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ed95885cdbd6a4501407c7ec0b9619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete Record in table</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>sys_scope_privilege_ed95885cdbd6a4501407c7ec0b9619c5</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-08 18:45:26</sys_updated_on><target_name>Delete Record in table</target_name><target_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-705121614</payload_hash>
+        <record_name>Delete Record in table</record_name>
+        <reverted_from/>
+        <source>209675e61b0ea8185e72ebd5604bcbee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-08 18:45:27</sys_created_on>
+        <sys_id>11b544d8dbd6a4501407c7ec0b96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17782f6798c0000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-08 18:45:27</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>19b544d8d2d6a45003811ec06894b719</update_guid>
+        <update_guid_history>19b544d8d2d6a45003811ec06894b719:-705121614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-08 18:46:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>12c4fc106afd46248279faa87e0d5491</sys_id>
+        <sys_metadata>ed95885cdbd6a4501407c7ec0b9619c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete Record in table</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_ed95885cdbd6a4501407c7ec0b9619c5</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_ed95885cdbd6a4501407c7ec0b9619c5">11b544d8dbd6a4501407c7ec0b96191a</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-08 18:46:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

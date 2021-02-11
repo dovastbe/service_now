@@ -4,56 +4,31 @@
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user>t629985</basic_auth_user>
-        <content>{"extra_vars":&#13;
-  {"ssc_sn_start_window": "${ssc_sn_start_window}",&#13;
-  "ssc_sn_end_window": "${ssc_sn_end_window}",&#13;
-  "ssc_sn_asap": "${ssc_sn_asap}",&#13;
-  "ssc_sn_software_product": "${ssc_sn_software}",&#13;
-  "ssc_sn_software_product_version": "${ssc_sn_software_version}",&#13;
-  "ssc_sn_software_type":  "${ssc_sn_software_type}",&#13;
-  "ssc_sn_fqdn": "${ssc_sn_server}",   &#13;
-  "ssc_sn_datacenter":  "${ssc_sn_datacenter}",&#13;
-  "ssc_sn_country":  "${ssc_sn_country}",&#13;
-  "ssc_sn_region":  "${ssc_sn_region}", &#13;
-  "ssc_sn_org":  "${ssc_sn_org}",&#13;
-  "ssc_sn_bu":  "${ssc_sn_bu}",&#13;
-  "ssc_sn_environment":  "${ssc_sn_environment}",&#13;
-  "ssc_sn_country":  "${ssc_sn_country}",&#13;
-  "ssc_sn_city":  "${ssc_sn_city}",&#13;
-  "ssc_sn_requester":  "${ssc_sn_requester}",&#13;
-  "ssc_sn_requester_id":  "${ssc_sn_requester_id}",&#13;
-  "ssc_sn_requester_email":  "${ssc_sn_requester_email}",&#13;
-  "ssc_sn_requested_for":  "${ssc_sn_requested_for}",&#13;
-  "ssc_sn_requested_for_id":  "${ssc_sn_requested_for_id}",&#13;
-  "ssc_sn_requested_for_email":  "${ssc_sn_requested_for_email}",&#13;
-  "ssc_sn_ritm":  "${ssc_sn_ritm}",&#13;
-  "ssc_sn_cr":  "${ssc_sn_cr}"&#13;
-  }&#13;
-}</content>
-        <function_name>JOB_TEMPLATE LAUNCH BY ID (POST) 40</function_name>
+        <content/>
+        <function_name>UNIFIED_JOB_TEMPLATE LAUNCH</function_name>
         <http_method>post</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>Ansible Tower  [ JOB_TEMPLATE LAUNCH BY ID (POST) 40 ]</qualified_name>
-        <rest_endpoint>https://${tower_instance}/api/v2/job_templates/${tower_job_template_id}/launch/</rest_endpoint>
+        <qualified_name>Ansible Tower  [ UNIFIED_JOB_TEMPLATE LAUNCH ]</qualified_name>
+        <rest_endpoint>https://${tower_instance}/api/v2/${tower_unified_job_template_type}/${tower_unified_job_template_id}/launch/</rest_endpoint>
         <rest_message display_value="Ansible Tower ">4b0cff15db143700c66571198c9619e7</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>t629985</sys_created_by>
         <sys_created_on>2019-04-09 14:54:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2b2b234cdbf0b300c66571198c9619ec</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>JOB_TEMPLATE LAUNCH BY ID (POST) 40</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>UNIFIED_JOB_TEMPLATE LAUNCH</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sys_rest_message_fn_2b2b234cdbf0b300c66571198c9619ec</sys_update_name>
-        <sys_updated_by>t629985</sys_updated_by>
-        <sys_updated_on>2019-04-23 13:07:04</sys_updated_on>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-11 10:47:39</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
-        <use_mid_server display_value="GDCUWVC0060">cddc4b73db3adf00b87b349f9d9619f0</use_mid_server>
+        <use_mid_server display_value="MidServer_GTS_OAR_Ansible_Tower">52d86116dbb0a0d41407c7ec0b9619ef</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message_fn>
 </record_update>
