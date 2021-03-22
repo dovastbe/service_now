@@ -4,6 +4,7 @@
         <element label="SCTASK" max_length="40" name="sctask" type="string"/>
         <element label="Tower Job Artifacts" max_length="255" name="tower_job_artifacts" type="string_full_utf8"/>
         <element label="Tower_job_extra_vars" max_length="1000" name="tower_job_extra_vars" type="string"/>
+        <element label="Tower job finished" max_length="32" name="tower_job_finished" type="string"/>
         <element label="Tower_job_hosts" max_length="1000" name="tower_job_hosts" type="string"/>
         <element label="Tower job ID" max_length="40" name="tower_job_id" type="string"/>
         <element label="Tower job inventory" max_length="500" name="tower_job_inventory" type="string"/>
@@ -11,6 +12,7 @@
         <element label="Tower_job_name" max_length="500" name="tower_job_name" type="string"/>
         <element label="Tower job playbook" max_length="500" name="tower_job_playbook" type="string"/>
         <element label="Tower job project" max_length="500" name="tower_job_project" type="string"/>
+        <element label="Tower job started" max_length="32" name="tower_job_started" type="string"/>
         <element label="Tower job status" max_length="40" name="tower_job_status" type="string"/>
         <element label="Tower_job_url" max_length="1024" name="tower_job_url" type="url"/>
     </element>
