@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>500</order>
+        <sc_cat_item display_value="Copy of Ansible Tower Onboarding Request">65a64d491ba6ac905e72ebd5604bcb4f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-23 17:40:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b5a68d4d1ba6ac905e72ebd5604bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Team.Copy of Ansible Tower Onboarding Request</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>io_set_item_b5a68d4d1ba6ac905e72ebd5604bcb31</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-23 17:40:20</sys_updated_on>
+        <variable_set display_value="Ansible Tower Team">b4208a161b8668d45e72ebd5604bcb19</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>io_set_item_b5a68d4d1ba6ac905e72ebd5604bcb31</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>500</order><sc_cat_item display_value="Copy of Ansible Tower Onboarding Request">65a64d491ba6ac905e72ebd5604bcb4f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-23 17:40:20</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b5a68d4d1ba6ac905e72ebd5604bcb31</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ansible Tower Team.Copy of Ansible Tower Onboarding Request</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>io_set_item_b5a68d4d1ba6ac905e72ebd5604bcb31</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-23 17:40:20</sys_updated_on><variable_set display_value="Ansible Tower Team">b4208a161b8668d45e72ebd5604bcb19</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-1701523122</payload_hash>
+        <record_name>Ansible Tower Team.Copy of Ansible Tower Onboarding Request</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-23 17:40:21</sys_created_on>
+        <sys_id>31a68d4d1ba6ac905e72ebd5604bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177cffa439a0000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-23 17:40:21</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>39a68d4dd6a6ac9011e0ff28530e9e35</update_guid>
+        <update_guid_history>39a68d4dd6a6ac9011e0ff28530e9e35:-1701523122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/24/2021 18:04:27">df6a5bd51b2ee0d05e72ebd5604bcb40</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 23:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>9c8302101d574ce8b026d86aeb998664</sys_id>
+        <sys_metadata>b5a68d4d1ba6ac905e72ebd5604bcb31</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Team.Copy of Ansible Tower Onboarding Request</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>io_set_item_b5a68d4d1ba6ac905e72ebd5604bcb31</sys_update_name>
+        <sys_update_version display_value="io_set_item_b5a68d4d1ba6ac905e72ebd5604bcb31">31a68d4d1ba6ac905e72ebd5604bcb36</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 23:04:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

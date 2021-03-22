@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Ansible Tower Manage Use Case">b311874fdbce68101407c7ec0b96193a</cat_item>
+        <cat_item display_value="Manage Use Case">b311874fdbce68101407c7ec0b96193a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -47,7 +47,7 @@
         <record/>
         <record_producer_table/>
         <reference>x_ibmss_gts_oar_at_ansible_tower_use_cases</reference>
-        <reference_qual/>
+        <reference_qual>javascript:'organisation='+current.variables.tower_organisation</reference_qual>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
@@ -60,7 +60,7 @@
         <sys_created_on>2021-02-05 11:27:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7c444bc3db02a8101407c7ec0b96194f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Use Case</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
@@ -68,7 +68,7 @@
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>item_option_new_7c444bc3db02a8101407c7ec0b96194f</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-05 11:30:27</sys_updated_on>
+        <sys_updated_on>2021-02-25 11:04:52</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
@@ -76,7 +76,7 @@
         <u_edit_people/>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Manage Team">22ad7a1b1bd6a4505e72ebd5604bcb0a</sc_cat_item>
+        <sc_category display_value="Ansible Tower Requests">99e1b71ddb903700c66571198c961967</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-18 15:50:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3ead3a5b1bd6a4505e72ebd5604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Requests.Copy of Ansible Tower Manage Use Case</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sc_cat_item_category_3ead3a5b1bd6a4505e72ebd5604bcbe0</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-18 15:50:57</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

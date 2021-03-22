@@ -4,169 +4,197 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>8910f9921bc6e4d45e72ebd5604bcb76</sys_id>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>f4c01e691bb2ecd45e72ebd5604bcbc4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
             <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>1</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>7cc01e691bb2ecd45e72ebd5604bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>f0c01e691bb2ecd45e72ebd5604bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>3</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>78c01e691bb2ecd45e72ebd5604bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>4</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>fcc01e691bb2ecd45e72ebd5604bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>organisation</element>
-            <position>1</position>
+            <position>5</position>
             <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>0110f9921bc6e4d45e72ebd5604bcb77</sys_id>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>74c01e691bb2ecd45e72ebd5604bcbc6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
             <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>6</position>
             <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>8510f9921bc6e4d45e72ebd5604bcb77</sys_id>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>f8c01e691bb2ecd45e72ebd5604bcbc6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
             <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>3</position>
+            <element>distinct_environment_groups</element>
+            <position>7</position>
             <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>0d10f9921bc6e4d45e72ebd5604bcb77</sys_id>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>70c01e691bb2ecd45e72ebd5604bcbc7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
             <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>f4c01e691bb2ecd45e72ebd5604bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dev</element>
+            <position>9</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>7cc01e691bb2ecd45e72ebd5604bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>devtest</element>
+            <position>10</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>f0c01e691bb2ecd45e72ebd5604bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uat</element>
+            <position>11</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>78c01e691bb2ecd45e72ebd5604bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prod</element>
+            <position>12</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>fcc01e691bb2ecd45e72ebd5604bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
+            <position>13</position>
             <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>8110f9921bc6e4d45e72ebd5604bcb78</sys_id>
+            <sys_created_on>2021-03-09 22:36:47</sys_created_on>
+            <sys_id>74c01e691bb2ecd45e72ebd5604bcbc9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
             <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
+            <sys_updated_on>2021-03-09 22:36:47</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>5</position>
-            <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>0910f9921bc6e4d45e72ebd5604bcb78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
-            <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>deploy_to_all_environments</element>
-            <position>6</position>
-            <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>8d10f9921bc6e4d45e72ebd5604bcb78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
-            <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>deploy_to_prod</element>
-            <position>7</position>
-            <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>0510f9921bc6e4d45e72ebd5604bcb79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
-            <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>deploy_to_uat</element>
-            <position>8</position>
-            <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>8910f9921bc6e4d45e72ebd5604bcb79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
-            <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>deploy_to_dev</element>
-            <position>9</position>
-            <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>0110f9921bc6e4d45e72ebd5604bcb7a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
-            <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>deploy_to_devtest</element>
-            <position>10</position>
-            <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>8510f9921bc6e4d45e72ebd5604bcb7a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
-            <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ad_group_names</element>
-            <position>11</position>
-            <sys_created_by>e663988</sys_created_by>
-            <sys_created_on>2021-02-02 21:22:20</sys_created_on>
-            <sys_id>0d10f9921bc6e4d45e72ebd5604bcb7a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_teams" sys_domain="global" view="Default view">6ea9a59e1b8aa4d45e72ebd5604bcb85</sys_ui_section>
-            <sys_updated_by>e663988</sys_updated_by>
-            <sys_updated_on>2021-02-02 21:22:20</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

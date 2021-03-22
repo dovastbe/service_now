@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Ansible Tower Request for first time access">e65585d11b6268d089a820ebbc4bcbea</sc_cat_item>
+        <sc_catalog display_value="Business Service Request Catalog">3a180d9b0f65b10063fdbd5ce1050e45</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 12:13:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>aa5545551b6268d089a820ebbc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business Service Request Catalog.Copy of Ansible Tower Request for first time access</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_aa5545551b6268d089a820ebbc4bcbe4</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:13:08</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>sc_cat_item_catalog_aa5545551b6268d089a820ebbc4bcbe4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Ansible Tower Request for first time access">e65585d11b6268d089a820ebbc4bcbea</sc_cat_item><sc_catalog display_value="Business Service Request Catalog">3a180d9b0f65b10063fdbd5ce1050e45</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-24 12:13:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>aa5545551b6268d089a820ebbc4bcbe4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Business Service Request Catalog.Copy of Ansible Tower Request for first time access</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>sc_cat_item_catalog_aa5545551b6268d089a820ebbc4bcbe4</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-24 12:13:08</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1960374660</payload_hash>
+        <record_name>Business Service Request Catalog.Copy of Ansible Tower Request for first time access</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 12:13:08</sys_created_on>
+        <sys_id>aa5545551b6268d089a820ebbc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177d3f50eb50000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:13:08</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>a2554555206268d0ce2506cd3a3b05e7</update_guid>
+        <update_guid_history>a2554555206268d0ce2506cd3a3b05e7:-1960374660</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/24/2021 07:19:32">9cd689511ba268d089a820ebbc4bcbcf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 12:19:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>b89ea571e7d542218c9eebd05a836371</sys_id>
+        <sys_metadata>aa5545551b6268d089a820ebbc4bcbe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Business Service Request Catalog.Copy of Ansible Tower Request for first time access</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent display_value="">e65585d11b6268d089a820ebbc4bcbea</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_aa5545551b6268d089a820ebbc4bcbe4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_aa5545551b6268d089a820ebbc4bcbe4">aa5545551b6268d089a820ebbc4bcbe7</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 12:19:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

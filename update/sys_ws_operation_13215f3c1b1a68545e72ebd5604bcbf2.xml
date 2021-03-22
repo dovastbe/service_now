@@ -14,20 +14,83 @@
     var requestString = requestBody.dataString;
 	
 	// Parse the payload
-	var notification = new global.JSON().decode(requestString);
-	var ritm = notification.extra_vars.ritm;
-	gs.info('Incoming notification to API ' + ritm );
-	gs.info(notification);
+	var notification = JSON.parse(requestString);	
+	gs.info('Incoming Anisble Tower API, notication is ' + JSON.stringify(notification));
 	
-	var gr = new GlideRecord('sc_req_item');
-	gr.addQuery('number',ritm);
-	gr.query();
-	while (gr.next()) {
-		gr.work_notes = requestString;
-		gr.update();
-	}	
-    return {"requestString": requestString};
+	// If we have a job ID, process it
+	if (notification.id != undefined ) {
+		// Parse out extra vars
+		var extra_vars = JSON.parse(notification.extra_vars);
+ 
+		// Get ticket ref from extra vars 
+		var ritm = extra_vars.ritm;
+		var sctask = extra_vars.sctask;
+		// TODO
+		//var cr = extra_vars.cr;
+		//var ctask = extra_vars.ctask;	
+	
+		var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_notifcations');
+		var url = notification.url.toString();
+		gr.addQuery('tower_job_url', url);
+		gr.query();
+		if (gr.next()) {
+			// Update record
+			gs.info('Updating record the Ansible Tower Notifications table for ' + url);
+			gr.tower_job_id = notification.id.toString();
+			gr.tower_job_url = notification.url.toString();
+			gr.tower_job_name = notification.name.toString();
+			gr.tower_job_status = notification.status.toString();
+			gr.tower_job_started = notification.started;
+			gr.tower_job_finished  = notification.finished;
+			gr.tower_job_created_by  = notification.created_by;
+			gr.tower_job_inventory = notification.inventory;
+			gr.tower_job_project  = notification.project;
+			gr.tower_job_playbook  = notification.playbook;
+			gr.tower_job_limit  = notification.limit;
+			gr.tower_job_extra_vars = JSON.stringify(notification.extra_vars);
+			//gr.tower_job_artifacts = JSON.stringify(notification.artifacts);
+			gr.tower_job_hosts  = JSON.stringify(notification.hosts);
+			gr.ritm = ritm;
+			gr.sctask =  sctask;
+			gr.update();
+		} else {
+			// Create a new record
+			gr.initialize();
+			gs.info('Creating new record the Ansible Tower Notifications table');
+			gr.tower_job_id = notification.id.toString();
+			gr.tower_job_url = notification.url.toString();
+			gr.tower_job_name = notification.name.toString();
+			gr.tower_job_status = notification.status.toString();
+			gr.tower_job_started = notification.started;
+			gr.tower_job_finished  = notification.finished;
+			gr.tower_job_created_by  = notification.created_by;
+			gr.tower_job_inventory = notification.inventory;
+			gr.tower_job_project  = notification.project;
+			gr.tower_job_playbook  = notification.playbook;
+			gr.tower_job_limit  = notification.limit;
+			gr.tower_job_extra_vars  = JSON.stringify(notification.extra_vars);
+			gr.tower_job_hosts  = JSON.stringify(notification.hosts);
+			gr.ritm = ritm;
+			gr.sctask =  sctask;
+			gr.insert();
+		}	
 
+		// Update the ticket to trigger a workflow refresh
+		if ( ritm != undefined ) {
+			gs.info('Incoming notification to API ' + ritm );
+			var req_item = new GlideRecord('sc_req_item');
+			req_item.addQuery('number',ritm);
+			req_item.query();
+			while (req_item.next()) {
+				req_item.work_notes = requestString;
+				req_item.update();
+			}
+		}
+		if ( sctask != undefined ){
+			gs.info('Incoming notification to API ' + sctask );
+		}
+	}
+	return {"requestString": requestString};	
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_ibmss_gts_oar_at/ansible_tower_job_notifications</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
@@ -43,7 +106,7 @@
         <sys_created_on>2021-02-10 22:53:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>13215f3c1b1a68545e72ebd5604bcbf2</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>POST_NOTIFCATION</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy>protected</sys_policy>
@@ -51,7 +114,7 @@
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sys_ws_operation_13215f3c1b1a68545e72ebd5604bcbf2</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-11 00:01:20</sys_updated_on>
+        <sys_updated_on>2021-03-19 21:52:14</sys_updated_on>
         <web_service_definition display_value="Ansible Tower Job Notifications">29a0d7341b1a68545e72ebd5604bcb24</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

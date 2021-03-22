@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</sc_cat_item>
+        <sc_cat_item display_value="First time access (DEVTEST)">b54a9b19db98f300c66571198c961949</sc_cat_item>
         <sc_catalog display_value="Business Service Request Catalog">3a180d9b0f65b10063fdbd5ce1050e45</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>e663988</sys_created_by>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Ansible Tower Team Roles" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_team_roles" sizeclass="2" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Deploy to DEV" max_length="40" name="dev" type="boolean"/>
+        <element label="Deploy to DEVTEST" max_length="40" name="devtest" type="boolean"/>
+        <element label="ID" mandatory="true" max_length="120" name="id" read_only="true" type="string" unique="true"/>
+        <element label="Deploy to PROD" max_length="40" name="prod" type="boolean"/>
+        <element label="Role" max_length="32" name="role" reference="x_ibmss_gts_oar_at_ansible_tower_built_in_roles" type="reference"/>
+        <element label="Team" max_length="32" name="team" reference="x_ibmss_gts_oar_at_ansible_tower_teams" type="reference"/>
+        <element label="Deploy to UAT" max_length="40" name="uat" type="boolean"/>
+        <index name="index">
+            <element name="role"/>
+        </index>
+        <index name="index2">
+            <element name="id"/>
+        </index>
+        <index name="index3">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

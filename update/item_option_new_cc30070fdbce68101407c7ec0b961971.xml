@@ -23,8 +23,8 @@
         <help_tag>More information</help_tag>
         <help_text>Type of reqeust&#13;
 - Create new &#13;
-- Modify exsisting&#13;
-- Delete </help_text>
+- Modify existing&#13;
+- Delete existing</help_text>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -40,10 +40,10 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>request_type</name>
-        <order>110</order>
+        <order>130</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Request Type</question_text>
+        <question_text>Request type</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -63,15 +63,15 @@
         <sys_created_on>2021-02-05 11:08:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cc30070fdbce68101407c7ec0b961971</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Request Type</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Request type</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>item_option_new_cc30070fdbce68101407c7ec0b961971</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-05 11:22:22</sys_updated_on>
+        <sys_updated_on>2021-02-25 10:25:00</sys_updated_on>
         <table/>
         <tooltip/>
         <type>3</type>

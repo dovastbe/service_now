@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>5000</order>
+        <sc_cat_item display_value="Copy of Manage Team">ade0d33f1baea098470611f8bc4bcbcb</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-04 16:47:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8ae0df731beea098470611f8bc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Information.Copy of Manage Team</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>io_set_item_8ae0df731beea098470611f8bc4bcb5f</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:47:40</sys_updated_on>
+        <variable_set display_value="Additional Information">3820df570a0a0b2700d944110d29fc55</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>io_set_item_8ae0df731beea098470611f8bc4bcb5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>5000</order><sc_cat_item display_value="Copy of Manage Team">ade0d33f1baea098470611f8bc4bcbcb</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-03-04 16:47:40</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8ae0df731beea098470611f8bc4bcb5f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Additional Information.Copy of Manage Team</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>io_set_item_8ae0df731beea098470611f8bc4bcb5f</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-03-04 16:47:40</sys_updated_on><variable_set display_value="Additional Information">3820df570a0a0b2700d944110d29fc55</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>467929243</payload_hash>
+        <record_name>Additional Information.Copy of Manage Team</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-04 16:47:40</sys_created_on>
+        <sys_id>cae0df731beea098470611f8bc4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177fe2347300000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:47:40</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>c2e0df73c9eea09860a4e77886d97163</update_guid>
+        <update_guid_history>c2e0df73c9eea09860a4e77886d97163:467929243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03/04/2021 11:47:54">e9f0d7b31beea098470611f8bc4bcb64</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-04 16:47:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>0ccb6279e2334ffa9b8430f0b9dc3f01</sys_id>
+        <sys_metadata>8ae0df731beea098470611f8bc4bcb5f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Information.Copy of Manage Team</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>io_set_item_8ae0df731beea098470611f8bc4bcb5f</sys_update_name>
+        <sys_update_version display_value="io_set_item_8ae0df731beea098470611f8bc4bcb5f">cae0df731beea098470611f8bc4bcb63</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:47:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

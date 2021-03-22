@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</catalog_item>
+        <catalog_variable>IO:3527f8301be668905e72ebd5604bcb8f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-22 22:58:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72b585741b6a68905e72ebd5604bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trigger_team_roles</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_72b585741b6a68905e72ebd5604bcba4</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-22 22:58:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Onbooarding - Show teams">1e6501f41b6a68905e72ebd5604bcb98</ui_policy>
+        <variable>trigger_team_roles</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>catalog_ui_policy_action_72b585741b6a68905e72ebd5604bcba4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</catalog_item><catalog_variable>IO:3527f8301be668905e72ebd5604bcb8f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-22 22:58:03</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>72b585741b6a68905e72ebd5604bcba4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>trigger_team_roles</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>catalog_ui_policy_action_72b585741b6a68905e72ebd5604bcba4</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-22 22:58:03</sys_updated_on><table/><ui_policy display_value="Onbooarding - Show teams">1e6501f41b6a68905e72ebd5604bcb98</ui_policy><variable>trigger_team_roles</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-643228232</payload_hash>
+        <record_name>trigger_team_roles</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-22 22:58:03</sys_created_on>
+        <sys_id>8ac589f41b6a68905e72ebd5604bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177cbf6c6060000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-22 22:58:03</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>82c589f40b6a689063ef1b16210d1e71</update_guid>
+        <update_guid_history>82c589f40b6a689063ef1b16210d1e71:-643228232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/22/2021 18:02:11">2ab605b81b6a68905e72ebd5604bcb55</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-22 23:02:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>fafaa9bb507d4fc0a970d91954fd5310</sys_id>
+        <sys_metadata>72b585741b6a68905e72ebd5604bcba4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trigger_team_roles</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_72b585741b6a68905e72ebd5604bcba4</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_72b585741b6a68905e72ebd5604bcba4">8ac589f41b6a68905e72ebd5604bcb71</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-22 23:02:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

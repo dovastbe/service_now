@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Organisation Group Setup">0b4694a2db8a20101407c7ec0b961932</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 09:32:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d2d6dc2adb8a20101407c7ec0b9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ALL ENVIRONMENTS</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>question_choice_d2d6dc2adb8a20101407c7ec0b9619dc</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 09:32:38</sys_updated_on>
+        <text>ALL ENVIRONMENTS</text>
+        <value>ALL</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=d2d6dc2adb8a20101407c7ec0b9619dc"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>d2d6dc2adb8a20101407c7ec0b9619dc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 09:32:38</sys_created_on>
+        <sys_id>62375c2adb8a20101407c7ec0b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 09:32:38</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>d2d6dc2adb8a20101407c7ec0b9619dc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 09:32:38</sys_created_on>
+        <sys_id>2a375c2adb8a20101407c7ec0b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 09:32:38</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>question_choice_d2d6dc2adb8a20101407c7ec0b9619dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>100</order><question display_value="Organisation Group Setup">0b4694a2db8a20101407c7ec0b961932</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-03 09:32:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>d2d6dc2adb8a20101407c7ec0b9619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ALL ENVIRONMENTS</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>question_choice_d2d6dc2adb8a20101407c7ec0b9619dc</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-03 09:32:38</sys_updated_on><text>ALL ENVIRONMENTS</text><value>ALL</value></question_choice><fx_price action="delete_multiple" query="id=d2d6dc2adb8a20101407c7ec0b9619dc"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>d2d6dc2adb8a20101407c7ec0b9619dc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-03 09:32:38</sys_created_on><sys_id>62375c2adb8a20101407c7ec0b9619fd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-03 09:32:38</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>d2d6dc2adb8a20101407c7ec0b9619dc</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-03 09:32:38</sys_created_on><sys_id>2a375c2adb8a20101407c7ec0b9619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-03 09:32:38</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1858707331</payload_hash>
+        <record_name>ALL ENVIRONMENTS</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 09:32:38</sys_created_on>
+        <sys_id>72375c2adb8a20101407c7ec0b9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177673c90190000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 09:32:38</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>6a375c2ab08a2010ca121fcd58b0bafe</update_guid>
+        <update_guid_history>6a375c2ab08a2010ca121fcd58b0bafe:1858707331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03/04/2021 12:47:17">5f8e1bbb1b66e098470611f8bc4bcbd7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-04 17:47:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0b0774405d8746d2a6382dfa2a88ac21</sys_id>
+        <sys_metadata>d2d6dc2adb8a20101407c7ec0b9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ALL ENVIRONMENTS</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>question_choice_d2d6dc2adb8a20101407c7ec0b9619dc</sys_update_name>
+        <sys_update_version display_value="question_choice_d2d6dc2adb8a20101407c7ec0b9619dc">72375c2adb8a20101407c7ec0b9619ff</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 17:47:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

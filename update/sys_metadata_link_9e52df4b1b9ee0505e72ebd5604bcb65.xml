@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6eba074f1b1ee0505e72ebd5604bcb5f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_ibmss_gts_oar_at_ansible_tower_built_in_roles">
+    <x_ibmss_gts_oar_at_ansible_tower_built_in_roles action="INSERT_OR_UPDATE">
+        <name>Workflow Admin</name>
+        <permited_environments>b281b28e1b16e0105e72ebd5604bcb5f,1191fa0e1b16e0105e72ebd5604bcbab</permited_environments>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-17 22:09:41</sys_created_on>
+        <sys_id>6eba074f1b1ee0505e72ebd5604bcb5f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-17 22:39:42</sys_updated_on>
+        <tower_role>workflow_admin</tower_role>
+    </x_ibmss_gts_oar_at_ansible_tower_built_in_roles>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-17 22:42:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9e52df4b1b9ee0505e72ebd5604bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_metadata_link_9e52df4b1b9ee0505e72ebd5604bcb65</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-17 22:42:50</sys_updated_on>
+        <tablename>x_ibmss_gts_oar_at_ansible_tower_built_i</tablename>
+    </sys_metadata_link>
+</record_update>

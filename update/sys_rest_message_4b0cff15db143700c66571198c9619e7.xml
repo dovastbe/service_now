@@ -3,7 +3,7 @@
         <access>package_private</access>
         <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="e663988_at">940b4bb41b5268545e72ebd5604bcb32</basic_auth_profile>
+        <basic_auth_profile display_value="SSC_AT_DEVTEST|DEV_AWX">e5af3c911bae28d089a820ebbc4bcb2d</basic_auth_profile>
         <basic_auth_user/>
         <description>Ansible Tower REST Message</description>
         <name>Ansible Tower </name>
@@ -15,7 +15,7 @@
         <sys_created_on>2019-03-19 16:39:10</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4b0cff15db143700c66571198c9619e7</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Ansible Tower </sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
@@ -23,7 +23,7 @@
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sys_rest_message_4b0cff15db143700c66571198c9619e7</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-10 22:24:55</sys_updated_on>
+        <sys_updated_on>2021-02-24 12:11:22</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>

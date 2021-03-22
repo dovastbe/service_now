@@ -2,14 +2,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</cat_item>
+        <cat_item display_value="First time access (DEVTEST)">b54a9b19db98f300c66571198c961949</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>AWX_DEVTEST_NA_Job_Manage-tower-objects</default_value>
+        <default_value>AWX_Job_Manage-tower-objects</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -36,11 +36,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>tower_unified_job_template_name</name>
+        <name>tower_unified_job_template_reduced_name</name>
         <order>7400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Tower Unified Job Template Name</question_text>
+        <question_text>Tower Unified Job Template Reduced Name</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,15 +60,15 @@
         <sys_created_on>2021-02-08 22:15:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0a25b4541b12e0905e72ebd5604bcb9c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>tower_unified_job_template_name</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Tower Unified Job Template Reduced Name</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>item_option_new_0a25b4541b12e0905e72ebd5604bcb9c</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-08 22:30:17</sys_updated_on>
+        <sys_updated_on>2021-02-19 16:57:23</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

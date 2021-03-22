@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Copy of Ansible Tower Onboarding Request">b311874fdbce68101407c7ec0b96193a</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value>create</default_value>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>true</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>request_type</name>
+        <order>7000</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>request_type</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:11:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>40214f4fdbce68101407c7ec0b9619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request_type</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>item_option_new_40214f4fdbce68101407c7ec0b9619ba</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:11:52</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <u_edit_groups/>
+        <u_edit_people/>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=40214f4fdbce68101407c7ec0b9619ba"/>
+    <fx_price action="DELETE" query="id=40214f4fdbce68101407c7ec0b9619ba"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>40214f4fdbce68101407c7ec0b9619ba</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:11:52</sys_created_on>
+        <sys_id>40214f4fdbce68101407c7ec0b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:11:52</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>40214f4fdbce68101407c7ec0b9619ba</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:11:52</sys_created_on>
+        <sys_id>08214f4fdbce68101407c7ec0b9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:11:52</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>item_option_new_40214f4fdbce68101407c7ec0b9619ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Copy of Ansible Tower Onboarding Request">b311874fdbce68101407c7ec0b96193a</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value>create</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>true</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>request_type</name><order>7000</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>request_type</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-05 11:11:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>40214f4fdbce68101407c7ec0b9619ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>request_type</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>item_option_new_40214f4fdbce68101407c7ec0b9619ba</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-05 11:11:52</sys_updated_on><table/><tooltip/><type>6</type><u_edit_groups/><u_edit_people/><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=40214f4fdbce68101407c7ec0b9619ba"/><fx_price action="delete_multiple" query="id=40214f4fdbce68101407c7ec0b9619ba"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>40214f4fdbce68101407c7ec0b9619ba</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-05 11:11:52</sys_created_on><sys_id>40214f4fdbce68101407c7ec0b9619bc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-05 11:11:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>40214f4fdbce68101407c7ec0b9619ba</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-05 11:11:52</sys_created_on><sys_id>08214f4fdbce68101407c7ec0b9619bb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-05 11:11:52</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1095130598</payload_hash>
+        <record_name>request_type</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-05 11:11:53</sys_created_on>
+        <sys_id>4c214f4fdbce68101407c7ec0b9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17771e424ab0000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-05 11:11:53</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>44214f4fe7ce6810e16ff2032b0fdfbe</update_guid>
+        <update_guid_history>44214f4fe7ce6810e16ff2032b0fdfbe:-1095130598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/05/2021 06:13:34">78814b8fdbce68101407c7ec0b9619c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-04 16:47:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>12e0df731beea098470611f8bc4bcbc7</sys_id>
+        <sys_metadata>40214f4fdbce68101407c7ec0b9619ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent display_value="">ade0d33f1baea098470611f8bc4bcbcb</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>sys_metadata_delete_12e0df731beea098470611f8bc4bcbc7</sys_update_name>
+        <sys_update_version display_value="item_option_new_40214f4fdbce68101407c7ec0b9619ba">4c214f4fdbce68101407c7ec0b9619be</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 16:47:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

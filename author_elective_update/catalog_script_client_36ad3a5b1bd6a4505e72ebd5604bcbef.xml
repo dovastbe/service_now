@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>set</applies_to>
+        <cat_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Update Team List Choices</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	//get the MRVS
+	alert('running script');
+    var team_mrvs = JSON.parse(g_form.getValue('ansible_tower_team'));
+	var teams_list = [];
+    // Loop through teams to create a team array
+    for (var i = 0; i < team_mrvs.length; i++) {
+        //check if the the job title matches
+		teams_list.push = (team_mrvs[i].team_id);	
+    }
+	if(parent.g_form){
+        parent.g_form.setValue('teams_list', teams_list);
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-18 15:50:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36ad3a5b1bd6a4505e72ebd5604bcbef</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Update Team List Choices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>catalog_script_client_36ad3a5b1bd6a4505e72ebd5604bcbef</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-18 23:32:32</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set display_value="Ansible Tower Team">b4208a161b8668d45e72ebd5604bcb19</variable_set>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>catalog_script_client_36ad3a5b1bd6a4505e72ebd5604bcbef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;set&lt;/applies_to&gt;&lt;cat_item display_value="Ansible Tower Onboarding Request"&gt;b54a9b19db98f300c66571198c961949&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Update Team List Choices&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	//get the MRVS
+	alert('running script');
+    var team_mrvs = JSON.parse(g_form.getValue('ansible_tower_team'));
+	var teams_list = [];
+    // Loop through teams to create a team array
+    for (var i = 0; i &lt; team_mrvs.length; i++) {
+        //check if the the job title matches
+		teams_list.push = (team_mrvs[i].team_id);	
+    }
+	if(parent.g_form){
+        parent.g_form.setValue('teams_list', teams_list);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;e663988&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-18 15:50:58&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;36ad3a5b1bd6a4505e72ebd5604bcbef&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Team List Choices&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at"&gt;0cf0becddb143300c66571198c961991&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="GTS_OAR_Ansible_Tower"&gt;0cf0becddb143300c66571198c961991&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_36ad3a5b1bd6a4505e72ebd5604bcbef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;e663988&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-18 23:32:32&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set display_value="Ansible Tower Team"&gt;b4208a161b8668d45e72ebd5604bcb19&lt;/variable_set&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>586157599</payload_hash>
+        <record_name>Update Team List Choices</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-18 23:32:32</sys_created_on>
+        <sys_id>c857e0e31bd6e4505e72ebd5604bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b77ce93d0000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-18 23:32:32</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>4057e0e37ad6e450cd853ba1ba564ea0</update_guid>
+        <update_guid_history>4057e0e37ad6e450cd853ba1ba564ea0:586157599,741760e32dd6e4506311c2e711f1c6f9:1703466259,210760e3a2d6e450bab997179dfaf3b8:-1601107344,fbe62ca37fd6e4505ccd37bc65f896cf:-448305618,28f4e0afef96e4504426811338c5ee36:1836745161,018468ebe296e450be92efa97e08ba4f:-448305618,f564a06f6196e450ddaf4a64c6ac2cbc:-659241248,f754642f3a96e450604f3068c319873e:-2025317205,01b328eb6096e450e845a4307e323b8e:1108426394,96a364eb7c96e450d44a3643b89ddc4b:1954103912,2493ec6b9396e45008544c54648fd280:-1837443627,a583a867a296e4502fcb43982ccf6a51:-1138224029,0c11a0e31396e450d31842eba9c184c6:1648948982,09016c67a096e450f47f8dacd6d0f4ca:2069512744,15e0a867e696e4507898069c189c970d:161765741,95dfd4a33296e450d89074da366c72fa:2069512744,649f5caf4b56e450bc9e6fec38f3947f:1066190632,2bde50632496e4507c6e037f689e6790:552718931,a80c90e70c56e450999061ac617a9509:-2119303805,983b1caf9e16e450717008e3a055277e:1947592194,a183982b1316e450d03023fa6329139d:1795853149,3aad3a5b72d6a4507a2cf778e5c14cf3:1992073202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/18/2021 18:52:06">76cbe06b1bd6e4505e72ebd5604bcb1a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-18 23:52:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>854dfd2372a2495c9bd7530be6567de4</sys_id>
+        <sys_metadata>36ad3a5b1bd6a4505e72ebd5604bcbef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Team List Choices</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>catalog_script_client_36ad3a5b1bd6a4505e72ebd5604bcbef</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_36ad3a5b1bd6a4505e72ebd5604bcbef">c857e0e31bd6e4505e72ebd5604bcba0</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-18 23:52:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

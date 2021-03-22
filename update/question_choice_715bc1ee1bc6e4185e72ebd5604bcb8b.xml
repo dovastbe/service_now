@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="Deploy to all Tower environments or specific Tower environments?">e08a0dae1b46e4185e72ebd5604bcb0e</question>
+        <question display_value="Distinct AD groups per environment">e08a0dae1b46e4185e72ebd5604bcb0e</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>e663988</sys_created_by>

@@ -2,14 +2,14 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Ansible Tower Onboarding Request">b54a9b19db98f300c66571198c961949</cat_item>
+        <cat_item display_value="First time access (DEVTEST)">b54a9b19db98f300c66571198c961949</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>javascript: getValue(); function getValue(){var gr = new GlideRecord(x_ibmss_gts_oar_at_ansible_tower_instances);  gr.addQuery('instance', 'ansibletower-devtest-na.it.statestr.com');gr.query(); if(gr.next()){return gr.sys_id;}}</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -25,7 +25,7 @@
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table/>
+        <list_table>x_ibmss_gts_oar_at_ansible_tower_instances</list_table>
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
@@ -36,11 +36,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>tower_instance</name>
+        <name>tower_instances</name>
         <order>7200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Tower Instance</question_text>
+        <question_text>Tower Instances</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,23 +60,23 @@
         <sys_created_on>2021-02-08 22:17:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>512670541b52e0905e72ebd5604bcb44</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Tower Instance</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Tower Instances</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>item_option_new_512670541b52e0905e72ebd5604bcb44</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-02-10 11:00:16</sys_updated_on>
+        <sys_updated_on>2021-03-19 22:52:34</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>8</type>
+        <type>21</type>
         <u_edit_groups/>
         <u_edit_people/>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>

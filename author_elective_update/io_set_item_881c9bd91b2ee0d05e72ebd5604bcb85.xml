@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>5200</order>
+        <sc_cat_item display_value="Copy of Onboarding to live environments (DEV,UAT,PROD)">630cd7d91b2ee0d05e72ebd5604bcb7d</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 23:11:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>881c9bd91b2ee0d05e72ebd5604bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SRC-Common-Watch-List.Copy of Onboarding to live environments (DEV,UAT,PROD)</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>io_set_item_881c9bd91b2ee0d05e72ebd5604bcb85</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 23:11:36</sys_updated_on>
+        <variable_set display_value="SRC-Common-Watch-List">8b5f2440db7b4300544fdd0b5e9619c3</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>io_set_item_881c9bd91b2ee0d05e72ebd5604bcb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>5200</order><sc_cat_item display_value="Copy of Onboarding to live environments (DEV,UAT,PROD)">630cd7d91b2ee0d05e72ebd5604bcb7d</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-24 23:11:36</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>881c9bd91b2ee0d05e72ebd5604bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SRC-Common-Watch-List.Copy of Onboarding to live environments (DEV,UAT,PROD)</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>io_set_item_881c9bd91b2ee0d05e72ebd5604bcb85</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-24 23:11:36</sys_updated_on><variable_set display_value="SRC-Common-Watch-List">8b5f2440db7b4300544fdd0b5e9619c3</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1885635414</payload_hash>
+        <record_name>SRC-Common-Watch-List.Copy of Onboarding to live environments (DEV,UAT,PROD)</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 23:11:36</sys_created_on>
+        <sys_id>801c9bd91b2ee0d05e72ebd5604bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177d64fe6d10000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 23:11:36</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>881c9bd9e52ee0d0e9584e011efc6c88</update_guid>
+        <update_guid_history>881c9bd9e52ee0d0e9584e011efc6c88:1885635414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/24/2021 18:12:35">e24c1b1d1b2ee0d05e72ebd5604bcbef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 23:12:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>02951b7939a4426ababfe73383e06651</sys_id>
+        <sys_metadata>881c9bd91b2ee0d05e72ebd5604bcb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SRC-Common-Watch-List.Copy of Onboarding to live environments (DEV,UAT,PROD)</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>io_set_item_881c9bd91b2ee0d05e72ebd5604bcb85</sys_update_name>
+        <sys_update_version display_value="io_set_item_881c9bd91b2ee0d05e72ebd5604bcb85">801c9bd91b2ee0d05e72ebd5604bcb89</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 23:12:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

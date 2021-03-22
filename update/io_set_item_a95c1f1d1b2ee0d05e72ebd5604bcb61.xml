@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>5200</order>
+        <sc_cat_item display_value="Setup live environments (DEV,UAT,PROD)">115cd71d1b2ee0d05e72ebd5604bcbed</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-24 23:12:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a95c1f1d1b2ee0d05e72ebd5604bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Watch List.Copy of First time access (DEVTEST)</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>io_set_item_a95c1f1d1b2ee0d05e72ebd5604bcb61</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-24 23:12:48</sys_updated_on>
+        <variable_set display_value="Watch List">c48647c24f4952405a152cee0210c74a</variable_set>
+    </io_set_item>
+</record_update>

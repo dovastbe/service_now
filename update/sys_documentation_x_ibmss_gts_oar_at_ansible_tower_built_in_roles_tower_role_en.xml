@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tower_role" label="Tower Role" language="en" table="x_ibmss_gts_oar_at_ansible_tower_built_in_roles">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tower_role</element>
+            <help/>
+            <hint/>
+            <label>Tower Role</label>
+            <language>en</language>
+            <name>x_ibmss_gts_oar_at_ansible_tower_built_in_roles</name>
+            <plural>Tower Roles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-02-17 22:36:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>43e017c71b9ee0505e72ebd5604bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tower Role</sys_name>
+            <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+            <sys_update_name>sys_documentation_x_ibmss_gts_oar_at_ansible_tower_built_in_roles_tower_role_en</sys_update_name>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-02-17 22:36:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

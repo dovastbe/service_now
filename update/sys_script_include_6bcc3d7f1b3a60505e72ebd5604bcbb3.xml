@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ibmss_gts_oar_at.get_tower_instances</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>get_tower_instances</name>
+        <script><![CDATA[var get_tower_instances = Class.create();
+get_tower_instances.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    
+	getTowerInstances: function(){
+		var arr = [];
+		var envString = this.getParameter('sysparm_environments');
+		var environments = envString.split(',');
+		gs.info('searching for tower instances in ' + environments );
+		var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_instances');
+		gr.addQuery('tower_instance_environment.alias', 'IN', environments);
+		gr.query();
+		gs.info('searching for tower instances in ' + environments + ' ' + gr.getRowCount() + ' records found');
+		while(gr.next()){
+			var obj = {};
+			obj["tower_instance_environment"] = gr.getDisplayValue('tower_instance_environment');
+			obj["tower_instance_location"] = gr.getDisplayValue('tower_instance_location');
+			obj["tower_instance_url"] = gr.getValue('tower_instance_url');
+			obj["tower_instance"] = gr.getValue('tower_instance');
+			obj["tower_instance_sys_id"] = gr.getValue('sys_id');
+			arr.push(obj);
+		}
+		gs.info('Sending to client form ' + JSON.stringify(arr));
+		return JSON.stringify(arr);
+	},
+	type: 'get_tower_instances'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-16 21:13:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6bcc3d7f1b3a60505e72ebd5604bcbb3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>get_tower_instances</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_script_include_6bcc3d7f1b3a60505e72ebd5604bcbb3</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-16 22:16:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>300</order>
+        <sc_cat_item display_value="Copy of Ansible Tower Manage Use Case">22ad7a1b1bd6a4505e72ebd5604bcb0a</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-18 15:50:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>76ad7a5b1bd6a4505e72ebd5604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Use Case.Copy of Ansible Tower Manage Use Case</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>io_set_item_76ad7a5b1bd6a4505e72ebd5604bcb23</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-18 15:50:58</sys_updated_on>
+        <variable_set display_value="Ansible Tower Use Case">fe0c7dd61b4e28d45e72ebd5604bcb4d</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>io_set_item_76ad7a5b1bd6a4505e72ebd5604bcb23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>300</order><sc_cat_item display_value="Copy of Ansible Tower Manage Use Case">22ad7a1b1bd6a4505e72ebd5604bcb0a</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-18 15:50:58</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>76ad7a5b1bd6a4505e72ebd5604bcb23</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ansible Tower Use Case.Copy of Ansible Tower Manage Use Case</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>io_set_item_76ad7a5b1bd6a4505e72ebd5604bcb23</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-02-18 15:50:58</sys_updated_on><variable_set display_value="Ansible Tower Use Case">fe0c7dd61b4e28d45e72ebd5604bcb4d</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1479515672</payload_hash>
+        <record_name>Ansible Tower Use Case.Copy of Ansible Tower Manage Use Case</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-18 15:50:58</sys_created_on>
+        <sys_id>4bad7a5b1bd6a4505e72ebd5604bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b5d6557a0000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-18 15:50:58</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>43ad7a5b65d6a450c37ae1e36492ed27</update_guid>
+        <update_guid_history>43ad7a5b65d6a450c37ae1e36492ed27:1479515672</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 02/25/2021 06:28:59">2dd44e211baea4d05e72ebd5604bcb7d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-25 11:28:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>46286a76f81e4280a8d13a4f02c03391</sys_id>
+        <sys_metadata>76ad7a5b1bd6a4505e72ebd5604bcb23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Use Case.Copy of Ansible Tower Manage Use Case</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>io_set_item_76ad7a5b1bd6a4505e72ebd5604bcb23</sys_update_name>
+        <sys_update_version display_value="io_set_item_76ad7a5b1bd6a4505e72ebd5604bcb23">4bad7a5b1bd6a4505e72ebd5604bcb27</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-25 11:28:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

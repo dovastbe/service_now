@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_at_instance" label="at_instance" language="en" table="var__m_var_dictionary_75670f571b5aa4505e72ebd5604bcb4d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_at_instance</element>
+            <help/>
+            <hint/>
+            <label>at_instance</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_75670f571b5aa4505e72ebd5604bcb4d</name>
+            <plural>at_instance</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-02-18 17:02:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>230e8f171b9aa4505e72ebd5604bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>at_instance</sys_name>
+            <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_75670f571b5aa4505e72ebd5604bcb4d_u_at_instance_en</sys_update_name>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-02-18 17:02:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

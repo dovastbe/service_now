@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_ibmss_gts_oar_at.get_team_info</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>get_team_info</name>
+        <script><![CDATA[var get_team_info = Class.create();
+get_team_info.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+	getTeams: function(){
+		var arr = [];
+		var org = this.getParameter('sysparm_org');
+		var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_teams');
+		gr.addQuery('organisation',org);
+		gr.query();
+		gs.info('searching for ' + org + ' ' + gr.getRowCount() + 'records found');
+		while(gr.next()){
+			var obj = {};
+			obj["team_name"] = gr.getValue('name');
+			obj["team_id"] = gr.getValue('id');
+			obj["team_description"] = gr.getValue('description');
+			obj["devtest"] = gr.getDisplayValue('devtest');
+			obj["dev"] = gr.getDisplayValue('dev');
+			obj["uat"] = gr.getDisplayValue('uat');
+			obj["prod"] = gr.getDisplayValue('prod');
+			obj["distinct_environment_groups"] = gr.getValue('distinct_environment_groups');
+			arr.push(obj);
+		}
+		gs.info('Sending to client form ' + JSON.stringify(arr));
+		return JSON.stringify(arr);
+	},
+		getTeamRoles: function(){
+		var arr = [];
+		var team = this.getParameter('sysparm_team');
+		var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_team_roles');
+		gr.addQuery('team',team);
+		gr.query();
+		gs.info('searching for ' + team + ' ' + gr.getRowCount() + 'records found');
+		while(gr.next()){
+			var obj = {};
+			obj["team"] = gr.getDisplayValue('team');
+			obj["role"] = gr.getDisplayValue('role');
+			obj["role_id"] = gr.getValue('id');
+			obj["r_devtest"] = gr.getDisplayValue('devtest');
+			obj["r_dev"] = gr.getDisplayValue('dev');
+			obj["r_uat"] = gr.getDisplayValue('uat');
+			obj["r_prod"] = gr.getDisplayValue('prod');
+			arr.push(obj);
+		}
+		gs.info('Sending to client form ' + JSON.stringify(arr));
+		return JSON.stringify(arr);
+	},
+    type: 'get_team_info'
+});
+
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-01 22:08:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>093774cb1b6e6c145e72ebd5604bcb77</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>get_team_info</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>sys_script_include_093774cb1b6e6c145e72ebd5604bcb77</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-09 22:48:52</sys_updated_on>
+    </sys_script_include>
+</record_update>

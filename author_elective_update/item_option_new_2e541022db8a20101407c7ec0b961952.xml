@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>false</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>true</global>
+        <help_tag>More information</help_tag>
+        <help_text>Active Directory group(s) which defines admin membership.  The AD group(s) should be created and membership request directly through sailpoint</help_text>
+        <include_none>false</include_none>
+        <instructions><![CDATA[<p>Users who are organisation administrators implicitly inherit all capabilities for all objects within that Tower organisation.</p>
+<p> </p>]]></instructions>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>organisation_admins</name>
+        <order>260</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Organisation Admins</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>true</show_help>
+        <show_help_on_load>true</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 09:22:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2e541022db8a20101407c7ec0b961952</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Organisation Admins</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>item_option_new_2e541022db8a20101407c7ec0b961952</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 17:18:55</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>2</type>
+        <u_edit_groups/>
+        <u_edit_people/>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set display_value="Ansible Tower Organisation">99bbb51a1bca28d45e72ebd5604bcbb0</variable_set>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=2e541022db8a20101407c7ec0b961952"/>
+    <fx_price action="DELETE" query="id=2e541022db8a20101407c7ec0b961952"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>2e541022db8a20101407c7ec0b961952</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 09:22:48</sys_created_on>
+        <sys_id>2af410a2db8a20101407c7ec0b96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 09:22:48</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>2e541022db8a20101407c7ec0b961952</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-03 09:22:48</sys_created_on>
+        <sys_id>eef410a2db8a20101407c7ec0b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-02-03 09:22:48</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>item_option_new_2e541022db8a20101407c7ec0b961952</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item/&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text&gt;Active Directory group(s) which defines admin membership.  The AD group(s) should be created and membership request directly through sailpoint&lt;/help_text&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions&gt;&lt;![CDATA[&lt;p&gt;Users who are organisation administrators implicitly inherit all capabilities for all objects within that Tower organisation.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/instructions&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;organisation_admins&lt;/name&gt;&lt;order&gt;260&lt;/order&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;question_text&gt;Organisation Admins&lt;/question_text&gt;&lt;read_roles/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;true&lt;/show_help&gt;&lt;show_help_on_load&gt;true&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;e663988&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-03 09:22:48&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;2e541022db8a20101407c7ec0b961952&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Organisation Admins&lt;/sys_name&gt;&lt;sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at"&gt;0cf0becddb143300c66571198c961991&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="GTS_OAR_Ansible_Tower"&gt;0cf0becddb143300c66571198c961991&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_2e541022db8a20101407c7ec0b961952&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;e663988&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-04 17:18:55&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;type&gt;2&lt;/type&gt;&lt;u_edit_groups/&gt;&lt;u_edit_people/&gt;&lt;ui_page/&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set display_value="Ansible Tower Organisation"&gt;99bbb51a1bca28d45e72ebd5604bcbb0&lt;/variable_set&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2e541022db8a20101407c7ec0b961952"/&gt;&lt;fx_price action="delete_multiple" query="id=2e541022db8a20101407c7ec0b961952"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;2e541022db8a20101407c7ec0b961952&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;e663988&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-03 09:22:48&lt;/sys_created_on&gt;&lt;sys_id&gt;2af410a2db8a20101407c7ec0b96196e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;e663988&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-03 09:22:48&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;2e541022db8a20101407c7ec0b961952&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;e663988&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-03 09:22:48&lt;/sys_created_on&gt;&lt;sys_id&gt;eef410a2db8a20101407c7ec0b96196d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;e663988&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-03 09:22:48&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1823356795</payload_hash>
+        <record_name>Organisation Admins</record_name>
+        <reverted_from/>
+        <source>fed397f51b4aec1089a820ebbc4bcba1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-04 17:18:55</sys_created_on>
+        <sys_id>77085bf71ba2e098470611f8bc4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177fe3fe1b90000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 17:18:55</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>7f085bf712a2e098868b97d7c21f2085</update_guid>
+        <update_guid_history>7f085bf712a2e098868b97d7c21f2085:1823356795,faf94aea3bca2c18416c6aa1b5d75c73:143930698,4b2bb06220c2a41827edda23b090fb18:1422542785,a2da3cae2182a418c6a1b85a602208a6:1562761988,69d9b4a64742a4184b7d6ebef92167ca:-2021959688,3f67d82a568a2010c5c67885acf817e5:1908148726,cc261ca6568a2010a4025786debb45e0:889419799,e2f410a2fe8a20103bc7eeb4e0fcbe70:2131985940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03/04/2021 12:47:19">7f8edbbb1b66e098470611f8bc4bcb41</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-03-04 17:47:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>119cbc6233b34eef89543a051863dbb1</sys_id>
+        <sys_metadata>2e541022db8a20101407c7ec0b961952</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organisation Admins</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>item_option_new_2e541022db8a20101407c7ec0b961952</sys_update_name>
+        <sys_update_version display_value="item_option_new_2e541022db8a20101407c7ec0b961952">77085bf71ba2e098470611f8bc4bcb86</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-03-04 17:47:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

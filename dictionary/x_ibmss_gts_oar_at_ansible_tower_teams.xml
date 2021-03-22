@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Teams" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_teams" sizeclass="8" type="collection">
+    <element label="Ansible Tower Teams" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_teams" sizeclass="2" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="AD Group Names" max_length="800" name="ad_group_names" type="data_structure"/>
-        <element label="Deploy to ALL ENVIRONMENTS" max_length="40" name="deploy_to_all_environments" type="boolean"/>
-        <element label="Deploy to DEV" max_length="40" name="deploy_to_dev" type="boolean"/>
-        <element label="Deploy to DEVTEST" max_length="40" name="deploy_to_devtest" type="boolean"/>
-        <element label="Deploy to PROD" max_length="40" name="deploy_to_prod" type="boolean"/>
-        <element label="Deploy to UAT" max_length="40" name="deploy_to_uat" type="boolean"/>
         <element label="Description" max_length="120" name="description" type="string"/>
+        <element label="Deploy to DEV" max_length="40" name="dev" type="boolean"/>
+        <element label="Deploy to DEVTEST" max_length="40" name="devtest" type="boolean"/>
+        <element choice="1" label="Distinct AD groups per environment" max_length="40" name="distinct_environment_groups" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element display="true" label="id" mandatory="true" max_length="40" name="id" read_only="true" type="string" unique="true"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Organisation" max_length="32" name="organisation" reference="x_ibmss_gts_oar_at_ansible_tower_organisations" type="reference"/>
+        <element label="Deploy to PROD" max_length="40" name="prod" type="boolean"/>
+        <element label="Deploy to UAT" max_length="40" name="uat" type="boolean"/>
         <index name="index">
             <element name="organisation"/>
         </index>
