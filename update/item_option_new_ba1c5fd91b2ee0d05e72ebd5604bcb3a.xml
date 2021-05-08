@@ -25,11 +25,13 @@ list.toString();</default_value>
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
         <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -40,6 +42,7 @@ list.toString();</default_value>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
+        <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
@@ -48,8 +51,11 @@ list.toString();</default_value>
         <order>7200</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
+        <published_ref/>
         <question_text>Tower Instance</question_text>
+        <read_only>false</read_only>
         <read_roles/>
+        <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
@@ -57,6 +63,9 @@ list.toString();</default_value>
         <reference>x_ibmss_gts_oar_at_ansible_tower_instances</reference>
         <reference_qual/>
         <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
@@ -83,6 +92,7 @@ list.toString();</default_value>
         <u_edit_groups/>
         <u_edit_people/>
         <ui_page/>
+        <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>

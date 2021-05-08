@@ -105,7 +105,7 @@
         <update_guid_history>d33a1f55902ee0d02b6593b9b6e9560c:-1637613947,d33a1f55902ee0d02b6593b9b6e9560c:-1637613947,badea25114a6e0d03a957674048b4ffa:120094530,038c221db866e0d06555917c28d20611:-1637613947,71811919582aa0d06137e685d4c28920:-1609827393,4d501119342aa0d0c41808d36e3539a7:1295707,1a98e5c9aceaac90c5fc22ebdd857674:-618536240,ab58e5c975eaac90b5d6dbba38f7467d:-1630898052,79a451cd4b2aac9041a6c321d6bccb98:-1663146493,7ae35d4d742aac90517538d75a160777:882291844,81ccc9c9cae6ac90e351788b8fcfd60f:406291055,b9a64d4dcaa6ac909c45d97c49b0f8f3:1700132448</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02/25/2021 05:02:24">dd0135a91b6aa4d05e72ebd5604bcb63</sys_audit_delete>
+        <sys_audit_delete display_value="">dd0135a91b6aa4d05e72ebd5604bcb63</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-25 10:02:24</sys_created_on>

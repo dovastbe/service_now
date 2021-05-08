@@ -7,7 +7,7 @@
             <sys_created_by>t629985</sys_created_by>
             <sys_created_on>2019-10-04 12:33:51</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>c5bef2351b4628145e72ebd5604bcb32</sys_id>
+            <sys_id>4b8bf4cc1b93a010239e74c51a4bcba4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>tower_instance_location</sys_name>
             <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
@@ -27,6 +27,7 @@
             <language>en</language>
             <name>x_ibmss_gts_oar_at_ansible_tower_instances</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>t629985</sys_created_by>
             <sys_created_on>2019-10-04 12:35:21</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -46,6 +47,7 @@
             <language>en</language>
             <name>x_ibmss_gts_oar_at_ansible_tower_instances</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>t629985</sys_created_by>
             <sys_created_on>2019-10-04 12:33:51</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -65,6 +67,7 @@
             <language>en</language>
             <name>x_ibmss_gts_oar_at_ansible_tower_instances</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>t629985</sys_created_by>
             <sys_created_on>2019-10-04 12:35:00</sys_created_on>
             <sys_domain>global</sys_domain>

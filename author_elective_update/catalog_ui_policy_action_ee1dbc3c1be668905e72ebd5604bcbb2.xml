@@ -53,7 +53,7 @@
         <update_guid_history>f13d34f86ee668905ff4117fd14f8d89:1289724617</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02/22/2021 17:49:34">e5d385f01b6a68905e72ebd5604bcb0c</sys_audit_delete>
+        <sys_audit_delete display_value="">e5d385f01b6a68905e72ebd5604bcb0c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-22 22:49:34</sys_created_on>

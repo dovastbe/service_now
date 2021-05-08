@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Organisations" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_organisations" sizeclass="4" type="collection">
+    <element label="Ansible Tower Organisations" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_organisations" sizeclass="6" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="AD Group Admins" max_length="40" name="admins" type="string"/>
+        <element label="Admins AD Group" max_length="40" name="admins" type="string"/>
         <element label="Business Owner" mandatory="true" max_length="40" name="business_owner" reference="sys_user" type="reference"/>
         <element label="Description" mandatory="true" max_length="120" name="description" type="string"/>
+        <element label="DEVTEST Admins" max_length="4000" name="devtest_admins" reference="sys_user" type="glide_list"/>
+        <element label="DEVTEST Members" max_length="4000" name="devtest_members" reference="sys_user" type="glide_list"/>
         <element choice="3" label="Group Setup" max_length="40" name="group_setup" type="choice">
             <choice>
                 <element inactive_on_update="false" label="ALL ENVIRONMENTS" sequence="10" value="ALL"/>
                 <element inactive_on_update="false" label="SPLIT BY ENVIRONMENT" sequence="20" value="SPLIT"/>
             </choice>
         </element>
-        <element label="AD Group Members" max_length="40" name="members" type="string"/>
+        <element label="Members AD Group" max_length="40" name="members" type="string"/>
         <element display="true" label="Name" mandatory="true" max_length="3" name="name" type="string" unique="true"/>
         <element label="Onboarded to live environments" max_length="40" name="onboarded_to_live_environments" type="boolean"/>
         <element label="Technical Owner" mandatory="true" max_length="40" name="technical_owner" reference="sys_user" type="reference"/>
         <index name="index">
+            <element name="technical_owner"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="business_owner"/>
+        </index>
+        <index name="index4">
             <element name="name"/>
         </index>
     </element>

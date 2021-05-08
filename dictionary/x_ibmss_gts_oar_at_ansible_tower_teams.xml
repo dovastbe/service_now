@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Teams" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_teams" sizeclass="2" type="collection">
+    <element label="Ansible Tower Teams" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_teams" sizeclass="0" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Description" max_length="120" name="description" type="string"/>
         <element label="Deploy to DEV" max_length="40" name="dev" type="boolean"/>
@@ -17,6 +17,9 @@
         <element label="Deploy to UAT" max_length="40" name="uat" type="boolean"/>
         <index name="index">
             <element name="organisation"/>
+        </index>
+        <index name="index2">
+            <element name="id"/>
         </index>
     </element>
 </database>

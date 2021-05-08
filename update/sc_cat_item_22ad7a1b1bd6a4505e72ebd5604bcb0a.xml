@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Ansible Tower Requests">99e1b71ddb903700c66571198c961967</category>
+        <checked_out/>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
@@ -41,9 +43,11 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
+        <owner/>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=22ad7a1b1bd6a4505e72ebd5604bcb0a&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
+        <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <request_method/>
@@ -51,9 +55,11 @@
         <sc_catalogs>3a180d9b0f65b10063fdbd5ce1050e45</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
+        <sc_template/>
         <short_description>Ansible Tower Manage Team (Create, modify, delete)</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
+        <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-18 15:50:57</sys_created_on>
@@ -69,6 +75,7 @@
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-02-24 15:17:01</sys_updated_on>
         <template/>
+        <template_manager_roles/>
         <type>item</type>
         <u_business_approval_workflow display_value="SRC RQF Default Business Approval">de3aa0b50faeb50063fdbd5ce1050e8c</u_business_approval_workflow>
         <u_business_preapproved_>false</u_business_preapproved_>
@@ -183,9 +190,9 @@
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-18 15:50:59</sys_created_on>
         <sys_id>c7ad7a5b1bd6a4505e72ebd5604bcb4f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2021-02-25 21:03:12</sys_updated_on>
+        <sys_updated_on>2021-04-16 10:42:16</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>22ad7a1b1bd6a4505e72ebd5604bcb0a</table_sys_id>
         <u_record>22ad7a1b1bd6a4505e72ebd5604bcb0a</u_record>

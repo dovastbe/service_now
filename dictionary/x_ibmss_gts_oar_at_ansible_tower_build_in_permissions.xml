@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Build In Permissions" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_build_in_permissions" sizeclass="5" type="collection">
+    <element label="Ansible Tower Build In Permissions" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_build_in_permissions" sizeclass="0" type="collection">
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Permitted Environments" max_length="4000" name="permitted_environments" reference="x_ibmss_gts_oar_at_ansible_tower_environments" type="glide_list"/>
         <element label="Tower Role" max_length="40" name="tower_role" type="string"/>

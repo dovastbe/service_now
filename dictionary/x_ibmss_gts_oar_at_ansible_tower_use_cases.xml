@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Use Cases" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_use_cases" sizeclass="4" type="collection">
+    <element label="Ansible Tower Use Cases" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_use_cases" sizeclass="7" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Description" mandatory="true" max_length="500" name="description" type="string"/>
         <element label="Documentation URL" max_length="1024" name="documentation" type="url"/>
@@ -8,7 +8,16 @@
         <element label="Playbook repo" max_length="1024" name="playbook_repo" type="url"/>
         <element label="Technical Owner" mandatory="true" max_length="40" name="technical_owner" reference="sys_user" type="reference"/>
         <index name="index">
+            <element name="technical_owner"/>
+        </index>
+        <index name="index2">
             <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="name"/>
+        </index>
+        <index name="index4">
+            <element name="organisation"/>
         </index>
     </element>
 </database>

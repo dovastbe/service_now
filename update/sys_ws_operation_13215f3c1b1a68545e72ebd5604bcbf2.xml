@@ -11,7 +11,9 @@
 
     // implement resource here
 	var requestBody = request.body;
+	
     var requestString = requestBody.dataString;
+	gs.info('Incoming Anisble Tower API, request body is ' + requestString);
 	
 	// Parse the payload
 	var notification = JSON.parse(requestString);	
@@ -19,6 +21,16 @@
 	
 	// If we have a job ID, process it
 	if (notification.id != undefined ) {
+
+		// Parse out artifacts
+		if (notification.artifacts != undefined ) {
+			var artifacts_s = notification.artifacts;
+			var artifacts_q = artifacts_s.replace(/'/g,'"');
+			var artifacts = JSON.parse(artifacts_q);
+			gs.info('Snow task is '+ artifacts.snow_task);
+
+		}
+		
 		// Parse out extra vars
 		var extra_vars = JSON.parse(notification.extra_vars);
  
@@ -106,7 +118,7 @@
         <sys_created_on>2021-02-10 22:53:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>13215f3c1b1a68545e72ebd5604bcbf2</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_name>POST_NOTIFCATION</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy>protected</sys_policy>
@@ -114,7 +126,7 @@
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>sys_ws_operation_13215f3c1b1a68545e72ebd5604bcbf2</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-03-19 21:52:14</sys_updated_on>
+        <sys_updated_on>2021-04-15 16:59:21</sys_updated_on>
         <web_service_definition display_value="Ansible Tower Job Notifications">29a0d7341b1a68545e72ebd5604bcb24</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

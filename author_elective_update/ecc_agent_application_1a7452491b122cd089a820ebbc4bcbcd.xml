@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application">
+    <ecc_agent_application action="DELETE">
+        <default_mid_server display_value="MidServer_GTS_OAR_Ansible_Tower">25d0d1ba1b2f6090239e74c51a4bcb62</default_mid_server>
+        <included_in_app_all>false</included_in_app_all>
+        <name>MidServer_GTS_OAR_Ansible_Tower</name>
+        <sys_class_name>ecc_agent_application</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-02-11 13:05:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1a7452491b122cd089a820ebbc4bcbcd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MidServer_GTS_OAR_Ansible_Tower</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_update_name>ecc_agent_application_1a7452491b122cd089a820ebbc4bcbcd</sys_update_name>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-04-19 21:57:49</sys_updated_on>
+    </ecc_agent_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</application>
+        <file_path/>
+        <instance_id>2c9c55e9db521b004f035d00cf961987</instance_id>
+        <instance_name>sscorpsbox</instance_name>
+        <name>ecc_agent_application_1a7452491b122cd089a820ebbc4bcbcd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application"><ecc_agent_application action="INSERT_OR_UPDATE"><default_mid_server display_value="MidServer_GTS_OAR_Ansible_Tower">25d0d1ba1b2f6090239e74c51a4bcb62</default_mid_server><included_in_app_all>false</included_in_app_all><name>MidServer_GTS_OAR_Ansible_Tower</name><sys_class_name>ecc_agent_application</sys_class_name><sys_created_by>e663988</sys_created_by><sys_created_on>2021-02-11 13:05:06</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>1a7452491b122cd089a820ebbc4bcbcd</sys_id><sys_mod_count>4</sys_mod_count><sys_name>MidServer_GTS_OAR_Ansible_Tower</sys_name><sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope><sys_update_name>ecc_agent_application_1a7452491b122cd089a820ebbc4bcbcd</sys_update_name><sys_updated_by>e663988</sys_updated_by><sys_updated_on>2021-04-19 21:57:49</sys_updated_on></ecc_agent_application></record_update>]]></payload>
+        <payload_hash>188262418</payload_hash>
+        <record_name>MidServer_GTS_OAR_Ansible_Tower</record_name>
+        <reverted_from/>
+        <source>729140661b172c105e72ebd5604bcbb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-04-19 21:57:49</sys_created_on>
+        <sys_id>6d0159321beb2c505e72ebd5604bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178ec23c2120000001</sys_recorded_at>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-04-19 21:57:49</sys_updated_on>
+        <type>MID Server Application</type>
+        <update_guid>a1015932a5eb2c505fbded9032d75d4f</update_guid>
+        <update_guid_history>a1015932a5eb2c505fbded9032d75d4f:188262418,57390d7ed16b2c5086dec48579e2a474:224286744,57390d7ed16b2c5086dec48579e2a474:224286744,3eb8857ed86b2c5070ee1cc6dde9af8a:373087975,3eb8857ed86b2c5070ee1cc6dde9af8a:373087975,37848d3e4ca32c5006855248c6651ce1:-1572507731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-05-05 05:25:08">732eb0bfdbbb60d01407c7ec0b9619f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>e663988</sys_created_by>
+        <sys_created_on>2021-05-05 09:25:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ecc_agent_application">ecc_agent_application</sys_db_object>
+        <sys_id>50e97f26dc624d24960a9746bd552d90</sys_id>
+        <sys_metadata>1a7452491b122cd089a820ebbc4bcbcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MidServer_GTS_OAR_Ansible_Tower</sys_name>
+        <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
+        <sys_scope_delete display_value="">5235313cd90945a0aa8c6f0936cac310</sys_scope_delete>
+        <sys_update_name>ecc_agent_application_1a7452491b122cd089a820ebbc4bcbcd</sys_update_name>
+        <sys_update_version display_value="ecc_agent_application_1a7452491b122cd089a820ebbc4bcbcd">6d0159321beb2c505e72ebd5604bcb4f</sys_update_version>
+        <sys_updated_by>e663988</sys_updated_by>
+        <sys_updated_on>2021-05-05 09:25:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

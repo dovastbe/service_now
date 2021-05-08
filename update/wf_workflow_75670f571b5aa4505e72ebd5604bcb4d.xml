@@ -238,7 +238,7 @@ Outputs:&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -283,7 +283,7 @@ function ifScript() {&#13;
     return 'no';&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -297,7 +297,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -311,7 +311,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -325,7 +325,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -370,7 +370,7 @@ function ifScript() {&#13;
     return 'no';&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Check the ECC Queue Response to confirm job launched and got job ID">baf310ae1b7a6c9c470611f8bc4bcb5e</activity>
@@ -469,7 +469,7 @@ if (sc_tsk.next()) {&#13;
   sc_tsk.active = false;&#13;
   sc_tsk.update(); // update task&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -497,7 +497,7 @@ if (sc_tsk.next()) {&#13;
   sc_tsk.active = false;&#13;
   sc_tsk.update(); // update task&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Close the task">32f310ae1b7a6c9c470611f8bc4bcb60</activity>
@@ -601,7 +601,7 @@ if ( decoded_payload.extra_vars != undefined ) {&#13;
 var encoded_payload = new global.JSON().encode(decoded_payload);&#13;
 workflow.scratchpad.tower_unified_job_template_payload = encoded_payload ;&#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -655,7 +655,7 @@ if ( decoded_payload.extra_vars != undefined ) {&#13;
 var encoded_payload = new global.JSON().encode(decoded_payload);&#13;
 workflow.scratchpad.tower_unified_job_template_payload = encoded_payload ;&#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Create a cataglog task">3af310ae1b7a6c9c470611f8bc4bcb6f</activity>
@@ -756,7 +756,7 @@ while(grTask.next()){&#13;
 	grTask.work_notes = workflow.scratchpad.error_conidtion;&#13;
 	grTask.update();&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -778,7 +778,7 @@ while(grTask.next()){&#13;
 	grTask.work_notes = workflow.scratchpad.error_conidtion;&#13;
 	grTask.update();&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Fail the SC task">bef310ae1b7a6c9c470611f8bc4bcb60</activity>
@@ -860,7 +860,7 @@ while (gr.next()) { &#13;
 	&#13;
 	gs.info(current.number + ' ' + workflow.scratchpad.task_number + ' Found Ansible Tower Unified job template a ' + workflow.scratchpad.tower_unified_job_template_name + ' ID: ' + gr.tower_unified_job_template_id + ' for ' + workflow.scratchpad.tower_instance);&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -892,7 +892,7 @@ while (gr.next()) { &#13;
 	&#13;
 	gs.info(current.number + ' ' + workflow.scratchpad.task_number + ' Found Ansible Tower Unified job template a ' + workflow.scratchpad.tower_unified_job_template_name + ' ID: ' + gr.tower_unified_job_template_id + ' for ' + workflow.scratchpad.tower_instance);&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Find the Ansible Tower Instance and Corresponding Job or Workflow ID">bef310ae1b7a6c9c470611f8bc4bcb5c</activity>
@@ -956,7 +956,7 @@ while (gr.next()) { &#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -970,7 +970,7 @@ while (gr.next()) { &#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -984,7 +984,7 @@ while (gr.next()) { &#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:06:00</sys_updated_on>
         <value>1970-01-01 00:05:00</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -998,7 +998,7 @@ while (gr.next()) { &#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1013,7 +1013,7 @@ while (gr.next()) { &#13;
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1027,7 +1027,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1041,7 +1041,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1055,7 +1055,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1069,7 +1069,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1083,7 +1083,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1097,7 +1097,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1111,7 +1111,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1125,7 +1125,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1139,7 +1139,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1153,7 +1153,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1167,7 +1167,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+        <variable display_value="Timer based on">21f80cd00a0a0b2101fcd5b5defc0810</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1181,7 +1181,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+        <variable display_value="Schedule based on">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1195,7 +1195,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+        <variable display_value="Time zone based on">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1209,7 +1209,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+        <variable display_value="Wait">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1223,7 +1223,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+        <variable display_value="Relative duration">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1237,7 +1237,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:06:00</sys_updated_on>
         <value>1970-01-01 00:05:00</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+        <variable display_value="Duration">c35dc0df0a0a0ba96248a7098d737925</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1251,7 +1251,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+        <variable display_value="Field">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1265,7 +1265,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <variable display_value="Schedule">4cc4a4030a0a0b52007334f001376dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1279,7 +1279,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="Schedule field">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1293,7 +1293,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+        <variable display_value="Time zone">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1307,7 +1307,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+        <variable display_value="Time zone field">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1321,7 +1321,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+        <variable display_value="Percentage">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1335,7 +1335,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+        <variable display_value="Time after">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1349,7 +1349,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="Time before">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1364,7 +1364,7 @@ answer = 0;</value>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
-        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+        <variable display_value="Script">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Give the ECC Queue a chance to process the job">b6f3186e1b7a6c9c470611f8bc4bcbe6</activity>
@@ -1428,7 +1428,7 @@ answer = 0;</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1453,7 +1453,7 @@ function ifScript() {&#13;
     return 'no';&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1467,7 +1467,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1481,7 +1481,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1495,7 +1495,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1520,7 +1520,7 @@ function ifScript() {&#13;
     return 'no';&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="If we found the target job">b2f3186e1b7a6c9c470611f8bc4bcbdf</activity>
@@ -1649,7 +1649,7 @@ catch(ex) {&#13;
 &#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1707,7 +1707,7 @@ catch(ex) {&#13;
 &#13;
 &#13;
 </value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Invoke Ansible Tower Job Template">f6f3186e1b7a6c9c470611f8bc4bcbe2</activity>
@@ -1808,7 +1808,7 @@ function ifScript() {&#13;
 	workflow.scratchpad.error_conidtion = 'Ansible Job ' + tower_job_id + ' failed, url for details: ' + tower_job_url + '/stdout';&#13;
 	return 'no';&#13;
  }</value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1822,7 +1822,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1836,7 +1836,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1850,7 +1850,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1864,7 +1864,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1915,7 +1915,7 @@ function ifScript() {&#13;
 	workflow.scratchpad.error_conidtion = 'Ansible Job ' + tower_job_id + ' failed, url for details: ' + tower_job_url + '/stdout';&#13;
 	return 'no';&#13;
  }</value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Process the notifcation, was Tower was was successful?">7af3186e1b7a6c9c470611f8bc4bcbe3</activity>
@@ -2000,7 +2000,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>099fb01adb6c37c04740d2984b9619c8</value>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2014,7 +2014,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>0</value>
-        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2028,7 +2028,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2061,7 +2061,7 @@ Tower job playbook: ${workflow.scratchpad.tower_job_playbook}&#13;
 Tower_job_extra_vars: ${workflow.scratchpad.tower_job_extra_vars}&#13;
 Tower_job_limit: ${workflow.scratchpad.tower_job_limit}&#13;
 Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2075,7 +2075,7 @@ Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>FAILED EXCEPTION: AT Job FAILED, RITM: ${current.number}, SCTASK: ${workflow.scratchpad.task_number}, Tower_job_url: ${workflow.scratchpad.tower_job_url}</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2090,7 +2090,7 @@ Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
-        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2104,7 +2104,7 @@ Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2118,7 +2118,7 @@ Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>099fb01adb6c37c04740d2984b9619c8</value>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2132,7 +2132,7 @@ Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>FAILED EXCEPTION: AT Job FAILED, RITM: ${current.number}, SCTASK: ${workflow.scratchpad.task_number}, Tower_job_url: ${workflow.scratchpad.tower_job_url}</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2165,7 +2165,7 @@ Tower job playbook: ${workflow.scratchpad.tower_job_playbook}&#13;
 Tower_job_extra_vars: ${workflow.scratchpad.tower_job_extra_vars}&#13;
 Tower_job_limit: ${workflow.scratchpad.tower_job_limit}&#13;
 Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2179,7 +2179,7 @@ Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>0</value>
-        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2194,7 +2194,7 @@ Tower_job_hosts: ${workflow.scratchpad.tower_job_hosts}</value>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
-        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Send Failure Exception Notifcation">7ef310ae1b7a6c9c470611f8bc4bcb5a</activity>
@@ -2266,7 +2266,7 @@ while(grTask.next()){&#13;
 	grTask.comments_and_work_notes = log_message;&#13;
 	grTask.update();&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2288,7 +2288,7 @@ while(grTask.next()){&#13;
 	grTask.comments_and_work_notes = log_message;&#13;
 	grTask.update();&#13;
 }</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Update the task wit the job details to launch">3ef310ae1b7a6c9c470611f8bc4bcb5d</activity>
@@ -2367,7 +2367,7 @@ function checkAnisbleTowerNotifications() {&#13;
 		answer = false;&#13;
 	}&#13;
 }</value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2381,7 +2381,7 @@ function checkAnisbleTowerNotifications() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2395,7 +2395,7 @@ function checkAnisbleTowerNotifications() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-12 16:05:32</sys_updated_on>
         <value/>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -2424,7 +2424,7 @@ function checkAnisbleTowerNotifications() {&#13;
 		answer = false;&#13;
 	}&#13;
 }</value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Wait for the job notification to confirm if job is complete">3ef310ae1b7a6c9c470611f8bc4bcb61</activity>
@@ -2652,11 +2652,13 @@ function checkAnisbleTowerNotifications() {&#13;
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
         <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -2667,6 +2669,7 @@ function checkAnisbleTowerNotifications() {&#13;
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
+        <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
@@ -2675,8 +2678,11 @@ function checkAnisbleTowerNotifications() {&#13;
         <order/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
+        <published_ref/>
         <question_text/>
+        <read_only>false</read_only>
         <read_roles/>
+        <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
@@ -2684,6 +2690,9 @@ function checkAnisbleTowerNotifications() {&#13;
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
@@ -2710,6 +2719,7 @@ function checkAnisbleTowerNotifications() {&#13;
         <u_edit_groups/>
         <u_edit_people/>
         <ui_page/>
+        <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>

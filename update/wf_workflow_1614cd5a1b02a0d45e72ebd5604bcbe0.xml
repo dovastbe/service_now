@@ -158,7 +158,7 @@
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:10</sys_updated_on>
         <value>46b335741bcbe8505e72ebd5604bcbb7</value>
-        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -172,7 +172,7 @@
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:10</sys_updated_on>
         <value>46b335741bcbe8505e72ebd5604bcbb7</value>
-        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Ansible Tower - Approval WF">c2b335741bcbe8505e72ebd5604bcbb6</activity>
@@ -236,7 +236,7 @@
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:10</sys_updated_on>
         <value>82b335741bcbe8505e72ebd5604bcbef</value>
-        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -250,7 +250,7 @@
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:10</sys_updated_on>
         <value>82b335741bcbe8505e72ebd5604bcbef</value>
-        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+        <variable display_value="Workflow Instance">f25501290a0a0b2c005133d3fe2841b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Ansible Tower Table Maintenance WF">06b335741bcbe8505e72ebd5604bcbee</activity>
@@ -501,7 +501,7 @@ payload.extra_vars.tower_organisation = tower_organisation;&#13;
 // JSON encode the payload&#13;
 workflow.scratchpad.tower_unified_job_template_payload = new global.JSON().encode(payload);&#13;
 gs.info(current.number + ': the request wf encoded_payload is ' + JSON.stringify(workflow.scratchpad.tower_unified_job_template_payload));</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -652,7 +652,7 @@ payload.extra_vars.tower_organisation = tower_organisation;&#13;
 // JSON encode the payload&#13;
 workflow.scratchpad.tower_unified_job_template_payload = new global.JSON().encode(payload);&#13;
 gs.info(current.number + ': the request wf encoded_payload is ' + JSON.stringify(workflow.scratchpad.tower_unified_job_template_payload));</value>
-        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Compile the payload for Ansible Tower Jobs">8ab335741bcbe8505e72ebd5604bcbb3</activity>
@@ -727,7 +727,7 @@ function ifScript() {&#13;
     return 'no';&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -741,7 +741,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -755,7 +755,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -769,7 +769,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -783,7 +783,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -808,7 +808,7 @@ function ifScript() {&#13;
     return 'no';&#13;
 }&#13;
 </value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Does the request require a AT job launching ">0ab37db01bcbe8505e72ebd5604bcb06</activity>
@@ -922,7 +922,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>10</value>
-        <variable display_value="">7b81c6731b211100adca1e094f07136e</variable>
+        <variable display_value="Max simultaneous">7b81c6731b211100adca1e094f07136e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -936,7 +936,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>1</value>
-        <variable display_value="">7608dbca1b121100adca1e094f071355</variable>
+        <variable display_value="Advanced">7608dbca1b121100adca1e094f071355</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -954,7 +954,7 @@ function ifScript() {&#13;
 //     var flowOutput = flow.output;&#13;
 //&#13;
 </value>
-        <variable display_value="">006b9e591b221100adca1e094f0713a1</variable>
+        <variable display_value="Flow complete">006b9e591b221100adca1e094f0713a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -968,7 +968,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>3</value>
-        <variable display_value="">428bf90eff1331009267ffffffffff80</variable>
+        <variable display_value="Count">428bf90eff1331009267ffffffffff80</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -982,7 +982,7 @@ function ifScript() {&#13;
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value/>
-        <variable display_value="">713142e11b211100adca1e094f0713f0</variable>
+        <variable display_value="Inputs">713142e11b211100adca1e094f0713f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1041,7 +1041,7 @@ gs.info(current.number + ':  Tower Instances to deploy to ' + tower_instances );
 //current.setWorkflow(false); // this will avoid triggering BR but it won't audit the update&#13;
 current.update();&#13;
 coordinator;                 // THIS MUST BE THE LAST LINE</value>
-        <variable display_value="">22dea7431b211100adca1e094f0713f2</variable>
+        <variable display_value="Workflow">22dea7431b211100adca1e094f0713f2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1055,7 +1055,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>0</value>
-        <variable display_value="">0a2b9e591b221100adca1e094f07130e</variable>
+        <variable display_value="Process flow complete">0a2b9e591b221100adca1e094f07130e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1069,7 +1069,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>75670f571b5aa4505e72ebd5604bcb4d</value>
-        <variable display_value="">d698838a1b121100adca1e094f071315</variable>
+        <variable display_value="Workflow">d698838a1b121100adca1e094f071315</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1083,7 +1083,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>10</value>
-        <variable display_value="">e44186731b211100adca1e094f0713e0</variable>
+        <variable display_value="Max flows">e44186731b211100adca1e094f0713e0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1101,7 +1101,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
 //  var flow1Result = coordinator.getFlow(1).output;&#13;
 //&#13;
 </value>
-        <variable display_value="">e47e76101b221100adca1e094f07134e</variable>
+        <variable display_value="Finished script">e47e76101b221100adca1e094f07134e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1115,7 +1115,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>0</value>
-        <variable display_value="">662e36101b221100adca1e094f0713a0</variable>
+        <variable display_value="Process finished">662e36101b221100adca1e094f0713a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1129,7 +1129,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value/>
-        <variable display_value="">713142e11b211100adca1e094f0713f0</variable>
+        <variable display_value="Inputs">713142e11b211100adca1e094f0713f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1143,7 +1143,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>1</value>
-        <variable display_value="">7608dbca1b121100adca1e094f071355</variable>
+        <variable display_value="Advanced">7608dbca1b121100adca1e094f071355</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1157,7 +1157,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>75670f571b5aa4505e72ebd5604bcb4d</value>
-        <variable display_value="">d698838a1b121100adca1e094f071315</variable>
+        <variable display_value="Workflow">d698838a1b121100adca1e094f071315</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1216,7 +1216,7 @@ gs.info(current.number + ':  Tower Instances to deploy to ' + tower_instances );
 //current.setWorkflow(false); // this will avoid triggering BR but it won't audit the update&#13;
 current.update();&#13;
 coordinator;                 // THIS MUST BE THE LAST LINE</value>
-        <variable display_value="">22dea7431b211100adca1e094f0713f2</variable>
+        <variable display_value="Workflow">22dea7431b211100adca1e094f0713f2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1230,7 +1230,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>3</value>
-        <variable display_value="">428bf90eff1331009267ffffffffff80</variable>
+        <variable display_value="Count">428bf90eff1331009267ffffffffff80</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1244,7 +1244,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>10</value>
-        <variable display_value="">e44186731b211100adca1e094f0713e0</variable>
+        <variable display_value="Max flows">e44186731b211100adca1e094f0713e0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1258,7 +1258,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>10</value>
-        <variable display_value="">7b81c6731b211100adca1e094f07136e</variable>
+        <variable display_value="Max simultaneous">7b81c6731b211100adca1e094f07136e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1272,7 +1272,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>0</value>
-        <variable display_value="">0a2b9e591b221100adca1e094f07130e</variable>
+        <variable display_value="Process flow complete">0a2b9e591b221100adca1e094f07130e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1290,7 +1290,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
 //     var flowOutput = flow.output;&#13;
 //&#13;
 </value>
-        <variable display_value="">006b9e591b221100adca1e094f0713a1</variable>
+        <variable display_value="Flow complete">006b9e591b221100adca1e094f0713a1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1304,7 +1304,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>0</value>
-        <variable display_value="">662e36101b221100adca1e094f0713a0</variable>
+        <variable display_value="Process finished">662e36101b221100adca1e094f0713a0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1322,7 +1322,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
 //  var flow1Result = coordinator.getFlow(1).output;&#13;
 //&#13;
 </value>
-        <variable display_value="">e47e76101b221100adca1e094f07134e</variable>
+        <variable display_value="Finished script">e47e76101b221100adca1e094f07134e</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Launch applicable number of instances of Ansible Tower - Find, Launch and monitor job WF ">02b335741bcbe8505e72ebd5604bcbae</activity>
@@ -1386,7 +1386,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:10</sys_updated_on>
         <value>state=2^work_start=gs.nowdateTime()^assignment_group=099fb01adb6c37c04740d2984b9619c8^u_category=application_issue_request^u_subcategory=other_request^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1400,7 +1400,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:10</sys_updated_on>
         <value>state=2^work_start=gs.nowdateTime()^assignment_group=099fb01adb6c37c04740d2984b9619c8^u_category=application_issue_request^u_subcategory=other_request^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Passed approvals moving to in progress">02b335741bcbe8505e72ebd5604bcbb5</activity>
@@ -1464,7 +1464,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>state=3^work_end=gs.nowdateTime()^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1478,7 +1478,7 @@ coordinator;                 // THIS MUST BE THE LAST LINE</value>
         <sys_updated_by>e663988</sys_updated_by>
         <sys_updated_on>2021-03-19 22:50:09</sys_updated_on>
         <value>state=3^work_end=gs.nowdateTime()^EQ</value>
-        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Set Completed">46b335741bcbe8505e72ebd5604bcbb1</activity>

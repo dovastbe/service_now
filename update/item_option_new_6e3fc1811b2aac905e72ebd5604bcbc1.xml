@@ -11,7 +11,7 @@
         <default_html_value/>
         <default_value>javascript:&#13;
 var gr = new GlideRecord('x_ibmss_gts_oar_at_ansible_tower_environments');&#13;
-gr.addQuery('alias', 'devtest');&#13;
+gr.addQuery('alias', 'DEVTEST');&#13;
 gr.query();&#13;
 gr.next();&#13;
 gr.getUniqueValue();</default_value>
@@ -22,11 +22,13 @@ gr.getUniqueValue();</default_value>
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
         <global>true</global>
         <help_tag>More information</help_tag>
         <help_text/>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -37,6 +39,7 @@ gr.getUniqueValue();</default_value>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
+        <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
@@ -45,8 +48,11 @@ gr.getUniqueValue();</default_value>
         <order>7175</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
+        <published_ref/>
         <question_text>Deploy to environment</question_text>
+        <read_only>false</read_only>
         <read_roles/>
+        <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
@@ -54,6 +60,9 @@ gr.getUniqueValue();</default_value>
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
@@ -65,7 +74,7 @@ gr.getUniqueValue();</default_value>
         <sys_created_on>2021-02-23 18:18:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6e3fc1811b2aac905e72ebd5604bcbc1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Deploy to environment</sys_name>
         <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
         <sys_policy/>
@@ -73,13 +82,14 @@ gr.getUniqueValue();</default_value>
         <sys_scope display_value="GTS_OAR_Ansible_Tower">0cf0becddb143300c66571198c961991</sys_scope>
         <sys_update_name>item_option_new_6e3fc1811b2aac905e72ebd5604bcbc1</sys_update_name>
         <sys_updated_by>e663988</sys_updated_by>
-        <sys_updated_on>2021-03-19 21:01:12</sys_updated_on>
+        <sys_updated_on>2021-04-08 20:59:00</sys_updated_on>
         <table/>
         <tooltip/>
         <type>21</type>
         <u_edit_groups/>
         <u_edit_people/>
         <ui_page/>
+        <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>

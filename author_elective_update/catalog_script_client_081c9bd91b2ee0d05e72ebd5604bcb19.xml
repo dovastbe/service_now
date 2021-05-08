@@ -91,7 +91,7 @@ function update_form(use_case){
         <update_guid_history>4c1c9bd9fc2ee0d00fbc585e9f45d31b:959835710,4c1c9bd9fc2ee0d00fbc585e9f45d31b:959835710</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02/24/2021 18:26:36">377f17151b6ee0d05e72ebd5604bcbce</sys_audit_delete>
+        <sys_audit_delete display_value="">377f17151b6ee0d05e72ebd5604bcbce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-24 23:26:36</sys_created_on>

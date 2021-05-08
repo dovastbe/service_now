@@ -158,7 +158,7 @@
         <update_guid_history>5328973b50a2e0988d2a64ec27066dcf:945756139,fc1ac66e36ca2c18a08e7e480fb559df:-1884251460,952bf8a272c2a4181fdef67ff580c0a0:401985509,55ea342245c2a4188cda5041c66ec013:-1003649850,b8da3c6ec782a418641cc8b565422c9c:87912008,ba671caac18a2010eed89740dd2b82b9:-1354098262,4d261426b68a20106f37b00662ef2361:-1100053621,813550a2098a20103173e7ad0bb73cc6:-1568135191</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 03/04/2021 12:47:20">c89e1fbb1b66e098470611f8bc4bcb72</sys_audit_delete>
+        <sys_audit_delete display_value="">c89e1fbb1b66e098470611f8bc4bcb72</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-03-04 17:47:20</sys_created_on>

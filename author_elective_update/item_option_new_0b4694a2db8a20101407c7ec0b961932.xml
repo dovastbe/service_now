@@ -150,7 +150,7 @@
         <update_guid_history>1ff753f7e9a2e0984f3992a044fa5aad:226253119,5af3e4b9b0aa28d097f70f03e109a2a2:1542887502,f200d222bd066c189cdf3936d2336f96:-684862130,76abf8ea5cc2a418cc79e07c9050b855:-1761631716,2148b4a2c602a4187936e6ee04b8f216:936229582,acc0e822620e20106a2c7426dc5261fa:554797004,7c779caadf8a20101714c0063e592638:669693275,c207d4e61e8a2010d58655ed11444a7c:-1221125800,6ac61c2a048a201082a28a86eb54624c:-1986564393</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 03/04/2021 12:47:18">e38e5bbb1b66e098470611f8bc4bcbf7</sys_audit_delete>
+        <sys_audit_delete display_value="">e38e5bbb1b66e098470611f8bc4bcbf7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-03-04 17:47:18</sys_created_on>

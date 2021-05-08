@@ -7,7 +7,7 @@
             <sys_created_by>e663988</sys_created_by>
             <sys_created_on>2021-02-08 17:56:11</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>336a3b0cdbd2a4501407c7ec0b961970</sys_id>
+            <sys_id>968b34cc1b93a010239e74c51a4bcb70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>tower_unified_job_template_type</sys_name>
             <sys_package display_value="GTS_OAR_Ansible_Tower" source="x_ibmss_gts_oar_at">0cf0becddb143300c66571198c961991</sys_package>
@@ -27,6 +27,7 @@
             <language>en</language>
             <name>x_ibmss_gts_oar_at_ansible_tower_unified_job_templates</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>e663988</sys_created_by>
             <sys_created_on>2021-02-08 17:56:31</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -46,6 +47,7 @@
             <language>en</language>
             <name>x_ibmss_gts_oar_at_ansible_tower_unified_job_templates</name>
             <sequence/>
+            <synonyms/>
             <sys_created_by>e663988</sys_created_by>
             <sys_created_on>2021-02-08 17:56:11</sys_created_on>
             <sys_domain>global</sys_domain>

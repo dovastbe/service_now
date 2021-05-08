@@ -154,6 +154,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>devtest_admins</element>
+            <position>11</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-04-14 21:03:55</sys_created_on>
+            <sys_id>9fb45fc11b6fe8105e72ebd5604bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_organisations" sys_domain="global" view="Default view">018ac9d61b4ea0d45e72ebd5604bcba6</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-04-14 21:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>devtest_members</element>
+            <position>12</position>
+            <sys_created_by>e663988</sys_created_by>
+            <sys_created_on>2021-04-14 21:03:55</sys_created_on>
+            <sys_id>d7b45fc11b6fe8105e72ebd5604bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ibmss_gts_oar_at_ansible_tower_organisations" sys_domain="global" view="Default view">018ac9d61b4ea0d45e72ebd5604bcba6</sys_ui_section>
+            <sys_updated_by>e663988</sys_updated_by>
+            <sys_updated_on>2021-04-14 21:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

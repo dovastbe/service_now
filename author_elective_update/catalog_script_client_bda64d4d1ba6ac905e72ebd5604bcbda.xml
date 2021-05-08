@@ -91,7 +91,7 @@ function update_form(use_case){
         <update_guid_history>f714d719dfeae0d004d5af19891d29f3:1597183466,f714d719dfeae0d004d5af19891d29f3:1597183466,f63acbdd806ae0d0406fa495b382129b:502612831,ce38a189f0eaac90ed3aa96e24953859:-2040201267,c097ad492beaac90a1d7cd0f99d33e07:-1922837661,6917ad49f5eaac90b23cc0394ff554bb:-808268617,520761c5adeaac90131baa4f86e4290e:-286205377,c0c791096d6aac904efa3657262e3e0b:712756591,85dc8d85aae6ac903210f4a21c7eec3c:-1452704365,b5a64d4db9a6ac9063ee5844d55bbcdd:743076802</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02/25/2021 05:02:36">4811b5a91b6aa4d05e72ebd5604bcbc5</sys_audit_delete>
+        <sys_audit_delete display_value="">4811b5a91b6aa4d05e72ebd5604bcbc5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-25 10:02:36</sys_created_on>

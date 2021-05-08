@@ -111,7 +111,7 @@ function update_form(business_service){
         <update_guid_history>fbe7fc147b16e090b936581c77468f91:1172379621,fb35f77e9ecea8984365cfd8a2d3f3ea:-1808525534,fb479aeaca8e6c18567094f7b0c63182:-1814016868,72f61e26f68e6c1862ea02979afcf09a:-47916324,f8931e6a934a6c1834e3f8c95089cb3d:-1546615307,87034662c1422c18c9cf701f1abef351:1959504388,16c18aaa50022c18d62bd49529fd5e8f:-341405150,08310e6eee8ee818018748330035061a:-1010594392,97504aaabb8ee818f4e299aabc038091:681889487,a3fefde2920ee8184ccc750182671a40:320510243,644ef9e28fcae818a37fcbb14841c09a:1266146857</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02/22/2021 17:46:41">db2389301b6a68905e72ebd5604bcb21</sys_audit_delete>
+        <sys_audit_delete display_value="">db2389301b6a68905e72ebd5604bcb21</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-22 22:46:41</sys_created_on>

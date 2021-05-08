@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Unified Job Templates" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_unified_job_templates" sizeclass="581" type="collection">
+    <element label="Ansible Tower Unified Job Templates" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_unified_job_templates" sizeclass="512" type="collection">
         <element label="ID" max_length="52" name="id" type="string" unique="true"/>
-        <element label="Tower Instance" max_length="32" name="tower_instance" reference="x_ibmss_gts_oar_at_ansible_tower_instances" type="reference"/>
+        <element label="Tower Instance" mandatory="true" max_length="32" name="tower_instance" reference="x_ibmss_gts_oar_at_ansible_tower_instances" type="reference"/>
         <element label="Tower Unified Job Template Description" max_length="240" name="tower_unified_job_template_description" type="string"/>
         <element label="Tower Unified Job Template ID" max_length="6" name="tower_unified_job_template_id" type="integer"/>
         <element label="Tower Unified Job Template Name" max_length="120" name="tower_unified_job_template_name" type="string"/>
@@ -16,6 +16,9 @@
             <element name="tower_instance"/>
         </index>
         <index name="index2">
+            <element name="id"/>
+        </index>
+        <index name="index3">
             <element name="id"/>
         </index>
     </element>

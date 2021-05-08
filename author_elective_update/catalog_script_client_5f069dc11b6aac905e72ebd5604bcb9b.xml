@@ -125,7 +125,7 @@ function update_form(tower_organisation){
         <update_guid_history>c440ddd5d12aa0d024a26d75c58b14b5:-2056205865,c440ddd5d12aa0d024a26d75c58b14b5:-2056205865,72f9e14daeeaac9085aec34e190e5179:1132178880,e58c59016daaac902e0c1be93a43b4ea:-703812283,294c1dcd756aac90c85c02f7275581b4:-1571622787,c1ab5901daaaac90fb863e5cad46c6e5:-924168167,3e8a158d426aac9015321e1c2b8679d4:-1868299856,862add0dec6aac90837970347414c6f4:1103975952,6e5955c9686aac906336e4c14b48aef2:-1874155622,a2e899494a6aac9066e664dfc1b0a341:1567999227,58689109556aac90c33fecce8b187914:-833576252,ce18d9092f6aac90ce8370a0234cd9c1:-806194419,935691c1406aac9080bee612d6ffe5d8:-581506529</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02/25/2021 05:01:49">68e03d691b6aa4d05e72ebd5604bcbea</sys_audit_delete>
+        <sys_audit_delete display_value="">68e03d691b6aa4d05e72ebd5604bcbea</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-25 10:01:49</sys_created_on>

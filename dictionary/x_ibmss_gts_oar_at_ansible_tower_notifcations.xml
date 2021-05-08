@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Ansible Tower Notifcations" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_notifcations" sizeclass="195" type="collection">
+    <element label="Ansible Tower Notifcations" max_length="40" name="x_ibmss_gts_oar_at_ansible_tower_notifcations" sizeclass="3" type="collection">
         <element label="RITM" max_length="40" name="ritm" type="string"/>
         <element label="SCTASK" max_length="40" name="sctask" type="string"/>
         <element label="Tower Job Artifacts" max_length="255" name="tower_job_artifacts" type="string_full_utf8"/>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
         <misc>0</misc>
         <order>200</order>
+        <published_ref/>
         <question display_value="Is distinct access per enviroment required for the organisation?">48ad53f31b66e098470611f8bc4bcb8b</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>

@@ -12,5 +12,8 @@
             </choice>
         </element>
         <element label="Instance URL" max_length="50" name="tower_instance_url" type="string"/>
+        <index name="index">
+            <element name="tower_instance_environment"/>
+        </index>
     </element>
 </database>

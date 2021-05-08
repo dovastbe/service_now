@@ -261,7 +261,7 @@
         <reverted_from/>
         <source>fed397f51b4aec1089a820ebbc4bcba1</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-03 21:11:02</sys_created_on>
         <sys_id>1517bae61bca20585e72ebd5604bcb27</sys_id>
@@ -274,7 +274,7 @@
         <update_guid_history>9d17bae661ca205865e2c670de31ed26:-1633066076</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Record deleted 02/03/2021 16:11:35">99373eaa1bca20585e72ebd5604bcb82</sys_audit_delete>
+        <sys_audit_delete display_value="">99373eaa1bca20585e72ebd5604bcb82</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>e663988</sys_created_by>
         <sys_created_on>2021-02-03 21:11:35</sys_created_on>
